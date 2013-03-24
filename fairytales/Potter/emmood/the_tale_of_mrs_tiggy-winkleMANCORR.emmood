@@ -1,0 +1,83 @@
+0:0	N:N	N:N	Once upon a time there was a little girl called Lucie, who lived at a farm called Little-town.
+1:1	N:N	N:N	She was a good little girl--only she was always losing her pocket-handkerchiefs!
+2:2	Sa:Sa	S:S	One day little Lucie came into the farm-yard crying--oh, she did cry so!
+3:3	Sa:N	S:N	"I've lost my pocket-handkin!
+4:4	Sa:N	S:N	Three handkins and a pinny!
+5:5	Sa:N	S:N	Have YOU seen them, Tabby Kitten?"
+6:6	N:N	S:N	The Kitten went on washing her white paws; so Lucie asked a speckled hen--
+7:7	Sa:N	S:N	"Sally Henny-penny, have YOU found three pocket-handkins?"
+8:8	N:N	S:N	But the speckled hen ran into a barn, clucking--
+9:9	N:N	N:N	"I go barefoot, barefoot, barefoot!"
+10:10	N:N	N:N	And then Lucie asked Cock Robin sitting on a twig.
+11:11	N:N	N:N	Cock Robin looked sideways at Lucie with his bright black eye, and he flew over a stile and away.
+12:12	N:N	N:N	Lucie climbed upon the stile and looked up at the hill behind Little- town--a hill that goes up--up--into the clouds as though it had no top!
+13:13	Su+:N	+:N	And a great way up the hillside she thought she saw some white things spread upon the grass.
+14:14	N:N	+:N	Lucie scrambled up the hill as fast as her short legs would carry her; she ran along a steep path-way--up and up--until Little-town was right away down below--she could have dropped a pebble down the chimney!
+15:15	N:N	N:N	Presently she came to a spring, bubbling out from the hillside.
+16:16	N:N	+:N	Some one had stood a tin can upon a stone to catch the water--but the water was already running over, for the can was no bigger than an egg- cup!
+17:17	N:N	+:N	And where the sand upon the path was wet--there were footmarks of a VERY small person.
+18:18	N:N	N:N	Lucie ran on, and on.
+19:19	N:N	N:N	The path ended under a big rock.
+20:20	Su-:N	-:N	The grass was short and green, and there were clothes-props cut from bracken stems, with lines of plaited rushes, and a heap of tiny clothes pins--but no pocket-handkerchiefs!
+21:21	N:N	+:N	But there was something else--a door! straight into the hill; and inside it some one was singing--
+22:22	N:N	H:N	"Lily-white and clean, oh!
+23:23	N:N	H:N	With little frills between, oh!
+24:24	N:N	H:N	Smooth and hot-red rusty spot Never here be seen, oh!"
+25:25	N:N	H:N	Lucie knocked-once-twice, and interrupted the song.
+26:26	F:F	F:F	A little frightened voice called out "Who's that?"
+27:27	N:N	N:N	Lucie opened the door: and what do you think there was inside the hill?--a nice clean kitchen with a flagged floor and wooden beams-- just like any other farm kitchen.
+28:28	N:N	N:N	Only the ceiling was so low that Lucie's head nearly touched it; and the pots and pans were small, and so was everything there.
+29:29	F:F	F:F	There was a nice hot singey smell; and at the table, with an iron in her hand, stood a very stout short person staring anxiously at Lucie.
+30:30	N:N	N:N	Her print gown was tucked up, and she was wearing a large apron over her striped petticoat.
+31:31	Su-:Su-	-:-	Her little black nose went sniffle, sniffle, snuffle, and her eyes went twinkle, twinkle; and underneath her cap-where Lucie had yellow curls-that little person had PRICKLES!
+32:32	N:N	-:N	"Who are you?" said Lucie.
+33:33	N:N	N:N	"Have you seen my pocket-handkins?"
+34:34	H:N	H:N	The little person made a bob- curtsey--"Oh yes, if you please'm; my name is Mrs. Tiggy-winkle; oh yes if you please'm, I'm an excellent clear- starcher!"
+35:35	N:N	N:N	And she took something out of the clothesbasket, and spread it on the ironing-blanket.
+36:36	N:N	N:N	"What's that thing?" said Lucie- "that's not my pocket-handkin?"
+37:37	N:N	N:N	"Oh no, if you please'm; that's a little scarlet waist-coat belonging to Cock Robin!"
+38:38	N:N	N:N	And she ironed it and folded it, and put it on one side.
+39:39	N:N	N:N	Then she took something else off a clothes-horse--"That isn't my pinny?" said Lucie.
+40:40	N:N	N:N	"Oh no, if you please'm; that's a damask table-cloth belonging to Jenny Wren; look how it's stained with currant wine!
+41:41	D:N	D:N	It's very bad to wash!" said Mrs. Tiggy-winkle.
+42:42	N:N	N:N	Mrs. Tiggy-winkle's nose went sniffle sniffle snuffle, and her eyes went twinkle twinkle; and she fetched another hot iron from the fire.
+43:43	Su+:H	+:H	"There's one of my pocket- handkins!" cried Lucie--"and there's my pinny!"
+44:44	N:N	N:N	Mrs. Tiggy-winkle ironed it, and goffered it, and shook out the frills.
+45:45	H:H	H:H	"Oh that IS lovely!" said Lucie.
+46:46	N:N	N:N	"And what are those long yellow things with fingers like gloves?"
+47:47	N:N	N:N	"Oh that's a pair of stockings belonging to Sally Henny-penny--look how she's worn the heels out with scratching in the yard!
+48:48	N:N	N:N	She'll very soon go barefoot!" said Mrs. Tiggy-winkle.
+49:49	N:N	N:N	"Why, there's another hankersniff-- but it isn't mine; it's red?"
+50:50	D:N	D:N	"Oh no, if you please'm; that one belongs to old Mrs. Rabbit; and it DID so smell of onions!
+51:51	D:N	D:N	I've had to wash it separately, I can't get out that smell."
+52:52	Su+:N	+:N	"There's another one of mine," said Lucie.
+53:53	N:N	N:N	"What are those funny little white things?"
+54:54	N:N	N:N	"That's a pair of mittens belonging to Tabby Kitten; I only have to iron them; she washes them herself."
+55:55	Su+:N	+:H	"There's my last pocket-handkin!" said Lucie.
+56:56	N:N	N:N	"And what are you dipping into the basin of starch?"
+57:57	N:N	N:N	"They're little dicky shirt-fronts belonging to Tom Titmouse--most terrible particular!" said Mrs. Tiggy- winkle.
+58:58	N:N	N:N	"Now I've finished my ironing; I'm going to air some clothes."
+59:59	N:N	N:N	"What are these dear soft fluffy things?" said Lucie.
+60:60	N:N	N:N	"Oh those are woolly coats belonging to the little lambs at Skelghyl."
+61:61	N:N	N:N	"Will their jackets take off?" asked Lucie.
+62:62	N:N	N:N	"Oh yes, if you please'm; look at the sheep-mark on the shoulder.
+63:63	N:N	N:N	And here's one marked for Gatesgarth, and three that come from Little-town.
+64:64	N:N	N:N	They're ALWAYS marked at washing!" said Mrs. Tiggy-winkle.
+65:65	N:N	H:N	And she hung up all sorts and sizes of clothes--small brown coats of mice; and one velvety black moleskin waist-coat; and a red tail-coat with no tail belonging to Squirrel Nutkin; and a very much shrunk blue jacket belonging to Peter Rabbit; and a petticoat, not marked, that had gone lost in the washing--and at last the basket was empty!
+66:66	N:N	H:N	Then Mrs. Tiggy-winkle made tea--a cup for herself and a cup for Lucie.
+67:67	N:N	H:N	They sat before the fire on a bench and looked sideways at one another.
+68:68	D:N	N:N	Mrs. Tiggy-winkle's hand, holding the tea-cup, was very very brown, and very very wrinkly with the soap-suds; and all through her gown and her cap, there were HAIRPINS sticking wrong end out; so that Lucie didn't like to sit too near her.
+69:69	N:N	H:N	When they had finished tea, they tied up the clothes in bundles; and Lucie's pocket-handkerchiefs were folded up inside her clean pinny, and fastened with a silver safety-pin.
+70:70	N:N	H:N	And then they made up the fire with turf, and came out and locked the door, and hid the key under the door-sill.
+71:71	N:N	H:N	Then away down the hill trotted Lucie and Mrs. Tiggy-winkle with the bundles of clothes!
+72:72	N:N	H:N	All the way down the path little animals came out of the fern to meet them; the very first that they met were Peter Rabbit and Benjamin Bunny!
+73:73	H:H	H:H	And she gave them their nice clean clothes; and all the little animals and birds were so very much obliged to dear Mrs. Tiggy-winkle.
+74:74	N:N	H:N	So that at the bottom of the hill when they came to the stile, there was nothing left to carry except Lucie's one little bundle.
+75:75	N:Su-	H:-	Lucie scrambled up the stile with the bundle in her hand; and then she turned to say "Good-night," and to thank the washer-woman.--But what a VERY odd thing!
+76:76	Su-:N	-:N	Mrs. Tiggy-winkle had not waited either for thanks or for the washing bill!
+77:77	N:N	-:N	She was running running running up the hill--and where was her white frilled cap? and her shawl? and her gown-and her petticoat?
+78:78	N:N	-:-	And HOW small she had grown-- and HOW brown--and covered with PRICKLES!
+79:79	N:N	-:-	Why!
+80:80	Su-:N	-:-	Mrs. Tiggy-winkle was nothing but a HEDGEHOG! * * * * * *
+81:81	N:N	N:N	(Now some people say that little Lucie had been asleep upon the stile--but then how could she have found three clean pocket-handkins and a pinny, pinned with a silver safety-pin?
+82:82	N:N	H:N	And besides--I have seen that door into the back of the hill called Cat Bells--and besides _I_ am very well acquainted with dear Mrs. Tiggy-winkle!)

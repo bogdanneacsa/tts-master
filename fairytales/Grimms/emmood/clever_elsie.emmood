@@ -1,0 +1,56 @@
+0:0	N:N	N:N	There was once a man who had a daughter who was called Clever Elsie.
+1:1	N:N	N:N	And when she had grown up her father said: "We will get her married."
+2:2	N:N	N:N	"Yes," said the mother, "if only someone would come who would have her."
+3:3	N:N	N:N	At length a man came from a distance and wooed her, who was called Hans; but he stipulated that Clever Elsie should be really smart.
+4:4	N:N	N:N	"Oh," said the father, "she has plenty of good sense"; and the mother said: "Oh, she can see the wind coming up the street, and hear the flies coughing."
+5:5	N:N	N:N	"Well," said Hans, "if she is not really smart, I won"t have her."
+6:6	N:N	N:N	When they were sitting at dinner and had eaten, the mother said: "Elsie, go into the cellar and fetch some beer."
+7:7	N:N	N:N	Then Clever Elsie took the pitcher from the wall, went into the cellar, and tapped the lid briskly as she went, so that the time might not appear long.
+8:8	H:N	H:N	When she was below she fetched herself a chair, and set it before the barrel so that she had no need to stoop, and did not hurt her back or do herself any unexpected injury.
+9:9	F:N	F:N	Then she placed the can before her, and turned the tap, and while the beer was running she would not let her eyes be idle, but looked up at the wall, and after much peering here and there, saw a pick-axe exactly above her, which the masons had accidentally left there.
+10:10	F:Sa	F:S	Then Clever Elsie began to weep and said: "If I get Hans, and we have a child, and he grows big, and we send him into the cellar here to draw beer, then the pick-axe will fall on his head and kill him."
+11:11	Sa:Sa	F:S	Then she sat and wept and screamed with all the strength of her body, over the misfortune which lay before her.
+12:12	Sa:N	F:N	Those upstairs waited for the drink, but Clever Elsie still did not come.
+13:13	N:N	F:N	Then the woman said to the servant: "Just go down into the cellar and see where Elsie is."
+14:14	Sa:F	S:F	The maid went and found her sitting in front of the barrel, screaming loudly.
+15:15	Sa:Su-	S:N	"Elsie why do you weep?" asked the maid.
+16:16	Sa:Su-	S:+	"Ah," she answered, "have I not reason to weep?
+17:17	F:F	S:F	If I get Hans, and we have a child, and he grows big, and has to draw beer here, the pick-axe will perhaps fall on his head, and kill him."
+18:18	Sa:Sa	S:S	Then said the maid: "What a clever Elsie we have!" and sat down beside her and began loudly to weep over the misfortune.
+19:19	N:N	S:N	After a while, as the maid did not come back, and those upstairs were thirsty for the beer, the man said to the boy: "Just go down into the cellar and see where Elsie and the girl are."
+20:20	Sa:Sa	S:S	The boy went down, and there sat Clever Elsie and the girl both weeping together.
+21:21	Sa:Su-	S:-	Then he asked: "Why are you weeping?"
+22:22	Sa:Su-	S:-	"Ah," said Elsie, "have I not reason to weep?
+23:23	Sa:F	S:F	If I get Hans, and we have a child, and he grows big, and has to draw beer here, the pick-axe will fall on his head and kill him."
+24:24	Sa:Sa	S:S	Then said the boy: "What a clever Elsie we have!" and sat down by her, and likewise began to howl loudly.
+25:25	N:N	S:N	Upstairs they waited for the boy, but as he still did not return, the man said to the woman: "Just go down into the cellar and see where Elsie is!"
+26:26	Sa:N	S:N	The woman went down, and found all three in the midst of their lamentations, and inquired what was the cause; then Elsie told her also that her future child was to be killed by the pick-axe, when it grew big and had to draw beer, and the pick-axe fell down.
+27:27	Sa:Sa	S:S	Then said the mother likewise: "What a clever Elsie we have!" and sat down and wept with them.
+28:28	A:N	S:N	The man upstairs waited a short time, but as his wife did not come back and his thirst grew ever greater, he said: "I must go into the cellar myself and see where Elsie is."
+29:29	Sa:Sa	S:S	But when he got into the cellar, and they were all sitting together crying, and he heard the reason, and that Elsie"s child was the cause, and the Elsie might perhaps bring one into the world some day, and that he might be killed by the pick-axe, if he should happen to be sitting beneath it, drawing beer just at the very time when it fell down, he cried: "Oh, what a clever Elsie!" and sat down, and likewise wept with them.
+30:30	N:N	S:N	The bridegroom stayed upstairs alone for along time; then as no one would come back he thought: "They must be waiting for me below: I too must go there and see what they are about."
+31:31	Sa:N	S:N	When he got down, the five of them were sitting screaming and lamenting quite piteously, each outdoing the other.
+32:32	F:Su-	S:S	"What misfortune has happened then?" asked he.
+33:33	Sa:N	S:S	"Ah, dear Hans," said Elsie, "if we marry each other and have a child, and he is big, and we perhaps send him here to draw something to drink, then the pick-axe which has been left up there might dash his brains out if it were to fall down, so have we not reason to weep?"
+34:34	H:N	H:H	"Come," said Hans, "more understanding than that is not needed for my household, as you are such a clever Elsie, I will have you," and seized her hand, took her upstairs with him, and married her.
+35:35	N:N	H:N	After Hans had had her some time, he said: "Wife, I am going out to work and earn some money for us; go into the field and cut the corn that we may have some bread."
+36:36	N:N	N:N	"Yes, dear Hans, I will do that."
+37:37	N:N	N:N	After Hans had gone away, she cooked herself some good broth and took it into the field with her.
+38:38	N:N	N:N	When she came to the field she said to herself: "What shall I do; shall I cut first, or shall I eat first?
+39:39	N:N	N:N	Oh, I will eat first."
+40:40	N:N	N:N	Then she drank her cup of broth and when she was fully satisfied, she once more said: "What shall I do?
+41:41	N:N	N:N	Shall I cut first, or shall I sleep first?
+42:42	N:N	N:N	I will sleep first."
+43:43	N:N	N:N	Then she lay down among the corn and fell asleep.
+44:44	H:H	N:N	Hans had been at home for a long time, but Elsie did not come; then said he: "What a clever Elsie I have; she is so industrious that she does not even come home to eat."
+45:45	Su+:N	N:N	But when evening came and she still stayed away, Hans went out to see what she had cut, but nothing was cut, and she was lying among the corn asleep.
+46:46	N:N	N:N	Then Hans hastened home and brought a fowler"s net with little bells and hung it round about her, and she still went on sleeping.
+47:47	N:N	N:N	Then he ran home, shut the house-door, and sat down in his chair and worked.
+48:48	F:N	F:N	At length, when it was quite dark, Clever Elsie awoke and when she got up there was a jingling all round about her, and the bells rang at each step which she took.
+49:49	F:Su-	F:-	Then she was alarmed, and became uncertain whether she really was Clever Elsie or not, and said: "Is it I, or is it not I?"
+50:50	F:N	F:N	But she knew not what answer to make to this, and stood for a time in doubt; at length she thought: "I will go home and ask if it be I, or if it be not I, they will be sure to know."
+51:51	F:N	F:N	She ran to the door of her own house, but it was shut; then she knocked at the window and cried: "Hans, is Elsie within?"
+52:52	N:N	F:+	"Yes," answered Hans, "she is within."
+53:53	F:F	F:-	Hereupon she was terrified, and said: "Ah, heavens!
+54:54	F:N	F:-	Then it is not I," and went to another door; but when the people heard the jingling of the bells they would not open it, and she could get in nowhere.
+55:55	F:N	F:S	Then she ran out of the village, and no one has seen her since.

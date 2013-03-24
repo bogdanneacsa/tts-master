@@ -1,0 +1,27 @@
+0:0	N:N	N:N	When old Mr Fox was dead, the wolf came as a suitor, and knocked at the door, and the cat who was servant to Mrs Fox, opened it for him.
+1:1	N:N	N:N	The wolf greeted her, and said:
+2:2	H:Su-	N:N	"Good day, Mrs Cat of Kehrewit, How comes it that alone you sit?
+3:3	N:N	N:N	What are you making good?"
+4:4	N:N	N:N	The cat replied:
+5:5	H:H	N:N	"In milk I"m breaking bread so sweet, Will you be my guest, and eat?"
+6:6	N:N	N:N	"No, thank you, Mrs Cat," answered the wolf.
+7:7	N:Su-	N:N	"Is Mrs Fox not at home?"
+8:8	N:N	N:N	The cat said:
+9:9	Sa:Sa	S:S	"She sits upstairs in her room, Bewailing her sorrowful doom, Bewailing her trouble so sore, For old Mr Fox is no more."
+10:10	N:N	N:N	The wolf answered:
+11:11	N:N	N:N	"If she"s in want of a husband now, Then will it please her to step below?"
+12:12	N:N	N:N	The cat runs quickly up the stair, And lets her tail fly here and there, Until she comes to the parlour door.
+13:13	N:N	N:N	With her five gold rings at the door she knocks: "Are you within, good Mistress Fox?
+14:14	N:N	N:N	If you"re in want of a husband now, Then will it please you to step below?
+15:15	N:Su+	N:N	Mrs Fox asked: "Has the gentleman red stockings on, and has he a pointed mouth?"
+16:16	N:N	N:N	"No," answered the cat.
+17:17	D:A	S:N	"Then he won"t do for me."
+18:18	N:N	N:N	When the wolf was gone, came a dog, a stag, a hare, a bear, a lion, and all the beasts of the forest, one after the other.
+19:19	N:Sa	N:N	But one of the good qualities which old Mr Fox had possessed, was always lacking, and the cat had continually to send the suitors away.
+20:20	N:N	N:N	At length came a young fox.
+21:21	N:Su+	N:N	Then Mrs Fox said: "Has the gentleman red stockings on, and has a little pointed mouth?"
+22:22	H:N	H:+	"Yes," said the cat, "he has."
+23:23	H:H	H:+	"Then let him come upstairs," said Mrs Fox, and ordered the servant to prepare the wedding feast.
+24:24	H:H	H:-	"Sweep me the room as clean as you can, Up with the window, fling out my old man!
+25:25	N:H	N:+	For many a fine fat mouse he brought, Yet of his wife he never thought, But ate up every one he caught."
+26:26	H:H	H:H	Then the wedding was solemnized with young Mr Fox, and there was much rejoicing and dancing; and if they have not left off, they are dancing still.

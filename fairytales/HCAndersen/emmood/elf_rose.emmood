@@ -1,0 +1,85 @@
+0:0	N:N	N:N	IN the midst of a garden grew a rose-tree, in full blossom, and in the prettiest of all the roses lived an elf.
+1:1	N:N	N:N	He was such a little wee thing, that no human eye could see him.
+2:2	N:N	N:N	Behind each leaf of the rose he had a sleeping chamber.
+3:3	N:N	N:N	He was as well formed and as beautiful as a little child could be, and had wings that reached from his shoulders to his feet.
+4:4	N:N	H:N	Oh, what sweet fragrance there was in his chambers! and how clean and beautiful were the walls! for they were the blushing leaves of the rose.
+5:5	H:N	H:H	During the whole day he enjoyed himself in the warm sunshine, flew from flower to flower, and danced on the wings of the flying butterflies.
+6:6	N:N	H:N	Then he took it into his head to measure how many steps he would have to go through the roads and cross-roads that are on the leaf of a linden-tree.
+7:7	N:N	N:N	What we call the veins on a leaf, he took for roads; ay, and very long roads they were for him; for before he had half finished his task, the sun went down: he had commenced his work too late.
+8:8	N:N	N:N	It became very cold, the dew fell, and the wind blew; so he thought the best thing he could do would be to return home.
+9:9	N:N	-:S	He hurried himself as much as he could; but he found the roses all closed up, and he could not get in; not a single rose stood open.
+10:10	F:F	F:S	The poor little elf was very much frightened.
+11:11	N:N	F:S	He had never before been out at night, but had always slumbered secretly behind the warm rose-leaves.
+12:12	N:N	F:S	Oh, this would certainly be his death.
+13:13	N:N	N:N	At the other end of the garden, he knew there was an arbor, overgrown with beautiful honey-suckles.
+14:14	N:N	N:N	The blossoms looked like large painted horns; and he thought to himself, he would go and sleep in one of these till the morning.
+15:15	Su-:N	-:N	He flew thither; but "hush!" two people were in the arbor,- a handsome young man and a beautiful lady.
+16:16	N:N	N:N	They sat side by side, and wished that they might never be obliged to part.
+17:17	N:N	H:N	They loved each other much more than the best child can love its father and mother.
+18:18	Sa:N	S:S	"But we must part," said the young man; "your brother does not like our engagement, and therefore he sends me so far away on business, over mountains and seas.
+19:19	Sa:N	S:S	Farewell, my sweet bride; for so you are to me."
+20:20	Sa:Sa	S:S	And then they kissed each other, and the girl wept, and gave him a rose; but before she did so, she pressed a kiss upon it so fervently that the flower opened.
+21:21	N:N	N:N	Then the little elf flew in, and leaned his head on the delicate, fragrant walls.
+22:22	N:N	S:S	Here he could plainly hear them say, "Farewell, farewell;" and he felt that the rose had been placed on the young man's breast.
+23:23	Su-:N	-:S	Oh, how his heart did beat!
+24:24	N:N	-:S	The little elf could not go to sleep, it thumped so loudly.
+25:25	N:N	-:S	The young man took it out as he walked through the dark wood alone, and kissed the flower so often and so violently, that the little elf was almost crushed.
+26:26	N:N	N:S	He could feel through the leaf how hot the lips of the young man were, and the rose had opened, as if from the heat of the noonday sun.
+27:27	N:N	N:F	There came another man, who looked gloomy and wicked.
+28:28	N:N	N:F	He was the wicked brother of the beautiful maiden.
+29:29	N:N	-:-	He drew out a sharp knife, and while the other was kissing the rose, the wicked man stabbed him to death; then he cut off his head, and buried it with the body in the soft earth under the linden-tree.
+30:30	N:N	-:A	"Now he is gone, and will soon be forgotten," thought the wicked brother; "he will never come back again.
+31:31	N:N	-:-	He was going on a long journey over mountains and seas; it is easy for a man to lose his life in such a journey.
+32:32	N:N	-:-	My sister will suppose he is dead; for he cannot come back, and she will not dare to question me about him."
+33:33	N:N	-:-	Then he scattered the dry leaves over the light earth with his foot, and went home through the darkness; but he went not alone, as he thought,- the little elf accompanied him.
+34:34	N:N	N:-	He sat in a dry rolled-up linden-leaf, which had fallen from the tree on to the wicked man's head, as he was digging the grave.
+35:35	F:F	-:-	The hat was on the head now, which made it very dark, and the little elf shuddered with fright and indignation at the wicked deed.
+36:36	N:N	N:-	It was the dawn of morning before the wicked man reached home; he took off his hat, and went into his sister's room.
+37:37	N:N	N:S	There lay the beautiful, blooming girl, dreaming of him whom she loved so, and who was now, she supposed, travelling far away over mountain and sea.
+38:38	H:N	-:-	Her wicked brother stopped over her, and laughed hideously, as fiends only can laugh.
+39:39	N:N	N:-	The dry leaf fell out of his hair upon the counterpane; but he did not notice it, and went to get a little sleep during the early morning hours.
+40:40	N:N	N:-	But the elf slipped out of the withered leaf, placed himself by the ear of the sleeping girl, and told her, as in a dream, of the horrid murder; described the place where her brother had slain her lover, and buried his body; and told her of the linden-tree, in full blossom, that stood close by.
+41:41	N:N	N:S	"That you may not think this is only a dream that I have told you," he said, "you will find on your bed a withered leaf."
+42:42	N:N	N:S	Then she awoke, and found it there.
+43:43	Sa:Sa	S:S	Oh, what bitter tears she shed! and she could not open her heart to any one for relief.
+44:44	N:N	S:S	The window stood open the whole day, and the little elf could easily have reached the roses, or any of the flowers; but he could not find it in his heart to leave one so afflicted.
+45:45	N:N	N:N	In the window stood a bush bearing monthly roses.
+46:46	N:N	S:S	He seated himself in one of the flowers, and gazed on the poor girl.
+47:47	N:H	S:-	Her brother often came into the room, and would be quite cheerful, in spite of his base conduct; so she dare not say a word to him of her heart's grief.
+48:48	N:N	S:-	As soon as night came on, she slipped out of the house, and went into the wood, to the spot where the linden-tree stood; and after removing the leaves from the earth, she turned it up, and there found him who had been murdered.
+49:49	Sa:Sa	S:S	Oh, how she wept and prayed that she also might die!
+50:50	N:N	S:S	Gladly would she have taken the body home with her; but that was impossible; so she took up the poor head with the closed eyes, kissed the cold lips, and shook the mould out of the beautiful hair.
+51:51	Sa:N	S:S	"I will keep this," said she; and as soon as she had covered the body again with the earth and leaves, she took the head and a little sprig of jasmine that bloomed in the wood, near the spot where he was buried, and carried them home with her.
+52:52	N:N	S:-	As soon as she was in her room, she took the largest flower-pot she could find, and in this she placed the head of the dead man, covered it up with earth, and planted the twig of jasmine in it.
+53:53	N:N	N:N	"Farewell, farewell," whispered the little elf.
+54:54	N:N	S:S	He could not any longer endure to witness all this agony of grief, he therefore flew away to his own rose in the garden.
+55:55	N:N	N:N	But the rose was faded; only a few dry leaves still clung to the green hedge behind it.
+56:56	Sa:N	S:S	"Alas! how soon all that is good and beautiful passes away," sighed the elf.
+57:57	N:N	N:N	After a while he found another rose, which became his home, for among its delicate fragrant leaves he could dwell in safety.
+58:58	Sa:Sa	S:S	Every morning he flew to the window of the poor girl, and always found her weeping by the flower pot.
+59:59	Sa:Sa	S:S	The bitter tears fell upon the jasmine twig, and each day, as she became paler and paler, the sprig appeared to grow greener and fresher.
+60:60	N:N	S:S	One shoot after another sprouted forth, and little white buds blossomed, which the poor girl fondly kissed.
+61:61	A:A	D:S	But her wicked brother scolded her, and asked her if she was going mad.
+62:62	A:A	D:S	He could not imagine why she was weeping over that flower-pot, and it annoyed him.
+63:63	N:N	N:S	He did not know whose closed eyes were there, nor what red lips were fading beneath the earth.
+64:64	N:N	N:N	And one day she sat and leaned her head against the flower-pot, and the little elf of the rose found her asleep.
+65:65	N:N	N:N	Then he seated himself by her ear, talked to her of that evening in the arbor, of the sweet perfume of the rose, and the loves of the elves.
+66:66	H:N	H:H	Sweetly she dreamed, and while she dreamt, her life passed away calmly and gently, and her spirit was with him whom she loved, in heaven.
+67:67	N:Sa	H:S	And the jasmine opened its large white bells, and spread forth its sweet fragrance; it had no other way of showing its grief for the dead.
+68:68	N:N	N:-	But the wicked brother considered the beautiful blooming plant as his own property, left to him by his sister, and he placed it in his sleeping room, close by his bed, for it was very lovely in appearance, and the fragrance sweet and delightful.
+69:69	N:N	N:N	The little elf of the rose followed it, and flew from flower to flower, telling each little spirit that dwelt in them the story of the murdered young man, whose head now formed part of the earth beneath them, and of the wicked brother and the poor sister.
+70:70	N:N	N:N	"We know it," said each little spirit in the flowers, "we know it, for have we not sprung from the eyes and lips of the murdered one.
+71:71	N:N	N:N	We know it, we know it," and the flowers nodded with their heads in a peculiar manner.
+72:72	N:N	N:N	The elf of the rose could not understand how they could rest so quietly in the matter, so he flew to the bees, who were gathering honey, and told them of the wicked brother.
+73:73	D:N	D:-	And the bees told it to their queen, who commanded that the next morning they should go and kill the murderer.
+74:74	N:N	N:-	But during the night, the first after the sister's death, while the brother was sleeping in his bed, close to where he had placed the fragrant jasmine, every flower cup opened, and invisibly the little spirits stole out, armed with poisonous spears.
+75:75	N:N	N:-	They placed themselves by the ear of the sleeper, told him dreadful dreams and then flew across his lips, and pricked his tongue with their poisoned spears.
+76:76	H:N	+:A	"Now have we revenged the dead," said they, and flew back into the white bells of the jasmine flowers.
+77:77	N:N	N:-	When the morning came, and as soon as the window was opened, the rose elf, with the queen bee, and the whole swarm of bees, rushed in to kill him.
+78:78	N:N	N:-	But he was already dead.
+79:79	N:N	N:-	People were standing round the bed, and saying that the scent of the jasmine had killed him.
+80:80	N:N	N:N	Then the elf of the rose understood the revenge of the flowers, and explained it to the queen bee, and she, with the whole swarm, buzzed about the flower-pot.
+81:81	N:N	N:-	The bees could not be driven away.
+82:82	N:N	N:-	Then a man took it up to remove it, and one of the bees stung him in the hand, so that he let the flower-pot fall, and it was broken to pieces.
+83:83	N:N	-:-	Then every one saw the whitened skull, and they knew the dead man in the bed was a murderer.
+84:84	H:N	+:-	And the queen bee hummed in the air, and sang of the revenge of the flowers, and of the elf of the rose and said that behind the smallest leaf dwells One, who can discover evil deeds, and punish them also.

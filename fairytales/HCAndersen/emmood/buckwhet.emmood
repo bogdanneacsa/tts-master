@@ -1,0 +1,35 @@
+0:0	N:N	N:N	VERY often, after a violent thunder-storm, a field of buckwheat appears blackened and singed, as if a flame of fire had passed over it.
+1:1	F:N	F:N	The country people say that this appearance is caused by lightning; but I will tell you what the sparrow says, and the sparrow heard it from an old willow-tree which grew near a field of buckwheat, and is there still.
+2:2	N:N	F:N	It is a large venerable tree, though a little crippled by age.
+3:3	N:N	S:N	The trunk has been split, and out of the crevice grass and brambles grow.
+4:4	N:N	S:N	The tree bends for-ward slightly, and the branches hang quite down to the ground just like green hair.
+5:5	H:N	H:N	Corn grows in the surrounding fields, not only rye and barley, but oats,-pretty oats that, when ripe, look like a number of little golden canary-birds sitting on a bough.
+6:6	H:H	H:N	The corn has a smiling look and the heaviest and richest ears bend their heads low as if in pious humility.
+7:7	N:N	H:N	Once there was also a field of buckwheat, and this field was exactly opposite to old willow-tree.
+8:8	H:N	H:N	The buckwheat did not bend like the other grain, but erected its head proudly and stiffly on the stem.
+9:9	H:N	H:N	"I am as valuable as any other corn," said he, "and I am much handsomer; my flowers are as beautiful as the bloom of the apple blossom, and it is a pleasure to look at us.
+10:10	H:N	H:N	Do you know of anything prettier than we are, you old willow-tree?"
+11:11	Su+:N	H:N	And the willow-tree nodded his head, as if he would say, "Indeed I do."
+12:12	A:A	A:A	But the buckwheat spread itself out with pride, and said, "Stupid tree; he is so old that grass grows out of his body."
+13:13	F:N	F:F	There arose a very terrible storm.
+14:14	F:N	F:F	All the field-flowers folded their leaves together, or bowed their little heads, while the storm passed over them, but the buckwheat stood erect in its pride.
+15:15	F:N	F:F	"Bend your head as we do," said the flowers.
+16:16	A:N	F:F	"I have no occasion to do so," replied the buckwheat.
+17:17	F:F	F:F	"Bend your head as we do," cried the ears of corn; "the angel of the storm is coming; his wings spread from the sky above to the earth beneath.
+18:18	F:F	F:F	He will strike you down before you can cry for mercy."
+19:19	A:N	F:F	"But I will not bend my head," said the buckwheat.
+20:20	F:N	F:F	"Close your flowers and bend your leaves," said the old willow-tree.
+21:21	F:N	F:F	"Do not look at the lightning when the cloud bursts; even men cannot do that.
+22:22	F:N	F:F	In a flash of lightning heaven opens, and we can look in; but the sight will strike even human beings blind.
+23:23	F:N	F:F	What then must happen to us, who only grow out of the earth, and are so inferior to them, if we venture to do so?"
+24:24	A:A	F:A	"Inferior, indeed!" said the buckwheat.
+25:25	A:N	F:A	"Now I intend to have a peep into heaven."
+26:26	H:N	F:F	Proudly and boldly he looked up, while the lightning flashed across the sky as if the whole world were in flames.
+27:27	Sa:N	S:F	When the dreadful storm had passed, the flowers and the corn raised their drooping heads in the pure still air, refreshed by the rain, but the buckwheat lay like a weed in the field, burnt to blackness by the lightning.
+28:28	Sa:Sa	S:S	The branches of the old willow-tree rustled in the wind, and large water-drops fell from his green leaves as if the old willow were weeping.
+29:29	Su-:N	S:S	Then the sparrows asked why he was weeping, when all around him seemed so cheerful.
+30:30	H:N	S:N	"See," they said, how the sun shines, and the clouds float in the blue sky.
+31:31	Su-:N	S:N	Do you not smell the sweet perfume from flower and bush?
+32:32	Su-:N	S:N	Wherefore do you weep, old willow-tree?"
+33:33	Sa:N	S:S	Then the willow told them of the haughty pride of the buckwheat, and of the punishment which followed in consequence.
+34:34	N:N	S:N	This is the story told me by the sparrows one evening when I begged them to relate some tale to me.

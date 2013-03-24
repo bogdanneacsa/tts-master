@@ -1,0 +1,37 @@
+0:0	N:N	N:N	An aged count once lived in Switzerland, who had an only son, but he was stupid, and could learn nothing.
+1:1	A:N	A:A	Then said the father: "Hark you, my son, try as I will I can get nothing into your head.
+2:2	Sa:N	A:N	You must go from hence, I will give you into the care of a celebrated master, who shall see what he can do with you."
+3:3	N:N	N:N	The youth was sent into a strange town, and remained a whole year with the master.
+4:4	N:N	N:N	At the end of this time, he came home again, and his father asked: "Now, my son, what have you learnt?"
+5:5	N:N	N:N	"Father, I have learnt what the dogs say when they bark."
+6:6	A:A	A:A	"Lord have mercy on us!" cried the father; "is that all you have learnt?
+7:7	A:N	A:A	I will send you into another town, to another master."
+8:8	N:N	A:N	The youth was taken thither, and stayed a year with this master likewise.
+9:9	N:N	A:N	When he came back the father again asked: "My son, what have you learnt?"
+10:10	N:N	A:N	He answered: "Father, I have learnt what the birds say."
+11:11	A:A	A:A	Then the father fell into a rage and said: "Oh, you lost man, you have spent the precious time and learnt nothing; are you not ashamed to appear before my eyes?
+12:12	A:N	A:S	I will send you to a third master, but if you learn nothing this time also, I will no longer be your father."
+13:13	N:N	A:N	The youth remained a whole year with the third master also, and when he came home again, and his father inquired: "My son, what have you learnt?" he answered: "Dear father, I have this year learnt what the frogs croak."
+14:14	A:A	A:S	Then the father fell into the most furious anger, sprang up, called his people thither, and said: "This man is no longer my son, I drive him forth, and command you to take him out into the forest, and kill him."
+15:15	Sa:N	A:S	They took him forth, but when they should have killed him, they could not do it for pity, and let him go, and they cut the eyes and tongue out of a deer that they might carry them to the old man as a token.
+16:16	Sa:Sa	S:S	The youth wandered on, and after some time came to a fortress where he begged for a night"s lodging.
+17:17	F:N	F:S	"Yes," said the lord of the castle, "if you will pass the night down there in the old tower, go thither; but I warn you, it is at the peril of your life, for it is full of wild dogs, which bark and howl without stopping, and at certain hours a man has to be given to them, whom they at once devour."
+18:18	Sa:N	F:S	The whole district was in sorrow and dismay because of them, and yet no one could do anything to stop this.
+19:19	N:N	F:N	The youth, however, was without fear, and said: "Just let me go down to the barking dogs, and give me something that I can throw to them; they will do nothing to harm me."
+20:20	N:N	F:N	As he himself would have it so, they gave him some food for the wild animals, and led him down to the tower.
+21:21	H:H	+:H	When he went inside, the dogs did not bark at him, but wagged their tails quite amicably around him, ate what he set before them, and did not hurt one hair of his head.
+22:22	Su+:N	+:H	Next morning, to the astonishment of everyone, he came out again safe and unharmed, and said to the lord of the castle: "The dogs have revealed to me, in their own language, why they dwell there, and bring evil on the land.
+23:23	N:N	+:H	They are bewitched, and are obliged to watch over a great treasure which is below in the tower, and they can have no rest until it is taken away, and I have likewise learnt, from their discourse, how that is to be done."
+24:24	H:N	+:N	Then all who heard this rejoiced, and the lord of the castle said he would adopt him as a son if he accomplished it successfully.
+25:25	H:N	+:N	He went down again, and as he knew what he had to do, he did it thoroughly, and brought a chest full of gold out with him.
+26:26	H:N	+:H	The howling of the wild dogs was henceforth heard no more; they had disappeared, and the country was freed from the trouble.
+27:27	N:N	+:N	After some time he took it in his head that he would travel to Rome.
+28:28	N:N	N:N	On the way he passed by a marsh, in which a number of frogs were sitting croaking.
+29:29	Sa:Sa	S:S	He listened to them, and when he became aware of what they were saying, he grew very thoughtful and sad.
+30:30	Sa:N	S:N	At last he arrived in Rome, where the Pope had just died, and there was great doubt among the cardinals as to whom they should appoint as his successor.
+31:31	N:N	S:N	They at length agreed that the person should be chosen as pope who should be distinguished by some divine and miraculous token.
+32:32	Su+:N	+:H	And just as that was decided on, the young count entered into the church, and suddenly two snow-white doves flew on his shoulders and remained sitting there.
+33:33	Su+:N	+:H	The ecclesiastics recognized therein the token from above, and asked him on the spot if he would be pope.
+34:34	F:N	+:N	He was undecided, and knew not if he were worthy of this, but the doves counselled him to do it, and at length he said yes.
+35:35	H:N	H:N	Then was he anointed and consecrated, and thus was fulfilled what he had heard from the frogs on his way, which had so affected him, that he was to be his Holiness the Pope.
+36:36	H:N	H:H	Then he had to sing a mass, and did not know one word of it, but the two doves sat continually on his shoulders, and said it all in his ear.

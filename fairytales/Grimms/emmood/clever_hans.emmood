@@ -1,0 +1,166 @@
+0:0	N:N	N:N	The mother of Hans said: "Whither away, Hans?"
+1:1	N:N	N:N	Hans answered: "To Gretel."
+2:2	A:N	N:N	"Behave well, Hans."
+3:3	N:N	N:N	"Oh, I"ll behave well.
+4:4	N:N	N:N	Goodbye, mother."
+5:5	N:N	N:N	"Goodbye, Hans."
+6:6	N:N	N:N	Hans comes to Gretel.
+7:7	H:N	N:N	"Good day, Gretel."
+8:8	H:N	N:N	"Good day, Hans.
+9:9	H:N	N:N	What do you bring that is good?"
+10:10	Sa:N	N:N	"I bring nothing, I want to have something given me."
+11:11	N:N	N:N	Gretel presents Hans with a needle, Hans says: "Goodbye, Gretel."
+12:12	N:N	N:N	"Goodbye, Hans."
+13:13	N:N	N:N	Hans takes the needle, sticks it into a hay-cart, and follows the cart home.
+14:14	N:N	N:N	"Good evening, mother."
+15:15	N:N	N:N	"Good evening, Hans.
+16:16	N:N	N:N	Where have you been?"
+17:17	N:N	N:N	"With Gretel."
+18:18	N:N	N:N	"What did you take her?"
+19:19	N:N	N:N	"Took nothing; had something given me."
+20:20	N:N	N:N	"What did Gretel give you?"
+21:21	N:N	N:N	"Gave me a needle."
+22:22	N:N	N:N	"Where is the needle, Hans?"
+23:23	N:N	N:N	"Stuck in the hay-cart."
+24:24	A:A	A:A	"That was ill done, Hans.
+25:25	A:N	A:A	You should have stuck the needle in your sleeve."
+26:26	Sa:N	A:A	"Never mind, I"ll do better next time."
+27:27	N:N	A:N	"Whither away, Hans?"
+28:28	N:N	N:N	"To Gretel, mother."
+29:29	A:N	N:N	"Behave well, Hans."
+30:30	N:N	N:N	"Oh, I"ll behave well.
+31:31	N:N	N:N	Goodbye, mother."
+32:32	N:N	N:N	"Goodbye, Hans."
+33:33	N:N	N:N	Hans comes to Gretel.
+34:34	H:N	N:N	"Good day, Gretel."
+35:35	H:N	N:N	"Good day, Hans.
+36:36	N:N	N:N	What do you bring that is good?"
+37:37	Sa:N	N:N	"I bring nothing.
+38:38	N:N	N:N	I want to have something given to me."
+39:39	N:N	N:N	Gretel presents Hans with a knife.
+40:40	N:N	N:N	"Goodbye, Gretel."
+41:41	N:N	N:N	"Goodbye, Hans."
+42:42	N:N	N:N	Hans takes the knife, sticks it in his sleeve, and goes home.
+43:43	N:N	N:N	"Good evening, mother."
+44:44	N:N	N:N	"Good evening, Hans.
+45:45	N:F	N:F	Where have you been?"
+46:46	N:N	N:N	"With Gretel."
+47:47	N:N	N:N	What did you take her?"
+48:48	N:N	N:N	"Took her nothing, she gave me something."
+49:49	N:N	N:N	"What did Gretel give you?"
+50:50	N:N	N:N	"Gave me a knife."
+51:51	N:F	N:F	"Where is the knife, Hans?"
+52:52	N:N	N:N	"Stuck in my sleeve."
+53:53	A:A	A:A	"That"s ill done, Hans, you should have put the knife in your pocket."
+54:54	Sa:N	A:N	"Never mind, will do better next time."
+55:55	N:N	A:N	"Whither away, Hans?"
+56:56	N:N	N:N	"To Gretel, mother."
+57:57	A:N	N:N	"Behave well, Hans."
+58:58	N:N	N:N	"Oh, I"ll behave well.
+59:59	N:N	N:N	Goodbye, mother."
+60:60	N:N	N:N	"Goodbye, Hans."
+61:61	N:N	N:N	Hans comes to Gretel.
+62:62	N:N	N:N	"Good day, Gretel."
+63:63	N:N	N:N	"Good day, Hans.
+64:64	N:N	N:N	What good thing do you bring?"
+65:65	Sa:N	N:N	"I bring nothing, I want something given me."
+66:66	H:N	N:N	Gretel presents Hans with a young goat.
+67:67	N:N	N:N	"Goodbye, Gretel."
+68:68	N:N	N:N	"Goodbye, Hans."
+69:69	N:N	N:N	Hans takes the goat, ties its legs, and puts it in his pocket.
+70:70	Sa:N	S:S	When he gets home it is suffocated.
+71:71	N:N	S:N	"Good evening, mother."
+72:72	N:N	S:N	"Good evening, Hans.
+73:73	N:N	S:F	Where have you been?"
+74:74	N:N	S:S	"With Gretel."
+75:75	N:N	N:N	"What did you take her?"
+76:76	N:N	N:N	"Took nothing, she gave me something."
+77:77	N:N	N:N	"What did Gretel give you?"
+78:78	N:N	N:N	"She gave me a goat."
+79:79	N:N	N:F	"Where is the goat, Hans?"
+80:80	N:N	N:N	"Put it in my pocket."
+81:81	A:A	A:F	"That was ill done, Hans, you should have put a rope round the goat"s neck."
+82:82	Sa:N	A:N	"Never mind, will do better next time."
+83:83	N:N	N:N	"Whither away, Hans?"
+84:84	N:N	N:N	"To Gretel, mother."
+85:85	A:N	N:N	"Behave well, Hans."
+86:86	N:N	N:N	"Oh, I"ll behave well.
+87:87	N:N	N:N	Goodbye, mother."
+88:88	N:N	N:N	"Goodbye, Hans."
+89:89	N:N	N:N	Hans comes to Gretel.
+90:90	H:N	N:N	"Good day, Gretel."
+91:91	H:N	N:N	"Good day, Hans.
+92:92	H:N	H:N	What good thing do you bring?"
+93:93	Sa:N	H:N	"I bring nothing, I want something given me."
+94:94	N:N	H:N	Gretel presents Hans with a piece of bacon.
+95:95	N:N	N:N	"Goodbye, Gretel."
+96:96	N:N	N:N	"Goodbye, Hans."
+97:97	N:N	N:N	Hans takes the bacon, ties it to a rope, and drags it away behind him.
+98:98	H:N	S:+	The dogs come and devour the bacon.
+99:99	Sa:N	S:N	When he gets home, he has the rope in his hand, and there is no longer anything hanging on to it.
+100:100	N:N	S:N	"Good evening, mother."
+101:101	N:N	S:N	"Good evening, Hans.
+102:102	N:N	S:N	Where have you been?"
+103:103	N:N	S:N	"With Gretel."
+104:104	N:N	S:N	"What did you take her?"
+105:105	Sa:N	S:N	"I took her nothing, she gave me something."
+106:106	N:N	S:N	"What did Gretel give you?"
+107:107	N:N	S:N	"Gave me a bit of bacon."
+108:108	N:N	S:N	"Where is the bacon, Hans?"
+109:109	Sa:N	S:N	"I tied it to a rope, brought it home, dogs took it."
+110:110	A:A	A:A	"That was ill done, Hans, you should have carried the bacon on your head."
+111:111	Sa:N	A:N	"Never mind, will do better next time."
+112:112	N:N	A:N	"Whither away, Hans?"
+113:113	N:N	N:N	"To Gretel, mother."
+114:114	A:N	N:N	"Behave well, Hans."
+115:115	N:N	N:N	"I"ll behave well.
+116:116	N:N	N:N	Goodbye, mother."
+117:117	N:N	N:N	"Goodbye, Hans."
+118:118	N:N	N:N	Hans comes to Gretel.
+119:119	N:N	N:N	"Good day, Gretel."
+120:120	H:N	H:N	"Good day, Hans, What good thing do you bring?"
+121:121	Sa:N	H:N	"I bring nothing, but would have something given."
+122:122	H:N	H:N	Gretel presents Hans with a calf.
+123:123	H:N	H:N	"Goodbye, Gretel."
+124:124	H:N	H:N	"Goodbye, Hans."
+125:125	A:N	A:+	Hans takes the calf, puts it on his head, and the calf kicks his face.
+126:126	N:N	A:N	"Good evening, mother."
+127:127	N:N	A:N	"Good evening, Hans.
+128:128	N:N	N:N	Where have you been?"
+129:129	N:N	N:N	"With Gretel."
+130:130	N:N	N:N	"What did you take her?"
+131:131	Sa:N	S:N	"I took nothing, but had something given me."
+132:132	N:N	S:N	"What did Gretel give you?"
+133:133	N:N	N:N	"A calf."
+134:134	N:N	N:F	"Where have you the calf, Hans?"
+135:135	A:N	N:N	"I set it on my head and it kicked my face."
+136:136	A:A	A:A	"That was ill done, Hans, you should have led the calf, and put it in the stall."
+137:137	Sa:N	A:N	"Never mind, will do better next time."
+138:138	N:N	A:N	"Whither away, Hans?"
+139:139	N:N	A:N	"To Gretel, mother."
+140:140	A:N	A:N	"Behave well, Hans."
+141:141	N:N	N:N	"I"ll behave well.
+142:142	N:N	N:N	Goodbye, mother."
+143:143	N:N	N:N	"Goodbye, Hans."
+144:144	N:N	N:N	Hans comes to Gretel.
+145:145	H:N	H:N	"Good day, Gretel."
+146:146	H:N	H:N	"Good day, Hans.
+147:147	H:N	H:N	What good thing do you bring?"
+148:148	Sa:N	H:N	"I bring nothing, but would have something given."
+149:149	H:N	H:N	Gretel says to Hans: "I will go with you."
+150:150	N:N	N:+	Hans takes Gretel, ties her to a rope, leads her to the rack, and binds her fast.
+151:151	N:N	N:N	Then Hans goes to his mother.
+152:152	N:N	N:N	"Good evening, mother."
+153:153	H:N	N:N	"Good evening, Hans.
+154:154	N:N	N:N	Where have you been?"
+155:155	N:N	N:N	"With Gretel."
+156:156	N:N	N:N	"What did you take her?"
+157:157	Sa:N	N:N	"I took her nothing."
+158:158	N:N	N:N	"What did Gretel give you?"
+159:159	Su-:N	N:+	"She gave me nothing, she came with me."
+160:160	A:F	A:F	"Where have you left Gretel?"
+161:161	H:N	A:+	"I led her by the rope, tied her to the rack, and scattered some grass for her."
+162:162	A:A	A:A	"That was ill done, Hans, you should have cast friendly eyes on her."
+163:163	Sa:N	A:N	"Never mind, will do better."
+164:164	N:N	A:-	Hans went into the stable, cut out all the calves" and sheep"s eyes, and threw them in Gretel"s face.
+165:165	A:A	A:-	Then Gretel became angry, tore herself loose and ran away, and was no longer the bride of Hans.

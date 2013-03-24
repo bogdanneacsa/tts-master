@@ -1,0 +1,80 @@
+0:0	Sa:N	S:N	There was once upon a time a soldier who for many years had served the king faithfully, but when the war came to an end could serve no longer because of the many wounds which he had received.
+1:1	N:N	S:N	The king said to him: "You may return to your home, I need you no longer, and you will not receive any more money, for he only receives wages who renders me service for them."
+2:2	Sa:F	S:F	Then the soldier did not know how to earn a living, went away greatly troubled, and walked the whole day, until in the evening he entered a forest.
+3:3	N:N	S:N	When darkness came on, he saw a light, which he went up to, and came to a house wherein lived a witch.
+4:4	F:N	F:N	"Do give me one night"s lodging, and a little to eat and drink," said he to her, "or I shall starve."
+5:5	A:Su-	F:N	"Oho!" she answered, "who gives anything to a run-away soldier?
+6:6	N:N	F:N	Yet will I be compassionate, and take you in, if you will do what I wish."
+7:7	F:N	F:N	"What do you wish?" said the soldier.
+8:8	N:N	F:N	"That you should dig all round my garden for me, tomorrow."
+9:9	F:N	F:N	The soldier consented, and next day laboured with all his strength, but could not finish it by the evening.
+10:10	N:N	F:N	"I see well enough," said the witch, "that you can do no more today, but I will keep you yet another night, in payment for which you must tomorrow chop me a load of wood, and chop it small."
+11:11	N:N	F:N	The soldier spent the whole day in doing it, and in the evening the witch proposed that he should stay one night more.
+12:12	N:N	F:N	"Tomorrow, you shall only do me a very trifling piece of work.
+13:13	N:N	N:N	Behind my house, there is an old dry well, into which my light has fallen, it burns blue, and never goes out, and you shall bring it up again."
+14:14	N:N	N:N	Next day the old woman took him to the well, and let him down in a basket.
+15:15	H:N	N:N	He found the blue light, and made her a signal to draw him up again.
+16:16	F:N	F:N	She did draw him up, but when he came near the edge, she stretched down her hand and wanted to take the blue light away from him.
+17:17	F:N	F:N	"No," said he, perceiving her evil intention, "I will not give you the light until I am standing with both feet upon the ground."
+18:18	A:A	F:-	The witch fell into a passion, let him fall again into the well, and went away.
+19:19	F:N	F:S	The poor soldier fell without injury on the moist ground, and the blue light went on burning, but of what use was that to him?
+20:20	F:N	F:S	He saw very well that he could not escape death.
+21:21	Sa:Sa	S:S	He sat for a while very sorrowfully, then suddenly he felt in his pocket and found his tobacco pipe, which was still half full.
+22:22	Sa:H	S:S	"This shall be my last pleasure," thought he, pulled it out, lit it at the blue light and began to smoke.
+23:23	Su+:N	+:+	When the smoke had circled about the cavern, suddenly a little black dwarf stood before him, and said: "Lord, what are your commands?"
+24:24	Su+:Su+	+:+	"What my commands are?" replied the soldier, quite astonished.
+25:25	N:N	+:N	"I must do everything you bid me," said the little man.
+26:26	H:N	+:H	"Good," said the soldier; "then in the first place help me out of this well."
+27:27	F:N	F:N	The little man took him by the hand, and led him through an underground passage, but he did not forget to take the blue light with him.
+28:28	H:N	H:H	On the way the dwarf showed him the treasures which the witch had collected and hidden there, and the soldier took as much gold as he could carry.
+29:29	H:N	H:A	When he was above, he said to the little man: "Now go and bind the old witch, and carry her before the judge."
+30:30	F:F	F:H	In a short time she came by like the wind, riding on a wild tom-cat and screaming frightfully.
+31:31	N:N	H:N	Nor was it long before the little man reappeared.
+32:32	H:N	H:N	"It is all done," said he, "and the witch is already hanging on the gallows.
+33:33	N:N	H:N	What further commands has my lord?" inquired the dwarf.
+34:34	H:N	H:N	"At this moment, none," answered the soldier; "you can return home, only be at hand immediately, if I summon you."
+35:35	N:N	H:N	"Nothing more is needed than that you should light your pipe at the blue light, and I will appear before you at once."
+36:36	Su+:N	H:N	Thereupon he vanished from his sight.
+37:37	H:N	H:N	The soldier returned to the town from which he come.
+38:38	H:N	H:N	He went to the best inn, ordered himself handsome clothes, and then bade the landlord furnish him a room as handsome as possible.
+39:39	A:A	A:A	When it was ready and the soldier had taken possession of it, he summoned the little black manikin and said: "I have served the king faithfully, but he has dismissed me, and left me to hunger, and now I want to take my revenge."
+40:40	F:N	A:N	"What am I to do?" asked the little man.
+41:41	A:N	A:N	"Late at night, when the king"s daughter is in bed, bring her here in her sleep, she shall do servant"s work for me."
+42:42	F:F	F:F	The manikin said: "That is an easy thing for me to do, but a very dangerous thing for you, for if it is discovered, you will fare ill."
+43:43	N:N	F:N	When twelve o"clock had struck, the door sprang open, and the manikin carried in the princess.
+44:44	A:A	A:A	"Aha! are you there?" cried the soldier, "get to your work at once!
+45:45	A:N	A:N	Fetch the broom and sweep the chamber."
+46:46	A:N	A:A	When she had done this, he ordered her to come to his chair, and then he stretched out his feet and said: "Pull off my boots," and then he threw them in her face, and made her pick them up again, and clean and brighten them.
+47:47	Sa:N	S:A	She, however, did everything he bade her, without opposition, silently and with halfshut eyes.
+48:48	N:N	S:N	When the first cock crowed, the manikin carried her back to the royal palace, and laid her in her bed.
+49:49	F:N	S:N	Next morning when the princess arose she went to her father, and told him that she had had a very strange dream.
+50:50	F:N	F:N	"I was carried through the streets with the rapidity of lightning," said she, "and taken into a soldier"s room, and I had to wait upon him like a servant, sweep his room, clean his boots, and do all kinds of menial work.
+51:51	F:N	F:N	It was only a dream, and yet I am just as tired as if I really had done everything."
+52:52	N:N	F:N	"The dream may have been true," said the king.
+53:53	N:N	F:N	"I will give you a piece of advice.
+54:54	N:N	F:N	Fill your pocket full of peas, and make a small hole in the pocket, and then if you are carried away again, they will fall out and leave a track in the streets."
+55:55	N:N	F:N	But unseen by the king, the manikin was standing beside him when he said that, and heard all.
+56:56	N:N	F:N	At night when the sleeping princess was again carried through the streets, some peas certainly did fall out of her pocket, but they made no track, for the crafty manikin had just before scattered peas in every street there was.
+57:57	F:N	F:N	And again the princess was compelled to do servant"s work until cock-crow.
+58:58	F:N	F:+	Next morning the king sent his people out to seek the track, but it was all in vain, for in every street poor children were sitting, picking up peas, and saying: "It must have rained peas, last night."
+59:59	F:N	F:N	"We must think of something else," said the king; "keep your shoes on when you go to bed, and before you come back from the place where you are taken, hide one of them there, I will soon contrive to find it."
+60:60	F:N	F:F	The black manikin heard this plot, and at night when the soldier again ordered him to bring the princess, revealed it to him, and told him that he knew of no expedient to counteract this stratagem, and that if the shoe were found in the soldier"s house it would go badly with him.
+61:61	A:N	F:F	"Do what I bid you," replied the soldier, and again this third night the princess was obliged to work like a servant, but before she went away, she hid her shoe under the bed.
+62:62	F:N	F:F	Next morning the king had the entire town searched for his daughter"s shoe.
+63:63	F:N	F:N	It was found at the soldier"s, and the soldier himself, who at the entreaty of the dwarf had gone outside the gate, was soon brought back, and thrown into prison.
+64:64	F:N	F:N	In his flight he had forgotten the most valuable things he had, the blue light and the gold, and had only one ducat in his pocket.
+65:65	Su+:N	F:N	And now loaded with chains, he was standing at the window of his dungeon, when he chanced to see one of his comrades passing by.
+66:66	Su+:N	F:N	The soldier tapped at the pane of glass, and when this man came up, said to him: "Be so kind as to fetch me the small bundle I have left lying in the inn, and I will give you a ducat for doing it."
+67:67	H:N	F:N	His comrade ran thither and brought him what he wanted.
+68:68	H:N	F:N	As soon as the soldier was alone again, he lighted his pipe and summoned the black manikin.
+69:69	H:N	H:N	"Have no fear," said the latter to his master.
+70:70	H:N	H:N	"Go wheresoever they take you, and let them do what they will, only take the blue light with you."
+71:71	F:N	F:S	Next day the soldier was tried, and though he had done nothing wicked, the judge condemned him to death.
+72:72	F:Sa	F:S	When he was led forth to die, he begged a last favour of the king.
+73:73	A:N	F:S	"What is it?" asked the king.
+74:74	F:N	F:S	"That I may smoke one more pipe on my way."
+75:75	A:N	F:A	"You may smoke three," answered the king, "but do not imagine that I will spare your life."
+76:76	N:N	F:N	Then the soldier pulled out his pipe and lighted it at the blue light, and as soon as a few wreaths of smoke had ascended, the manikin was there with a small cudgel in his hand, and said: "What does my lord command?"
+77:77	A:N	A:A	"Strike down to earth that false judge there, and his constable, and spare not the king who has treated me so ill."
+78:78	A:N	A:-	Then the manikin fell on them like lightning, darting this way and that way, and whosoever was so much as touched by his cudgel fell to earth, and did not venture to stir again.
+79:79	F:F	A:A	The king was terrified; he threw himself on the soldier"s mercy, and merely to be allowed to live at all, gave him his kingdom for his own, and his daughter to wife.

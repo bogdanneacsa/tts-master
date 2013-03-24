@@ -1,0 +1,119 @@
+0:0	N:N	N:N	There was once a fisherman who lived with his wife in a pigsty, close by the seaside.
+1:1	N:N	N:+	The fisherman used to go out all day long a-fishing; and one day, as he sat on the shore with his rod, looking at the sparkling waves and watching his line, all on a sudden his float was dragged away deep into the water: and in drawing it up he pulled out a great fish.
+2:2	N:N	F:F	But the fish said, "Pray let me live!
+3:3	N:N	F:F	I am not a real fish; I am an enchanted prince: put me in the water again, and let me go!"
+4:4	Su+:N	+:F	"Oh, ho!" said the man, "you need not make so many words about the matter; I will have nothing to do with a fish that can talk: so swim away, sir, as soon as you please!"
+5:5	N:N	F:N	Then he put him back into the water, and the fish darted straight down to the bottom, and left a long streak of blood behind him on the wave.
+6:6	N:N	N:N	When the fisherman went home to his wife in the pigsty, he told her how he had caught a great fish, and how it had told him it was an enchanted prince, and how, on hearing it speak, he had let it go again.
+7:7	D:A	D:A	"Did not you ask it for anything?" said the wife, "we live very wretchedly here, in this nasty dirty pigsty; do go back and tell the fish we want a snug little cottage."
+8:8	Sa:Sa	F:S	The fisherman did not much like the business: however, he went to the seashore; and when he came back there the water looked all yellow and green.
+9:9	N:N	F:S	And he stood at the water"s edge, and said:
+10:10	N:N	N:S	"O man of the sea!
+11:11	N:N	N:N	Hearken to me!
+12:12	N:N	N:S	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+13:13	N:N	N:N	Then the fish came swimming to him, and said, "Well, what is her will?
+14:14	N:N	N:N	What does your wife want?"
+15:15	N:Sa	N:S	"Ah!" said the fisherman, "she says that when I had caught you, I ought to have asked you for something before I let you go; she does not like living any longer in the pigsty, and wants a snug little cottage."
+16:16	N:N	N:H	"Go home, then," said the fish; "she is in the cottage already!"
+17:17	N:N	N:H	So the man went home, and saw his wife standing at the door of a nice trim little cottage.
+18:18	H:N	H:H	"Come in, come in!" said she; "is not this much better than the filthy pigsty we had?"
+19:19	N:N	H:H	And there was a parlour, and a bedchamber, and a kitchen; and behind the cottage there was a little garden, planted with all sorts of flowers and fruits; and there was a courtyard behind, full of ducks and chickens.
+20:20	H:H	H:H	"Ah!" said the fisherman, "how happily we shall live now!"
+21:21	N:N	N:H	"We will try to do so, at least," said his wife.
+22:22	D:N	D:N	Everything went right for a week or two, and then Dame Ilsabill said, "Husband, there is not near room enough for us in this cottage; the courtyard and the garden are a great deal too small; I should like to have a large stone castle to live in: go to the fish again and tell him to give us a castle."
+23:23	F:Sa	F:S	"Wife," said the fisherman, "I don"t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in."
+24:24	A:N	A:A	"Nonsense!" said the wife; "he will do it very willingly, I know; go along and try!"
+25:25	F:Sa	F:S	The fisherman went, but his heart was very heavy: and when he came to the sea, it looked blue and gloomy, though it was very calm; and he went close to the edge of the waves, and said:
+26:26	N:N	N:S	"O man of the sea!
+27:27	N:N	N:S	Hearken to me!
+28:28	N:N	N:S	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+29:29	N:N	N:D	"Well, what does she want now?" said the fish.
+30:30	Sa:Sa	S:S	"Ah!" said the man, dolefully, "my wife wants to live in a stone castle."
+31:31	N:N	N:N	"Go home, then," said the fish; "she is standing at the gate of it already."
+32:32	N:N	N:N	So away went the fisherman, and found his wife standing before the gate of a great castle.
+33:33	H:N	H:N	"See," said she, "is not this grand?"
+34:34	N:N	H:H	With that they went into the castle together, and found a great many servants there, and the rooms all richly furnished, and full of golden chairs and tables; and behind the castle was a garden, and around it was a park half a mile long, full of sheep, and goats, and hares, and deer; and in the courtyard were stables and cow-houses.
+35:35	H:H	H:H	"Well," said the man, "now we will live cheerful and happy in this beautiful castle for the rest of our lives."
+36:36	N:N	N:H	"Perhaps we may," said the wife; "but let us sleep upon it, before we make up our minds to that."
+37:37	N:N	N:N	So they went to bed.
+38:38	N:N	F:N	The next morning when Dame Ilsabill awoke it was broad daylight, and she jogged the fisherman with her elbow, and said, "Get up, husband, and bestir yourself, for we must be king of all the land."
+39:39	N:N	F:-	"Wife, wife," said the man, "why should we wish to be the king?
+40:40	N:N	N:-	I will not be king."
+41:41	N:N	N:A	"Then I will," said she.
+42:42	N:N	N:S	"But, wife," said the fisherman, "how can you be king--the fish cannot make you a king?"
+43:43	A:N	A:A	"Husband," said she, "say no more about it, but go and try!
+44:44	N:N	N:A	I will be king."
+45:45	Sa:Sa	S:S	So the man went away quite sorrowful to think that his wife should want to be king.
+46:46	N:N	F:S	This time the sea looked a dark grey colour, and was overspread with curling waves and the ridges of foam as he cried out:
+47:47	N:N	F:S	"O man of the sea!
+48:48	N:N	F:S	Hearken to me!
+49:49	N:N	F:S	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+50:50	N:N	F:A	"Well, what would she have now?" said the fish.
+51:51	Sa:N	S:S	"Alas!" said the poor man, "my wife wants to be king."
+52:52	N:N	N:S	"Go home," said the fish; "she is king already."
+53:53	N:N	N:S	Then the fisherman went home; and as he came close to the palace he saw a troop of soldiers, and heard the sound of drums and trumpets.
+54:54	N:N	N:+	And when he went in he saw his wife sitting on a throne of gold and diamonds, with a golden crown upon her head; and on each side of her stood six fair maidens, each a head taller than the other.
+55:55	N:N	N:N	"Well, wife," said the fisherman, "are you king?"
+56:56	N:N	N:H	"Yes," said she, "I am king."
+57:57	H:N	F:H	And when he had looked at her for a long time, he said, "Ah, wife! what a fine thing it is to be king!
+58:58	H:N	H:H	Now we shall never have anything more to wish for as long as we live."
+59:59	N:N	N:N	"I don"t know how that may be," said she; "never is a long time.
+60:60	D:Sa	D:S	I am king, it is true; but I begin to be tired of that, and I think I should like to be emperor."
+61:61	Sa:N	S:S	"Alas, wife! why should you wish to be emperor?" said the fisherman.
+62:62	N:N	N:A	"Husband," said she, "go to the fish!
+63:63	N:N	N:A	I say I will be emperor."
+64:64	F:Sa	F:S	"Ah, wife!" replied the fisherman, "the fish cannot make an emperor, I am sure, and I should not like to ask him for such a thing."
+65:65	A:N	A:A	"I am king," said Ilsabill, "and you are my slave; so go at once!"
+66:66	F:F	F:F	So the fisherman was forced to go; and he muttered as he went along, "This will come to no good, it is too much to ask; the fish will be tired at last, and then we shall be sorry for what we have done."
+67:67	N:N	F:F	He soon came to the seashore; and the water was quite black and muddy, and a mighty whirlwind blew over the waves and rolled them about, but he went as near as he could to the water"s brink, and said:
+68:68	N:N	F:S	"O man of the sea!
+69:69	N:N	F:S	Hearken to me!
+70:70	N:N	F:S	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+71:71	N:N	F:A	"What would she have now?" said the fish.
+72:72	N:N	F:S	"Ah!" said the fisherman, "she wants to be emperor."
+73:73	N:N	N:S	"Go home," said the fish; "she is emperor already."
+74:74	N:N	F:N	So he went home again; and as he came near he saw his wife Ilsabill sitting on a very lofty throne made of solid gold, with a great crown on her head full two yards high; and on each side of her stood her guards and attendants in a row, each one smaller than the other, from the tallest giant down to a little dwarf no bigger than my finger.
+75:75	N:N	F:N	And before her stood princes, and dukes, and earls: and the fisherman went up to her and said, "Wife, are you emperor?"
+76:76	N:N	N:N	"Yes," said she, "I am emperor."
+77:77	H:N	H:H	"Ah!" said the man, as he gazed upon her, "what a fine thing it is to be emperor!"
+78:78	N:N	N:N	"Husband," said she, "why should we stop at being emperor?
+79:79	N:N	N:N	I will be pope next."
+80:80	F:N	F:-	"O wife, wife!" said he, "how can you be pope? there is but one pope at a time in Christendom."
+81:81	N:N	N:A	"Husband," said she, "I will be pope this very day."
+82:82	N:N	N:S	"But," replied the husband, "the fish cannot make you pope."
+83:83	N:N	N:A	"What nonsense!" said she; "if he can make an emperor, he can make a pope: go and try him."
+84:84	N:N	N:S	So the fisherman went.
+85:85	N:N	F:S	But when he came to the shore the wind was raging and the sea was tossed up and down in boiling waves, and the ships were in trouble, and rolled fearfully upon the tops of the billows.
+86:86	N:N	F:F	In the middle of the heavens there was a little piece of blue sky, but towards the south all was red, as if a dreadful storm was rising.
+87:87	F:F	F:F	At this sight the fisherman was dreadfully frightened, and he trembled so that his knees knocked together: but still he went down near to the shore, and said:
+88:88	N:N	F:F	"O man of the sea!
+89:89	N:N	F:F	Hearken to me!
+90:90	N:N	F:F	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+91:91	N:N	F:A	"What does she want now?" said the fish.
+92:92	N:N	F:F	"Ah!" said the fisherman, "my wife wants to be pope."
+93:93	N:N	F:A	"Go home," said the fish; "she is pope already."
+94:94	N:N	-:S	Then the fisherman went home, and found Ilsabill sitting on a throne that was two miles high.
+95:95	N:N	-:S	And she had three great crowns on her head, and around her stood all the pomp and power of the Church.
+96:96	N:N	-:S	And on each side of her were two rows of burning lights, of all sizes, the greatest as large as the highest and biggest tower in the world, and the least no larger than a small rushlight.
+97:97	N:N	N:N	"Wife," said the fisherman, as he looked at all this greatness, "are you pope?"
+98:98	N:N	N:N	"Yes," said she, "I am pope."
+99:99	H:H	F:H	"Well, wife," replied he, "it is a grand thing to be pope; and now you must be easy, for you can be nothing greater."
+100:100	N:N	F:N	"I will think about that," said the wife.
+101:101	N:N	N:S	Then they went to bed: but Dame Ilsabill could not sleep all night for thinking what she should be next.
+102:102	N:N	N:N	At last, as she was dropping asleep, morning broke, and the sun rose.
+103:103	N:N	N:A	"Ha!" thought she, as she woke up and looked at it through the window, "after all I cannot prevent the sun rising."
+104:104	A:A	F:A	At this thought she was very angry, and wakened her husband, and said, "Husband, go to the fish and tell him I must be lord of the sun and moon."
+105:105	F:F	F:F	The fisherman was half asleep, but the thought frightened him so much that he started and fell out of bed.
+106:106	F:N	F:S	"Alas, wife!" said he, "cannot you be easy with being pope?"
+107:107	A:A	A:A	"No," said she, "I am very uneasy as long as the sun and moon rise without my leave.
+108:108	A:N	A:A	Go to the fish at once!"
+109:109	F:F	F:F	Then the man went shivering with fear; and as he was going down to the shore a dreadful storm arose, so that the trees and the very rocks shook.
+110:110	N:N	F:F	And all the heavens became black with stormy clouds, and the lightnings played, and the thunders rolled; and you might have seen in the sea great black waves, swelling up like mountains with crowns of white foam upon their heads.
+111:111	N:N	F:F	And the fisherman crept towards the sea, and cried out, as well as he could:
+112:112	N:N	F:F	"O man of the sea!
+113:113	N:N	F:F	Hearken to me!
+114:114	N:N	F:F	My wife Ilsabill Will have her own will, And hath sent me to beg a boon of thee!"
+115:115	N:N	F:A	"What does she want now?" said the fish.
+116:116	N:N	F:F	"Ah!" said he, "she wants to be lord of the sun and moon."
+117:117	N:N	A:A	"Go home," said the fish, "to your pigsty again."
+118:118	N:N	N:N	And there they live to this very day.

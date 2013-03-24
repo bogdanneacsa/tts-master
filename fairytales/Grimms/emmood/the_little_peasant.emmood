@@ -1,0 +1,92 @@
+0:0	N:N	N:N	There was a certain village wherein no one lived but really rich peasants, and just one poor one, whom they called the little peasant.
+1:1	Sa:N	N:N	He had not even so much as a cow, and still less money to buy one, and yet he and his wife did so wish to have one.
+2:2	N:N	N:N	One day he said to her: "Listen, I have a good idea, there is our gossip the carpenter, he shall make us a wooden calf, and paint it brown, so that it looks like any other, and in time it will certainly get big and be a cow." the woman also liked the idea, and their gossip the carpenter cut and planed the calf, and painted it as it ought to be, and made it with its head hanging down as if it were eating.
+3:3	N:N	N:N	Next morning when the cows were being driven out, the little peasant called the cow-herd in and said: "Look, I have a little calf there, but it is still small and has to be carried."
+4:4	N:N	N:N	The cow-herd said: "All right," and took it in his arms and carried it to the pasture, and set it among the grass.
+5:5	H:N	H:N	The little calf always remained standing like one which was eating, and the cow-herd said: "It will soon run by itself, just look how it eats already!"
+6:6	A:N	N:N	At night when he was going to drive the herd home again, he said to the calf: "If you can stand there and eat your fill, you can also go on your four legs; I don"t care to drag you home again in my arms."
+7:7	F:N	F:N	But the little peasant stood at his door, and waited for his little calf, and when the cow-herd drove the cows through the village, and the calf was missing, he inquired where it was.
+8:8	N:N	F:N	The cow-herd answered: "It is still standing out there eating.
+9:9	A:N	F:N	It would not stop and come with us."
+10:10	F:N	F:N	But the little peasant said: "Oh, but I must have my beast back again."
+11:11	F:N	F:N	Then they went back to the meadow together, but someone had stolen the calf, and it was gone.
+12:12	F:N	F:N	The cow-herd said: "It must have run away."
+13:13	A:A	F:A	The peasant, however, said: "Don"t tell me that," and led the cow-herd before the mayor, who for his carelessness condemned him to give the peasant a cow for the calf which had run away.
+14:14	Sa:H	S:S	And now the little peasant and his wife had the cow for which they had so long wished, and they were heartily glad, but they had no food for it, and could give it nothing to eat, so it soon had to be killed.
+15:15	Sa:N	S:N	They salted the flesh, and the peasant went into the town and wanted to sell the skin there, so that he might buy a new calf with the proceeds.
+16:16	Sa:N	S:N	On the way he passed by a mill, and there sat a raven with broken wings, and out of pity he took him and wrapped him in the skin.
+17:17	F:N	F:S	But as the weather grew so bad and there was a storm of rain and wind, he could go no farther, and turned back to the mill and begged for shelter.
+18:18	N:N	F:N	The miller"s wife was alone in the house, and said to the peasant: "Lay yourself on the straw there," and gave him a slice of bread and cheese.
+19:19	N:N	F:N	The peasant ate it, and lay down with his skin beside him, and the woman thought: "He is tired and has gone to sleep."
+20:20	H:N	F:N	In the meantime came the parson; the miller"s wife received him well, and said: "My husband is out, so we will have a feast."
+21:21	A:A	A:N	The peasant listened, and when he heard them talk about feasting he was vexed that he had been forced to make shift with a slice of bread and cheese.
+22:22	N:N	A:N	Then the woman served up four different things, roast meat, salad, cakes, and wine.
+23:23	Su+:N	A:N	Just as they were about to sit down and eat, there was a knocking outside.
+24:24	Su-:F	A:F	The woman said: "Oh, heavens!
+25:25	Su-:N	F:F	It is my husband!" she quickly hid the roast meat inside the tiled stove, the wine under the pillow, the salad on the bed, the cakes under it, and the parson in the closet on the porch.
+26:26	F:F	F:F	Then she opened the door for her husband, and said: "Thank heaven, you are back again!
+27:27	F:N	F:F	There is such a storm, it looks as if the world were coming to an end."
+28:28	Su-:A	F:A	The miller saw the peasant lying on the straw, and asked, "What is that fellow doing there?"
+29:29	Sa:N	F:N	"Ah," said the wife, "the poor knave came in the storm and rain, and begged for shelter, so I gave him a bit of bread and cheese, and showed him where the straw was."
+30:30	N:N	F:N	The man said: "I have no objection, but be quick and get me something to eat."
+31:31	A:N	F:N	The woman said: "But I have nothing but bread and cheese."
+32:32	H:N	N:N	"I am contented with anything," replied the husband, "so far as I am concerned, bread and cheese will do," and looked at the peasant and said: "Come and eat some more with me."
+33:33	H:N	N:N	The peasant did not require to be invited twice, but got up and ate.
+34:34	Su+:N	N:N	After this the miller saw the skin in which the raven was, lying on the ground, and asked: "What have you there?"
+35:35	N:N	N:N	The peasant answered: "I have a soothsayer inside it."
+36:36	Su+:N	N:N	"Can he foretell anything to me?" said the miller.
+37:37	Su+:N	+:N	"Why not?" answered the peasant: "but he only says four things, and the fifth he keeps to himself."
+38:38	Su+:N	+:N	The miller was curious, and said: "Let him foretell something for once."
+39:39	N:N	+:N	Then the peasant pinched the raven"s head, so that he croaked and made a noise like krr, krr.
+40:40	Su+:N	+:N	The miller said: "What did he say?"
+41:41	N:N	+:N	The peasant answered: "In the first place, he says that there is some wine hidden under the pillow."
+42:42	Su+:Su+	+:+	"Bless me!" cried the miller, and went there and found the wine.
+43:43	Su+:N	+:+	"Now go on," said he.
+44:44	N:N	+:+	The peasant made the raven croak again, and said: "In the second place, he says that there is some roast meat in the tiled stove."
+45:45	Su+:Su+	+:+	"Upon my word!" cried the miller, and went thither, and found the roast meat.
+46:46	N:N	+:N	The peasant made the raven prophesy still more, and said: "Thirdly, he says that there is some salad on the bed."
+47:47	Su+:Su-	+:+	"That would be a fine thing!" cried the miller, and went there and found the salad.
+48:48	N:N	+:N	At last the peasant pinched the raven once more till he croaked, and said: "Fourthly, he says that there are some cakes under the bed."
+49:49	Su+:Su+	+:+	"That would be a fine thing!" cried the miller, and looked there, and found the cakes.
+50:50	F:F	F:F	And now the two sat down to the table together, but the miller"s wife was frightened to death, and went to bed and took all the keys with her.
+51:51	F:N	F:N	The miller would have liked much to know the fifth, but the little peasant said: "First, we will quickly eat the four things, for the fifth is something bad."
+52:52	N:N	F:N	So they ate, and after that they bargained how much the miller was to give for the fifth prophecy, until they agreed on three hundred talers.
+53:53	N:N	F:N	Then the peasant once more pinched the raven"s head till he croaked loudly.
+54:54	F:N	F:N	The miller asked: "What did he say?"
+55:55	F:N	F:N	The peasant replied: "He says that the Devil is hiding outside there in the closet on the porch."
+56:56	F:N	F:A	The miller said: "The Devil must go out," and opened the house-door; then the woman was forced to give up the keys, and the peasant unlocked the closet.
+57:57	F:Su+	F:+	The parson ran out as fast as he could, and the miller said: "It was true; I saw the black rascal with my own eyes."
+58:58	H:N	H:N	The peasant, however, made off next morning by daybreak with the three hundred talers.
+59:59	H:N	H:N	At home the small peasant gradually launched out; he built a beautiful house, and the peasants said: "The small peasant has certainly been to the place where golden snow falls, and people carry the gold home in shovels."
+60:60	F:N	H:N	Then the small peasant was brought before the mayor, and bidden to say from whence his wealth came.
+61:61	N:N	H:N	He answered: "I sold my cow"s skin in the town, for three hundred talers."
+62:62	Su+:N	H:-	When the peasants heard that, they too wished to enjoy this great profit, and ran home, killed all their cows, and stripped off their skins in order to sell them in the town to the greatest advantage.
+63:63	A:N	H:N	The mayor, however, said: "But my servant must go first."
+64:64	A:N	F:N	When she came to the merchant in the town, he did not give her more than two talers for a skin, and when the others came, he did not give them so much, and said: "What can I do with all these skins?"
+65:65	A:A	F:A	Then the peasants were vexed that the small peasant should have thus outwitted them, wanted to take vengeance on him, and accused him of this treachery before the major.
+66:66	F:N	F:A	The innocent little peasant was unanimously sentenced to death, and was to be rolled into the water, in a barrel pierced full of holes.
+67:67	F:N	F:A	He was led forth, and a priest was brought who was to say a mass for his soul.
+68:68	Su+:N	F:N	The others were all obliged to retire to a distance, and when the peasant looked at the priest, he recognized the man who had been with the miller"s wife.
+69:69	F:N	F:+	He said to him: "I set you free from the closet, set me free from the barrel."
+70:70	F:Su+	F:+	At this same moment up came, with a flock of sheep, the very shepherd whom the peasant knew had long been wishing to be mayor, so he cried with all his might: "No, I will not do it; if the whole world insists on it, I will not do it!"
+71:71	Su-:N	F:N	The shepherd hearing that, came up to him, and asked: "What are you about?
+72:72	Su-:N	F:N	What is it that you will not do?"
+73:73	F:N	F:N	The peasant said: "They want to make me mayor, if I will but put myself in the barrel, but I will not do it."
+74:74	Su+:N	F:N	The shepherd said: "If nothing more than that is needful in order to be mayor, I would get into the barrel at once."
+75:75	F:N	F:N	The peasant said: "If you will get in, you will be mayor."
+76:76	H:N	F:-	The shepherd was willing, and got in, and the peasant shut the top down on him; then he took the shepherd"s flock for himself, and drove it away.
+77:77	N:N	F:N	The parson went to the crowd, and declared that the mass had been said.
+78:78	N:N	F:N	Then they came and rolled the barrel towards the water.
+79:79	F:N	F:N	When the barrel began to roll, the shepherd cried: "I am quite willing to be mayor."
+80:80	H:N	F:N	They believed no otherwise than that it was the peasant who was saying this, and answered: "That is what we intend, but first you shall look about you a little down below there," and they rolled the barrel down into the water.
+81:81	H:H	F:H	After that the peasants went home, and as they were entering the village, the small peasant also came quietly in, driving a flock of sheep and looking quite contented.
+82:82	Su-:Su-	F:+	Then the peasants were astonished, and said: "Peasant, from whence do you come?
+83:83	Su-:N	F:+	Have you come out of the water?"
+84:84	H:N	H:N	"Yes, truly," replied the peasant, "I sank deep, deep down, until at last I got to the bottom; I pushed the bottom out of the barrel, and crept out, and there were pretty meadows on which a number of lambs were feeding, and from thence I brought this flock away with me."
+85:85	Su+:N	H:N	Said the peasants: "Are there any more there?"
+86:86	H:N	H:N	"Oh, yes," said he, "more than I could want."
+87:87	H:N	H:N	Then the peasants made up their minds that they too would fetch some sheep for themselves, a flock apiece, but the mayor said: "I come first."
+88:88	Su+:Su+	H:+	So they went to the water together, and just then there were some of the small fleecy clouds in the blue sky, which are called little lambs, and they were reflected in the water, whereupon the peasants cried: "We already see the sheep down below!"
+89:89	Su+:N	H:N	The mayor pressed forward and said: "I will go down first, and look about me, and if things promise well I"ll call you."
+90:90	H:N	H:-	So he jumped in; splash! went the water; it sounded as if he were calling them, and the whole crowd plunged in after him as one man.
+91:91	H:N	H:H	Then the entire village was dead, and the small peasant, as sole heir, became a rich man.

@@ -1,0 +1,186 @@
+0:0	N:N	N:N	Once upon a time there was an old cat, called Mrs. Tabitha Twitchit, who was an anxious parent.
+1:1	N:N	N:N	She used to lose her kittens continually, and whenever they were lost they were always in mischief!
+2:2	N:N	N:N	On baking day she determined to shut them up in a cupboard.
+3:3	N:N	N:N	She caught Moppet and Mittens, but she could not find Tom.
+4:4	N:N	N:N	Mrs. Tabitha went up and down all over the house, mewing for Tom Kitten.
+5:5	N:N	N:N	She looked in the pantry under the staircase, and she searched the best spare bedroom that was all covered up with dust sheets.
+6:6	N:N	N:N	She went right upstairs and looked into the attics, but she could not find him anywhere.
+7:7	N:N	N:N	It was an old, old house, full of cupboards and passages.
+8:8	N:N	N:N	Some of the walls were four feet thick, and there used to be queer noises inside them, as if there might be a little secret staircase.
+9:9	N:N	N:N	Certainly there were odd little jagged doorways in the wainscot, and things disappeared at night-- especially cheese and bacon.
+10:10	F:F	F:F	Mrs. Tabitha became more and more distracted and mewed dreadfully.
+11:11	N:N	N:N	While their mother was searching the house, Moppet and Mittens had got into mischief.
+12:12	N:N	N:N	The cupboard door was not locked, so they pushed it open and came out.
+13:13	N:N	N:N	They went straight to the dough which was set to rise in a pan before the fire.
+14:14	H:N	H:N	They patted it with their little soft paws--"Shall we make dear little muffins?" said Mittens to Moppet.
+15:15	F:F	F:F	But just at that moment somebody knocked at the front door, and Moppet jumped into the flour barrel in a fright.
+16:16	F:F	F:F	Mittens ran away to the dairy and hid in an empty jar on the stone shelf where the milk pans stand.
+17:17	N:N	N:N	The visitor was a neighbor, Mrs. Ribby; she had called to borrow some yeast.
+18:18	Sa:F	S:F	Mr. Tabitha came downstairs mewing dreadfully--"Come in, Cousin Ribby, come in, and sit ye down!
+19:19	Sa:Sa	S:S	I'm in sad trouble, Cousin Ribby," said Tabitha, shedding tears.
+20:20	Sa:F	S:F	"I've lost my dear son Thomas; I'm afraid the rats have got him."
+21:21	Sa:F	S:S	She wiped her eyes with her apron.
+22:22	D:A	D:A	"He's a bad kitten, Cousin Tabitha; he made a cat's cradle of my best bonnet last time I came to tea.
+23:23	N:N	N:N	Where have you looked for him?"
+24:24	Sa:N	S:N	"All over the house!
+25:25	Sa:N	S:N	The rats are too many for me.
+26:26	A:N	S:N	What a thing it is to have an unruly family!" said Mrs. Tabitha Twitchit.
+27:27	N:A	A:A	"I'm not afraid of rats; I will help you to find him; and whip him, too!
+28:28	N:N	N:N	What is all that soot in the fender?"
+29:29	Su-:Su-	-:-	"The chimney wants sweeping-- Oh, dear me, Cousin Ribby--now Moppet and Mittens are gone!
+30:30	Su-:N	-:-	"They have both got out of the cupboard!"
+31:31	N:N	N:N	Ribby and Tabitha set to work to search the house thoroughly again.
+32:32	N:N	N:N	They poked under the beds with Ribby's umbrella and they rummaged in cupboards.
+33:33	N:N	N:N	They even fetched a candle and looked inside a clothes chest in one of the attics.
+34:34	N:N	N:N	They could not find anything, but once they heard a door bang and somebody scuttered downstairs.
+35:35	Sa:Sa	S:S	"Yes, it is infested with rats," said Tabitha tearfully.
+36:36	N:N	N:N	"I caught seven young ones out of one hole in the back kitchen, and we had them for dinner last Saturday.
+37:37	N:N	N:N	And once I saw the old father rat--an enormous old rat-- Cousin Ribby.
+38:38	N:N	N:N	I was just going to jump upon him, when he showed his yellow teeth at me and whisked down the hole.
+39:39	A:D	A:D	"The rats get upon my nerves, Cousin Ribby," said Tabitha.
+40:40	N:N	N:N	Ribby and Tabitha searched and searched.
+41:41	N:N	N:N	They both heard a curious roly-poly noise under the attic floor.
+42:42	N:N	N:N	But there was nothing to be seen.
+43:43	N:N	N:N	They returned to the kitchen.
+44:44	Su+:N	+:N	"Here's one of your kittens at least," said Ribby, dragging Moppet out of the flour barrel.
+45:45	N:N	N:N	They shook the flour off her and set her down on the kitchen floor.
+46:46	F:F	F:F	She seemed to be in a terrible fright.
+47:47	F:Su-	F:-	"Oh!
+48:48	Su-:F	-:F	Mother, Mother," said Moppet, "there's been an old woman rat in the kitchen, and she's stolen some of the dough!"
+49:49	N:N	-:N	The two cats ran to look at the dough pan.
+50:50	N:N	-:N	Sure enough there were marks of little scratching fingers, and a lump of dough was gone!
+51:51	N:N	-:N	"Which way did she go, Moppet?"
+52:52	N:F	-:F	But Moppet had been too much frightened to peep out of the barrel again.
+53:53	N:N	N:N	Ribby and Tabitha took her with them to keep her safely in sight, while they went on with their search.
+54:54	N:N	N:N	They went into the dairy.
+55:55	N:N	N:N	The first thing they found was Mittens, hiding in an empty jar.
+56:56	N:N	N:N	They tipped over the jar, and she scrambled out.
+57:57	F:F	F:F	"Oh, Mother, Mother!" said Mittens--
+58:58	F:F	F:F	"Oh!
+59:59	Su+:F	-:F	Mother, Mother, there has been an old man rat in the dairy--a dreadful 'normous big rat, Mother; and he's stolen a pat of butter and the rolling pin."
+60:60	N:N	N:N	Ribby and Tabitha looked at one another.
+61:61	Su-:N	-:N	"A rolling pin and butter!
+62:62	F:F	F:F	Oh, my poor son Thomas!" exclaimed Tabitha, wringing her paws.
+63:63	N:N	N:N	"A rolling pin?" said Ribby.
+64:64	N:N	F:N	"Did we not hear a roly-poly noise in the attic when we were looking into that chest?"
+65:65	N:N	F:N	Ribby and Tabitha rushed upstairs again.
+66:66	N:N	F:N	Sure enough the roly-poly noise was still going on quite distinctly under the attic floor.
+67:67	F:N	F:N	"This is serious, Cousin Tabitha," said Ribby.
+68:68	F:N	F:N	"We must send for John Joiner at once, with a saw."
+69:69	N:N	N:N	Now, this is what had been happening to Tom Kitten, and it shows how very unwise it is to go up a chimney in a very old house, where a person does not know his way, and where there are enormous rats.
+70:70	N:N	N:N	Tom Kitten did not want to be shut up in a cupboard.
+71:71	N:N	N:N	When he saw that his mother was going to bake, he determined to hide.
+72:72	N:N	N:N	He looked about for a nice convenient place, and he fixed upon the chimney.
+73:73	N:N	N:N	The fire had only just been lighted, and it was not hot; but there was a white choky smoke from the green sticks.
+74:74	N:N	N:N	Tom Kitten got upon the fender and looked up.
+75:75	N:N	N:N	It was a big old- fashioned fireplace.
+76:76	N:N	N:N	The chimney itself was wide enough inside for a man to stand up and walk about.
+77:77	N:N	N:N	So there was plenty of room for a little Tom Cat.
+78:78	N:N	N:N	He jumped right up into the fireplace, balancing himself upon the iron bar where the kettle hangs.
+79:79	N:N	N:N	Tom Kitten took another big jump off the bar and landed on a ledge high up inside the chimney, knocking down some soot into the fender.
+80:80	N:N	N:N	Tom Kitten coughed and choked with the smoke; he could hear the sticks beginning to crackle and burn in the fireplace down below.
+81:81	N:N	N:N	He made up his mind to climb right to the top, and get out on the slates, and try to catch sparrows.
+82:82	F:N	F:N	"I cannot go back.
+83:83	F:N	F:N	If I slipped I might fall in the fire and singe my beautiful tail and my little blue jacket."
+84:84	N:N	N:N	The chimney was a very big old- fashioned one.
+85:85	N:N	N:N	It was built in the days when people burnt logs of wood upon the hearth.
+86:86	N:N	N:N	The chimney stack stood up above the roof like a little stone tower, and the daylight shone down from the top, under the slanting slates that kept out the rain.
+87:87	F:F	F:F	Tom Kitten was getting very frightened!
+88:88	N:N	F:N	He climbed up, and up, and up.
+89:89	N:N	F:N	Then he waded sideways through inches of soot.
+90:90	N:N	F:N	He was like a little sweep himself.
+91:91	N:F	F:F	It was most confusing in the dark.
+92:92	N:N	F:N	One flue seemed to lead into another.
+93:93	F:F	F:F	There was less smoke, but Tom Kitten felt quite lost.
+94:94	N:N	F:N	He scrambled up and up; but before he reached the chimney top he came to a place where somebody had loosened a stone in the wall.
+95:95	N:N	F:N	There were some mutton bones lying about.
+96:96	N:N	F:N	"This seems funny," said Tom Kitten.
+97:97	N:N	F:N	"Who has been gnawing bones up here in the chimney?
+98:98	F:F	F:F	I wish I had never come!
+99:99	F:N	F:N	And what a funny smell?
+100:100	N:F	F:F	It is something like mouse, only dreadfully strong.
+101:101	N:N	F:F	It makes me sneeze," said Tom Kitten.
+102:102	N:N	F:F	He squeezed through the hole in the wall and dragged himself along a most uncomfortably tight passage where there was scarcely any light.
+103:103	N:N	F:F	He groped his way carefully for several yards; he was at the back of the skirting board in the attic, where there is a little mark * in the picture.
+104:104	N:N	-:F	All at once he fell head over heels in the dark, down a hole, and landed on a heap of very dirty rags.
+105:105	Su-:N	-:F	When Tom Kitten picked himself up and looked about him, he found himself in a place that he had never seen before, although he had lived all his life in the house.
+106:106	N:N	-:F	It was a very small stuffy fusty room, with boards, and rafters, and cobwebs, and lath and plaster.
+107:107	N:N	F:F	Opposite to him--as far away as he could sit--was an enormous rat.
+108:108	A:A	A:A	"What do you mean by tumbling into my bed all covered with smuts?" said the rat, chattering his teeth.
+109:109	F:N	F:F	"Please, sir, the chimney wants sweeping," said poor Tom Kitten.
+110:110	A:N	A:N	"Anna Maria!
+111:111	A:N	A:N	Anna Maria!" squeaked the rat.
+112:112	N:N	A:N	There was a pattering noise and an old woman rat poked her head round a rafter.
+113:113	N:Su-	A:-	All in a minute she rushed upon Tom Kitten, and before he knew what was happening.
+114:114	N:N	A:N	. .
+115:115	N:N	-:F	. . . his coat was pulled off, and he was rolled up in a bundle, and tied with string in very hard knots.
+116:116	N:N	-:N	Anna Maria did the tying.
+117:117	N:N	-:N	The old rat watched her and took snuff.
+118:118	N:N	-:N	When she had finished, they both sat staring at him with their mouths open.
+119:119	H:N	-:N	"Anna Maria," said the old man rat (whose name was Samuel Whiskers), "Anna Maria, make me a kitten dumpling roly-poly pudding for my dinner."
+120:120	N:N	N:N	"It requires dough and a pat of butter and a rolling pin," said Anna Maria, considering Tom Kitten with her head on one side.
+121:121	A:N	A:N	"No," said Samuel Whiskers, "make it properly, Anna Maria, with breadcrumbs."
+122:122	A:D	A:D	"Nonsense!
+123:123	A:N	A:N	Butter and dough," replied Anna Maria.
+124:124	N:N	N:N	The two rats consulted together for a few minutes and then went away.
+125:125	N:N	N:N	Samuel Whiskers got through a hole in the wainscot and went boldly down the front staircase to the dairy to get the butter.
+126:126	N:N	N:N	He did not meet anybody.
+127:127	N:N	N:N	He made a second journey for the rolling pin.
+128:128	N:N	N:N	He pushed it in front of him with his paws, like a brewer's man trundling a barrel.
+129:129	N:N	N:N	He could hear Ribby and Tabitha talking, but they were too busy lighting the candle to look into the chest.
+130:130	N:N	N:N	They did not see him.
+131:131	N:N	N:N	Anna Maria went down by way of skirting board and a window shutter to the kitchen to steal the dough.
+132:132	N:N	N:N	She borrowed a small saucer and scooped up the dough with her paws.
+133:133	N:N	N:N	She did not observe Moppet.
+134:134	F:F	F:F	While Tom Kitten was left alone under the floor of the attic, he wriggled about and tried to mew for help.
+135:135	N:N	F:F	But his mouth was full of soot and cobwebs, and he was tied up in such very tight knots, he could not make anybody hear him.
+136:136	N:N	F:F	Except a spider who came out of a crack in the ceiling and examined the knots critically, from a safe distance.
+137:137	N:N	N:N	It was a judge of knots because it had a habit of tying up unfortunate bluebottles.
+138:138	N:N	N:N	It did not offer to assist him.
+139:139	F:F	F:F	Tom Kitten wriggled and squirmed until he was quite exhausted.
+140:140	N:N	N:F	Presently the rats came back and set to work to make him into a dumpling.
+141:141	N:N	N:F	First they smeared him with butter, and then they rolled him in the dough.
+142:142	N:N	N:N	"Will not the string be very indigestible, Anna Maria?" inquired Samuel Whiskers.
+143:143	A:N	A:N	Anna Maria said she thought that it was of no consequence; but she wished that Tom Kitten would hold his head still, as it disarranged the pastry.
+144:144	N:N	A:N	She laid hold of his ears.
+145:145	A:A	A:A	Tom Kitten bit and spit, and mewed and wriggled; and the rolling pin went roly-poly, roly; roly-poly, roly.
+146:146	N:N	N:N	The rats each held an end.
+147:147	D:N	D:N	"His tail is sticking out!
+148:148	D:N	D:N	You did not fetch enough dough, Anna Maria."
+149:149	A:N	A:N	"I fetched as much as I could carry," replied Anna Maria.
+150:150	A:N	A:N	"I do not think"--said Samuel Whiskers, pausing to take a look at Tom Kitten--"I do NOT think it will be a good pudding.
+151:151	D:N	A:N	It smells sooty."
+152:152	Su-:Su-	-:-	Anna Maria was about to argue the point when all at once there began to be other sounds up above--the rasping noise of a saw, and the noise of a little dog, scratching and yelping!
+153:153	Su-:F	-:F	The rats dropped the rolling pin and listened attentively.
+154:154	F:N	F:N	"We are discovered and interrupted, Anna Maria; let us collect our property--and other people's--and depart at once.
+155:155	N:Sa	F:S	"I fear that we shall be obliged to leave this pudding.
+156:156	D:N	D:N	"But I am persuaded that the knots would have proved indigestible, whatever you may urge to the contrary."
+157:157	N:N	F:N	"Come away at once and help me to tie up some mutton bones in a counterpane," said Anna Maria.
+158:158	N:N	F:N	"I have got half a smoked ham hidden in the chimney."
+159:159	N:N	-:N	So it happened that by the time John Joiner had got the plank up-- there was nobody here under the floor except the rolling pin and Tom Kitten in a very dirty dumpling!
+160:160	N:A	N:A	But there was a strong smell of rats; and John Joiner spent the rest of the morning sniffing and whining, and wagging his tail, and going round and round with his head in the hole like a gimlet.
+161:161	N:N	N:N	Then he nailed the plank down again and put his tools in his bag, and came downstairs.
+162:162	N:H	N:H	The cat family had quite recovered.
+163:163	N:N	N:N	They invited him to stay to dinner.
+164:164	N:N	N:N	The dumpling had been peeled off Tom Kitten and made separately into a bag pudding, with currants in it to hide the smuts.
+165:165	N:N	N:N	They had been obliged to put Tom Kitten into a hot bath to get the butter off.
+166:166	N:Sa	N:S	John Joiner smelt the pudding; but he regretted that he had not time to stay to dinner, because he had just finished making a wheelbarrow for Miss Potter, and she had ordered two hen coops.
+167:167	N:N	N:N	And when I was going to the post late in the afternoon--I looked up the land from the corner, and I saw Mr. Samuel Whiskers and his wife on the run, with big bundles on a little wheelbarrow, which looked very much like mine.
+168:168	N:N	N:N	They were just turning in at the gate to the barn of Farmer Potatoes.
+169:169	N:N	N:N	Samuel Whiskers was puffing and out of breath.
+170:170	A:A	N:A	Anna Maria was still arguing in shrill tones.
+171:171	N:N	N:N	She seemed to know her way, and she seemed to have a quantity of luggage.
+172:172	N:N	N:N	I am sure _I_ never gave her leave to borrow my wheelbarrow!
+173:173	N:N	N:N	They went into the barn and hauled their parcels with a bit of string to the top of the haymow.
+174:174	N:N	H:N	After that, there were no more rats for a long time at Tabitha Twitchit's.
+175:175	A:A	A:A	As for Farmer Potatoes, he has been driven nearly distracted.
+176:176	N:N	-:N	There are rats, and rats, and rats in his barn!
+177:177	N:N	-:N	They eat up the chicken food, and steal the oats and bran, and make holes in the meal bags.
+178:178	N:N	-:N	And they are all descended from Mr. and Mrs. Samuel Whiskers-- children and grandchildren and great-great-grandchildren.
+179:179	N:N	-:N	There is no end to them!
+180:180	N:N	N:N	Moppet and Mittens have grown up into very good rat-catchers.
+181:181	N:N	N:N	They go out rat-catching in the village, and they find plenty of employment.
+182:182	N:N	N:N	They charge so much a dozen and earn their living very comfortably.
+183:183	N:N	N:N	They hang up the rats' tails in a row on the barn door, to show how many they have caught--dozens and dozens of them.
+184:184	F:F	N:F	But Tom Kitten has always been afraid of a rat; he never durst face anything that is bigger than--
+185:185	N:N	N:N	A Mouse.

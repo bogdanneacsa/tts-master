@@ -1,0 +1,40 @@
+0:0	N:N	N:N	OF course you know what is meant by a magnifying glass- one of those round spectacle-glasses that make everything look a hundred times bigger than it is?
+1:1	N:N	N:N	When any one takes one of these and holds it to his eye, and looks at a drop of water from the pond yonder, he sees above a thousand wonderful creatures that are otherwise never discerned in the water.
+2:2	N:N	N:N	But there they are, and it is no delusion.
+3:3	N:N	N:N	It almost looks like a great plateful of spiders jumping about in a crowd.
+4:4	F:N	F:N	And how fierce they are!
+5:5	H:H	F:N	They tear off each other's legs. and arms and bodies, before and behind; and yet they are merry and joyful in their way.
+6:6	N:N	N:N	Now, there once was an old man whom all the people called Kribble-Krabble, for that was his name.
+7:7	N:N	N:N	He always wanted the best of everything, and when he could not manage it otherwise, he did it by magic.
+8:8	N:N	N:N	There he sat one day, and held his magnifying-glass to his eye, and looked at a drop of water that had been taken out of a puddle by the ditch.
+9:9	F:N	F:N	But what a kribbling and krabbling was there!
+10:10	Su-:A	-:N	All the thousands of little creatures hopped and sprang and tugged at one another, and ate each other up.
+11:11	D:A	-:A	"That is horrible!" said old Kribble-Krabble.
+12:12	Su-:N	-:A	"Can one not persuade them to live in peace and quietness, so that each one may mind his own business?"
+13:13	Sa:N	-:N	And he thought it over and over, but it would not do, and so he had recourse to magic.
+14:14	Sa:N	-:N	"I must give them color, that they may be seen more plainly," said he; and he poured something like a little drop of red wine into the drop of water, but it was witches' blood from the lobes of the ear, the finest kind, at ninepence a drop.
+15:15	H:N	H:N	And now the wonderful little creatures were pink all over.
+16:16	N:N	H:+	It looked like a whole town of naked wild men.
+17:17	Su+:N	H:+	"What have you there?" asked another old magician, who had no name- and that was the best thing about him.
+18:18	H:N	H:+	"Yes, if you can guess what it is," said Kribble-Krabble, "I'll make you a present of it."
+19:19	F:N	H:N	But it is not so easy to find out if one does not know.
+20:20	N:N	H:N	And the magician who had no name looked through the magnifying-glass.
+21:21	Su-:N	-:+	It looked really like a great town reflected there, in which all the people were running about without clothes.
+22:22	Sa:A	-:A	It was terrible!
+23:23	Su-:A	-:A	But it was still more terrible to see how one beat and pushed the other, and bit and hacked, and tugged and mauled him.
+24:24	F:N	-:A	Those at the top were being pulled down, and those at the bottom were struggling upwards.
+25:25	A:Su-	-:+	"Look! look! his leg is longer than mine!
+26:26	A:Su-	A:A	Bah!
+27:27	A:Su-	A:A	Away with it!
+28:28	Sa:N	A:N	There is one who has a little bruise.
+29:29	Sa:N	A:N	It hurts him, but it shall hurt him still more."
+30:30	A:A	A:A	And they hacked away at him, and they pulled at him, and ate him up, because of the little bruise.
+31:31	Sa:N	S:N	And there was one sitting as still as any little maiden, and wishing only for peace and quietness.
+32:32	A:N	S:-	But now she had to come out, and they tugged at her, and pulled her about, and ate her up.
+33:33	H:Su+	S:-	"That's funny!" said the magician.
+34:34	A:N	S:N	"Yes; but what do you think it is?" said Kribble-Krabble.
+35:35	N:N	S:N	"Can you find that out?"
+36:36	Su+:N	S:N	"Why, one can see that easily enough," said the other.
+37:37	H:N	S:+	"That's Paris, or some other great city, for they're all alike.
+38:38	H:N	S:+	It's a great city!"
+39:39	Su+:Su-	+:+	"It's a drop of puddle water!" said Kribble-Krabble.

@@ -1,0 +1,98 @@
+0:0	N:N	N:N	FAR in the interior of the country lay an old baronial hall, and in it lived an old proprietor, who had two sons, which two young men thought themselves too clever by half.
+1:1	N:N	N:N	They wanted to go out and woo the King's daughter; for the maiden in question had publicly announced that she would choose for her husband that youth who could arrange his words best.
+2:2	N:N	N:N	So these two geniuses prepared themselves a full week for the wooing- this was the longest time that could be granted them; but it was enough, for they had had much preparatory information, and everybody knows how useful that is.
+3:3	N:N	N:N	One of them knew the whole Latin dictionary by heart, and three whole years of the daily paper of the little town into the bargain, and so well, indeed, that he could repeat it all either backwards or forwards, just as he chose.
+4:4	N:N	N:N	The other was deeply read in the corporation laws, and knew by heart what every corporation ought to know; and accordingly he thought he could talk of affairs of state, and put his spoke in the wheel in the council.
+5:5	N:N	N:N	And he knew one thing more: he could embroider suspenders with roses and other flowers, and with arabesques, for he was a tasty, light-fingered fellow.
+6:6	H:N	H:N	"I shall win the Princess!"
+7:7	N:N	H:N	So cried both of them.
+8:8	N:N	N:N	Therefore their old papa gave to each of them a handsome horse.
+9:9	N:N	N:N	The youth who knew the dictionary and newspaper by heart had a black horse, and he who knew all about the corporation laws received a milk-white steed.
+10:10	N:N	N:N	Then they rubbed the corners of their mouths with fish-oil, so that they might become very smooth and glib.
+11:11	N:N	N:N	All the servants stood below in the courtyard, and looked on while they mounted their horses; and just by chance the third son came up.
+12:12	N:N	N:N	For the proprietor had really three sons, though nobody counted the third with his brothers, because he was not so learned as they, and indeed he was generally known as "Jack the Dullard."
+13:13	N:N	N:N	"Hallo!" said Jack the Dullard, "where are you going?
+14:14	Su+:Su+	+:+	I declare you have put on your Sunday clothes!"
+15:15	N:N	N:N	"We're going to the King's court, as suitors to the King's daughter.
+16:16	N:N	N:N	Don't you know the announcement that has been made all through the country?"
+17:17	N:N	N:N	And they told him all about it.
+18:18	Su+:Su+	+:+	"My word!
+19:19	Su+:D	+:D	I'll be in it too!" cried Jack the Dullard; and his two brothers burst out laughing at him, and rode away.
+20:20	N:N	N:N	"Father, dear," said Jack, "I must have a horse too.
+21:21	H:F	N:F	I do feel so desperately inclined to marry!
+22:22	H:N	H:N	If she accepts me, she accepts me; and if she won't have me, I'll have her; but she shall be mine!"
+23:23	D:N	D:N	"Don't talk nonsense," replied the old gentleman.
+24:24	D:N	D:N	"You shall have no horse from me.
+25:25	D:N	D:N	You don't know how to speak- you can't arrange your words.
+26:26	N:N	D:N	Your brothers are very different fellows from you."
+27:27	A:N	D:N	"Well," quoth Jack the Dullard, "If I can't have a horse, I'll take the Billy-goat, who belongs to me, and he can carry me very well!"
+28:28	N:N	N:N	And so said, so done.
+29:29	N:N	N:N	He mounted the Billy-goat, pressed his heels into its sides, and galloped down the high street like a hurricane.
+30:30	N:H	N:H	"Hei, houp! that was a ride!
+31:31	H:H	H:H	Here I come!" shouted Jack the Dullard, and he sang till his voice echoed far and wide.
+32:32	N:N	N:N	But his brothers rode slowly on in advance of him.
+33:33	N:N	N:N	They spoke not a word, for they were thinking about the fine extempore speeches they would have to bring out, and these had to be cleverly prepared beforehand.
+34:34	H:N	H:N	"Hallo!" shouted Jack the Dullard.
+35:35	H:N	H:N	"Here am I!
+36:36	N:N	N:H	Look what I have found on the high road."
+37:37	N:N	N:N	And he showed them what it was, and it was a dead crow.
+38:38	D:Su-	D:+	"Dullard!" exclaimed the brothers, "what are you going to do with that?"
+39:39	H:N	H:H	"With the crow? why, I am going to give it to the Princess."
+40:40	H:D	D:D	"Yes, do so," said they; and they laughed, and rode on.
+41:41	H:Su+	H:+	"Hallo, here I am again! just see what I have found now: you don't find that on the high road every day!"
+42:42	N:N	N:N	And the brothers turned round to see what he could have found now.
+43:43	D:N	D:D	"Dullard!" they cried, "that is only an old wooden shoe, and the upper part is missing into the bargain; are you going to give that also to the Princess?"
+44:44	H:Su-	N:-	"Most certainly I shall," replied Jack the Dullard; and again the brothers laughed and rode on, and thus they got far in advance of him; but- "Hallo- hop rara!" and there was Jack the Dullard again.
+45:45	H:Su+	H:+	"It is getting better and better," he cried.
+46:46	H:H	H:H	"Hurrah! it is quite famous."
+47:47	N:N	N:N	"Why, what have you found this time?" inquired the brothers.
+48:48	H:H	H:H	"Oh," said Jack the Dullard, "I can hardly tell you.
+49:49	H:N	H:H	How glad the Princess will be!"
+50:50	D:N	D:D	"Bah!" said the brothers; "that is nothing but clay out of the ditch."
+51:51	H:N	H:H	"Yes, certainly it is," said Jack the Dullard; "and clay of the finest sort.
+52:52	H:N	H:H	See, it is so wet, it runs through one's fingers."
+53:53	N:N	N:H	And he filled his pocket with the clay.
+54:54	N:N	N:N	But his brothers galloped on till the sparks flew, and consequently they arrived a full hour earlier at the town gate than could Jack.
+55:55	N:N	N:N	Now at the gate each suitor was provided with a number, and all were placed in rows immediately on their arrival, six in each row, and so closely packed together that they could not move their arms; and that was a prudent arrangement, for they would certainly have come to blows, had they been able, merely because one of them stood before the other.
+56:56	N:F	N:F	All the inhabitants of the country round about stood in great crowds around the castle, almost under the very windows, to see the Princess receive the suitors; and as each stepped into the hall, his power of speech seemed to desert him, like the light of a candle that is blown out.
+57:57	D:D	D:D	Then the Princess would say, "He is of no use!
+58:58	D:D	D:D	Away with him out of the hall!"
+59:59	N:N	N:F	At last the turn came for that brother who knew the dictionary by heart; but he did not know it now; he had absolutely forgotten it altogether; and the boards seemed to re-echo with his footsteps, and the ceiling of the hall was made of looking-glass, so that he saw himself standing on his head; and at the window stood three clerks and a head clerk, and every one of them was writing down every single word that was uttered, so that it might be printed in the newspapers, and sold for a penny at the street corners.
+60:60	N:N	-:F	It was a terrible ordeal, and they had, moreover, made such a fire in the stove, that the room seemed quite red hot.
+61:61	Su-:N	-:F	"It is dreadfully hot here!" observed the first brother.
+62:62	N:N	N:N	"Yes," replied the Princess, "my father is going to roast young pullets today."
+63:63	Su-:N	-:F	"Baa!" there he stood like a baa-lamb.
+64:64	N:N	-:F	He had not been prepared for a speech of this kind, and had not a word to say, though he intended to say something witty.
+65:65	Su-:N	-:F	"Baa!"
+66:66	D:D	D:D	"He is of no use!" said the Princess.
+67:67	D:D	D:D	"Away with him!"
+68:68	N:N	N:N	And he was obliged to go accordingly.
+69:69	N:N	N:N	And now the second brother came in.
+70:70	Su-:N	-:F	"It is terribly warm here!" he observed.
+71:71	N:N	N:N	"Yes, we're roasting pullets to-day," replied the Princess.
+72:72	D:F	D:F	"What- what were you- were you pleased to ob-" stammered he- and all the clerks wrote down, "pleased to ob-" "He is of no use!" said the Princess.
+73:73	D:D	D:D	"Away with him!"
+74:74	N:N	N:N	Now came the turn of Jack the Dullard.
+75:75	N:N	N:N	He rode into the hall on his goat.
+76:76	Su-:N	-:N	"Well, it's most abominably hot here."
+77:77	N:N	N:N	"Yes, because I'm roasting young pullets," replied the Princess.
+78:78	H:H	H:H	"Ah, that's lucky!" exclaimed Jack the Dullard, "for I suppose you'll let me roast my crow at the same time?"
+79:79	H:H	H:H	"With the greatest pleasure," said the Princess.
+80:80	N:N	N:N	"But have you anything you can roast it in? for I have neither pot nor pan."
+81:81	H:N	H:N	"Certainly I have!" said Jack.
+82:82	N:N	H:N	"Here's a cooking utensil with a tin handle."
+83:83	N:N	N:N	And he brought out the old wooden shoe, and put the crow into it.
+84:84	H:N	H:N	"Well, that is a famous dish!" said the Princess.
+85:85	N:N	N:N	"But what shall we do for sauce?"
+86:86	N:N	H:N	"Oh, I have that in my pocket," said Jack; "I have so much of it that I can afford to throw some away;" and he poured some of the clay out of his pocket.
+87:87	H:H	H:H	"I like that!" said the Princess.
+88:88	H:N	H:H	"You can give an answer, and you have something to say for yourself, and so you shall be my husband.
+89:89	N:N	N:N	But are you aware that every word we speak is being taken down, and will be published in the paper to-morrow?
+90:90	N:N	N:N	Look yonder, and you will see in every window three clerks and a head clerk; and the old head clerk is the worst of all, for he can't understand anything."
+91:91	H:H	H:H	But she only said this to frighten Jack the Dullard; and the clerks gave a great crow of delight, and each one spurted a blot out of his pen on to the floor.
+92:92	N:N	N:N	"Oh, those are the gentlemen, are they?" said Jack; "then I will give the best I have to the head clerk."
+93:93	N:N	N:N	And he turned out his pockets, and flung the wet clay full in the head clerk's face.
+94:94	H:N	H:N	"That was very cleverly done," observed the Princess.
+95:95	N:N	H:N	"I could not have done that; but I shall learn in time."
+96:96	N:N	H:H	And accordingly Jack the Dullard was made a king, and received a crown and a wife, and sat upon a throne.
+97:97	N:N	N:N	And this report we have wet from the press of the head clerk and the corporation of printers- but they are not to be depended upon in the least.

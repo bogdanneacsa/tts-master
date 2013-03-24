@@ -1,0 +1,105 @@
+0:0	N:N	N:N	A poor woodman sat in his cottage one night, smoking his pipe by the fireside, while his wife sat by his side spinning.
+1:1	Sa:Sa	S:S	"How lonely it is, wife," said he, as he puffed out a long curl of smoke, "for you and me to sit here by ourselves, without any children to play about and amuse us while other people seem so happy and merry with their children!"
+2:2	Sa:Sa	S:S	"What you say is very true," said the wife, sighing, and turning round her wheel; "how happy should I be if I had but one child!
+3:3	N:Sa	S:S	If it were ever so small--nay, if it were no bigger than my thumb--I should be very happy, and love it dearly."
+4:4	N:Su+	H:H	Now--odd as you may think it--it came to pass that this good woman"s wish was fulfilled, just in the very way she had wished it; for, not long afterwards, she had a little boy, who was quite healthy and strong, but was not much bigger than my thumb.
+5:5	H:H	H:H	So they said, "Well, we cannot say we have not got what we wished for, and, little as he is, we will love him dearly."
+6:6	N:N	H:H	And they called him Thomas Thumb.
+7:7	N:Su-	N:H	They gave him plenty of food, yet for all they could do he never grew bigger, but kept just the same size as he had been when he was born.
+8:8	N:H	H:H	Still, his eyes were sharp and sparkling, and he soon showed himself to be a clever little fellow, who always knew well what he was about.
+9:9	N:A	N:N	One day, as the woodman was getting ready to go into the wood to cut fuel, he said, "I wish I had someone to bring the cart after me, for I want to make haste."
+10:10	Su+:N	N:N	"Oh, father," cried Tom, "I will take care of that; the cart shall be in the wood by the time you want it."
+11:11	H:Su-	N:N	Then the woodman laughed, and said, "How can that be? you cannot reach up to the horse"s bridle."
+12:12	H:H	N:+	"Never mind that, father," said Tom; "if my mother will only harness the horse, I will get into his ear and tell him which way to go."
+13:13	N:N	N:+	"Well," said the father, "we will try for once."
+14:14	Su+:Su+	+:+	When the time came the mother harnessed the horse to the cart, and put Tom into his ear; and as he sat there the little man told the beast how to go, crying out, "Go on!" and "Stop!" as he wanted: and thus the horse went on just as well as if the woodman had driven it himself into the wood.
+15:15	N:N	N:N	It happened that as the horse was going a little too fast, and Tom was calling out, "Gently! gently!" two strangers came up.
+16:16	Su-:Su-	-:N	"What an odd thing that is!" said one: "there is a cart going along, and I hear a carter talking to the horse, but yet I can see no one."
+17:17	Su-:Su-	-:N	"That is queer, indeed," said the other; "let us follow the cart, and see where it goes."
+18:18	N:N	N:N	So they went on into the wood, till at last they came to the place where the woodman was.
+19:19	H:H	H:N	Then Tom Thumb, seeing his father, cried out, "See, father, here I am with the cart, all right and safe! now take me down!"
+20:20	N:H	H:N	So his father took hold of the horse with one hand, and with the other took his son out of the horse"s ear, and put him down upon a straw, where he sat as merry as you please.
+21:21	N:Su-	N:N	The two strangers were all this time looking on, and did not know what to say for wonder.
+22:22	Su+:H	D:-	At last one took the other aside, and said, "That little urchin will make our fortune, if we can get him, and carry him about from town to town as a show; we must buy him."
+23:23	N:N	N:-	So they went up to the woodman, and asked him what he would take for the little man.
+24:24	N:N	D:-	"He will be better off," said they, "with us than with you."
+25:25	D:A	D:F	"I won"t sell him at all," said the father; "my own flesh and blood is dearer to me than all the silver and gold in the world."
+26:26	H:H	N:F	But Tom, hearing of the bargain they wanted to make, crept up his father"s coat to his shoulder and whispered in his ear, "Take the money, father, and let them have me; I"ll soon come back to you."
+27:27	N:N	N:F	So the woodman at last said he would sell Tom to the strangers for a large piece of gold, and they paid the price.
+28:28	N:N	N:F	"Where would you like to sit?" said one of them.
+29:29	H:H	N:F	"Oh, put me on the rim of your hat; that will be a nice gallery for me; I can walk about there and see the country as we go along."
+30:30	N:Sa	N:S	So they did as he wished; and when Tom had taken leave of his father they took him away with them.
+31:31	N:N	N:S	They journeyed on till it began to be dusky, and then the little man said, "Let me get down, I"m tired."
+32:32	N:N	N:N	So the man took off his hat, and put him down on a clod of earth, in a ploughed field by the side of the road.
+33:33	F:N	F:H	But Tom ran about amongst the furrows, and at last slipped into an old mouse-hole.
+34:34	H:H	H:H	"Good night, my masters!" said he, "I"m off! mind and look sharp after me the next time."
+35:35	A:A	A:H	Then they ran at once to the place, and poked the ends of their sticks into the mouse-hole, but all in vain; Tom only crawled farther and farther in; and at last it became quite dark, so that they were forced to go their way without their prize, as sulky as could be.
+36:36	N:N	N:H	When Tom found they were gone, he came out of his hiding-place.
+37:37	Su-:F	N:F	"What dangerous walking it is," said he, "in this ploughed field!
+38:38	F:F	N:F	If I were to fall from one of these great clods, I should undoubtedly break my neck."
+39:39	Su+:H	+:F	At last, by good luck, he found a large empty snail-shell.
+40:40	H:H	H:+	"This is lucky," said he, "I can sleep here very well"; and in he crept.
+41:41	N:N	F:N	Just as he was falling asleep, he heard two men passing by, chatting together; and one said to the other, "How can we rob that rich parson"s house of his silver and gold?"
+42:42	H:N	N:N	"I"ll tell you!" cried Tom.
+43:43	F:F	N:N	"What noise was that?" said the thief, frightened; "I"m sure I heard someone speak."
+44:44	F:N	N:N	They stood still listening, and Tom said, "Take me with you, and I"ll soon show you how to get the parson"s money."
+45:45	N:Su-	N:N	"But where are you?" said they.
+46:46	N:N	N:N	"Look about on the ground," answered he, "and listen where the sound comes from."
+47:47	N:Su+	N:N	At last the thieves found him out, and lifted him up in their hands.
+48:48	Su-:A	N:F	"You little urchin!" they said, "what can you do for us?"
+49:49	H:H	N:F	"Why, I can get between the iron window-bars of the parson"s house, and throw you out whatever you want."
+50:50	Su+:H	N:F	"That"s a good thought," said the thieves; "come along, we shall see what you can do."
+51:51	N:N	N:N	When they came to the parson"s house, Tom slipped through the windowbars into the room, and then called out as loud as he could bawl, "Will you have all that is here?"
+52:52	F:F	F:N	At this the thieves were frightened, and said, "Softly, softly!
+53:53	F:F	F:N	Speak low, that you may not awaken anybody."
+54:54	N:N	F:+	But Tom seemed as if he did not understand them, and bawled out again, "How much will you have?
+55:55	N:N	N:+	Shall I throw it all out?"
+56:56	F:Su-	F:N	Now the cook lay in the next room; and hearing a noise she raised herself up in her bed and listened.
+57:57	F:F	A:N	Meantime the thieves were frightened, and ran off a little way; but at last they plucked up their hearts, and said, "The little urchin is only trying to make fools of us."
+58:58	A:A	A:N	So they came back and whispered softly to him, saying, "Now let us have no more of your roguish jokes; but throw us out some of the money."
+59:59	N:N	N:+	Then Tom called out as loud as he could, "Very well! hold your hands! here it comes."
+60:60	A:Su-	A:N	The cook heard this quite plain, so she sprang out of bed, and ran to open the door.
+61:61	F:F	N:N	The thieves ran off as if a wolf was at their tails: and the maid, having groped about and found nothing, went away for a light.
+62:62	Su+:Su-	N:H	By the time she came back, Tom had slipped off into the barn; and when she had looked about and searched every hole and corner, and found nobody, she went to bed, thinking she must have been dreaming with her eyes open.
+63:63	N:N	N:H	The little man crawled about in the hay-loft, and at last found a snug place to finish his night"s rest in; so he laid himself down, meaning to sleep till daylight, and then find his way home to his father and mother.
+64:64	F:Sa	F:F	But alas! how woefully he was undone! what crosses and sorrows happen to us all in this world!
+65:65	N:Su-	F:-	The cook got up early, before daybreak, to feed the cows; and going straight to the hay-loft, carried away a large bundle of hay, with the little man in the middle of it, fast asleep.
+66:66	Su-:Su-	-:-	He still, however, slept on, and did not awake till he found himself in the mouth of the cow; for the cook had put the hay into the cow"s rick, and the cow had taken Tom up in a mouthful of it.
+67:67	N:Su-	N:-	"Good lack-a-day!" said he, "how came I to tumble into the mill?"
+68:68	F:F	F:F	But he soon found out where he really was; and was forced to have all his wits about him, that he might not get between the cow"s teeth, and so be crushed to death.
+69:69	N:N	F:F	At last down he went into her stomach.
+70:70	F:F	F:F	"It is rather dark," said he; "they forgot to build windows in this room to let the sun in; a candle would be no bad thing."
+71:71	N:Su-	F:F	Though he made the best of his bad luck, he did not like his quarters at all; and the worst of it was, that more and more hay was always coming down, and the space left for him became smaller and smaller.
+72:72	F:F	N:F	At last he cried out as loud as he could, "Don"t bring me any more hay!
+73:73	N:F	N:F	Don"t bring me any more hay!"
+74:74	F:F	N:F	The maid happened to be just then milking the cow; and hearing someone speak, but seeing nobody, and yet being quite sure it was the same voice that she had heard in the night, she was so frightened that she fell off her stool, and overset the milk-pail.
+75:75	F:Su-	N:F	As soon as she could pick herself up out of the dirt, she ran off as fast as she could to her master the parson, and said, "Sir, sir, the cow is talking!"
+76:76	A:A	N:F	But the parson said, "Woman, thou art surely mad!"
+77:77	N:N	N:F	However, he went with her into the cow-house, to try and see what was the matter.
+78:78	N:F	N:F	Scarcely had they set foot on the threshold, when Tom called out, "Don"t bring me any more hay!"
+79:79	F:F	N:F	Then the parson himself was frightened; and thinking the cow was surely bewitched, told his man to kill her on the spot.
+80:80	N:N	N:H	So the cow was killed, and cut up; and the stomach, in which Tom lay, was thrown out upon a dunghill.
+81:81	N:Su-	N:-	Tom soon set himself to work to get out, which was not a very easy task; but at last, just as he had made room to get his head out, fresh ill-luck befell him.
+82:82	Su-:Su-	-:-	A hungry wolf sprang out, and swallowed up the whole stomach, with Tom in it, at one gulp, and ran away.
+83:83	N:H	N:-	Tom, however, was still not disheartened; and thinking the wolf would not dislike having some chat with him as he was going along, he called out, "My good friend, I can show you a famous treat."
+84:84	Su-:Su-	N:N	"Where"s that?" said the wolf.
+85:85	N:N	N:+	"In such and such a house," said Tom, describing his own father"s house.
+86:86	N:N	N:+	"You can crawl through the drain into the kitchen and then into the pantry, and there you will find cakes, ham, beef, cold chicken, roast pig, apple-dumplings, and everything that your heart can wish."
+87:87	N:H	N:+	The wolf did not want to be asked twice; so that very night he went to the house and crawled through the drain into the kitchen, and then into the pantry, and ate and drank there to his heart"s content.
+88:88	N:N	N:+	As soon as he had had enough he wanted to get away; but he had eaten so much that he could not go out by the same way he came in.
+89:89	H:H	H:+	This was just what Tom had reckoned upon; and now he began to set up a great shout, making all the noise he could.
+90:90	F:F	H:+	"Will you be easy?" said the wolf; "you"ll awaken everybody in the house if you make such a clatter."
+91:91	H:H	H:+	"What"s that to me?" said the little man; "you have had your frolic, now I"ve a mind to be merry myself"; and he began, singing and shouting as loud as he could.
+92:92	F:F	N:+	The woodman and his wife, being awakened by the noise, peeped through a crack in the door; but when they saw a wolf was there, you may well suppose that they were sadly frightened; and the woodman ran for his axe, and gave his wife a scythe.
+93:93	F:N	N:+	"Do you stay behind," said the woodman, "and when I have knocked him on the head you must rip him up with the scythe."
+94:94	H:N	H:+	Tom heard all this, and cried out, "Father, father!
+95:95	N:N	H:+	I am here, the wolf has swallowed me."
+96:96	H:H	H:H	And his father said, "Heaven be praised! we have found our dear child again"; and he told his wife not to use the scythe for fear she should hurt him.
+97:97	H:H	H:H	Then he aimed a great blow, and struck the wolf on the head, and killed him on the spot! and when he was dead they cut open his body, and set Tommy free.
+98:98	H:H	H:H	"Ah!" said the father, "what fears we have had for you!"
+99:99	H:H	H:H	"Yes, father," answered he; "I have travelled all over the world, I think, in one way or other, since we parted; and now I am very glad to come home and get fresh air again."
+100:100	Su-:Su-	N:H	"Why, where have you been?" said his father.
+101:101	N:H	H:H	"I have been in a mouse-hole--and in a snail-shell--and down a cow"s throat-- and in the wolf"s belly; and yet here I am again, safe and sound."
+102:102	H:H	H:H	"Well," said they, "you are come back, and we will not sell you again for all the riches in the world."
+103:103	H:H	H:H	Then they hugged and kissed their dear little son, and gave him plenty to eat and drink, for he was very hungry; and then they fetched new clothes for him, for his old ones had been quite spoiled on his journey.
+104:104	H:H	H:H	So Master Thumb stayed at home with his father and mother, in peace; for though he had been so great a traveller, and had done and seen so many fine things, and was fond enough of telling the whole story, he always agreed that, after all, there"s no place like HOME!

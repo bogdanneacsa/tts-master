@@ -1,0 +1,47 @@
+0:0	N:N	N:N	Once upon a time there was a frog called Mr. Jeremy Fisher; he lived in a little damp house amongst the buttercups at the edge of a pond.
+1:1	N:N	N:N	The water was all slippy-sloppy in the larder and in the back passage.
+2:2	H:N	H:N	But Mr. Jeremy liked getting his feet wet; nobody ever scolded him, and he never caught a cold!
+3:3	H:N	H:N	He was quite pleased when he looked out and saw large drops of rain, splashing in the pond--
+4:4	N:N	H:N	"I will get some worms and go fishing and catch a dish of minnows for my dinner," said Mr. Jeremy Fisher.
+5:5	N:N	H:N	"If I catch more than five fish, I will invite my friends Mr. Alderman Ptolemy Tortoise and Sir Isaac Newton.
+6:6	N:N	N:N	The Alderman, however, eats salad."
+7:7	N:N	N:N	Mr. Jeremy put on a mackintosh, and a pair of shiny galoshes; he took his rod and basket, and set off with enormous hops to the place where he kept his boat.
+8:8	N:N	N:N	The boat was round and green, and very like the other lily-leaves.
+9:9	N:N	N:N	It was tied to a water-plant in the middle of the pond.
+10:10	N:N	N:N	Mr. Jeremy took a reed pole, and pushed the boat out into open water.
+11:11	N:N	N:N	"I know a good place for minnows," said Mr. Jeremy Fisher.
+12:12	N:N	N:N	Mr. Jeremy stuck his pole into the mud and fastened the boat to it.
+13:13	N:N	N:N	Then he settled himself cross- legged and arranged his fishing tackle.
+14:14	N:N	N:N	He had the dearest little red float.
+15:15	N:N	N:N	His rod was a tough stalk of grass, his line was a fine long white horse-hair, and he tied a little wriggling worm at the end.
+16:16	N:N	N:N	The rain trickled down his back, and for nearly an hour he stared at the float.
+17:17	D:N	N:N	"This is getting tiresome, I think I should like some lunch," said Mr. Jeremy Fisher.
+18:18	N:N	N:N	He punted back again amongst the water-plants, and took some lunch out of his basket.
+19:19	N:N	N:N	"I will eat a butterfly sandwich, and wait till the shower is over," said Mr. Jeremy Fisher.
+20:20	N:N	N:N	A great big water-beetle came up underneath the lily leaf and tweaked the toe of one of his galoshes.
+21:21	N:N	N:N	Mr. Jeremy crossed his legs up shorter, out of reach, and went on eating his sandwich.
+22:22	N:N	N:N	Once or twice something moved about with a rustle and a splash amongst the rushes at the side of the pond.
+23:23	F:F	N:F	"I trust that is not a rat," said Mr. Jeremy Fisher; "I think I had better get away from here."
+24:24	N:N	N:N	Mr. Jeremy shoved the boat out again a little way, and dropped in the bait.
+25:25	N:N	+:N	There was a bite almost directly; the float gave a tremendous bobbit!
+26:26	Su+:N	+:N	"A minnow! a minnow!
+27:27	Su+:N	+:N	I have him by the nose!" cried Mr. Jeremy Fisher, jerking up his rod.
+28:28	N:Su-	-:-	But what a horrible surprise!
+29:29	N:N	-:F	Instead of a smooth fat minnow, Mr. Jeremy landed little Jack Sharp, the stickleback, covered with spines!
+30:30	F:A	F:A	The stickleback floundered about the boat, pricking and snapping until he was quite out of breath.
+31:31	N:N	N:N	Then he jumped back into the water.
+32:32	H:D	+:D	And a shoal of other little fishes put their heads out, and laughed at Mr. Jeremy Fisher.
+33:33	Sa:F	S:F	And while Mr. Jeremy sat disconsolately on the edge of his boat--sucking his sore fingers and peering down into the water--a MUCH worse thing happened; a really FRIGHTFUL thing it would have been, if Mr. Jeremy had not been wearing a mackintosh!
+34:34	Su-:N	-:F	A great big enormous trout came up--ker-pflop-p-p-p! with a splash-- and it seized Mr. Jeremy with a snap, "Ow!
+35:35	Su-:N	-:F	Ow!
+36:36	Su-:N	-:N	Ow!"--and then it turned and dived down to the bottom of the pond!
+37:37	N:D	-:D	But the trout was so displeased with the taste of the mackintosh, that in less than half a minute it spat him out again; and the only thing it swallowed was Mr. Jeremy's galoshes.
+38:38	N:N	N:F	Mr. Jeremy bounced up to the surface of the water, like a cork and the bubbles out of a soda water bottle; and he swam with all his might to the edge of the pond.
+39:39	F:N	F:N	He scrambled out on the first bank he came to, and he hopped home across the meadow with his mackintosh all in tatters.
+40:40	H:H	H:H	"What a mercy that was not a pike!" said Mr. Jeremy Fisher.
+41:41	Su-:F	-:F	"I have lost my rod and basket; but it does not much matter, for I am sure I should never have dared to go fishing again!"
+42:42	N:N	N:N	He put some sticking plaster on his fingers, and his friends both came to dinner.
+43:43	N:N	N:N	He could not offer them fish, but he had something else in his larder.
+44:44	N:N	N:N	Sir Isaac Newton wore his black and gold waistcoat.
+45:45	N:N	N:N	And Mr. Alderman Ptolemy Tortoise brought a salad with him in a string bag.
+46:46	N:N	N:D	And instead of a nice dish of minnows, they had a roasted grasshopper with lady-bird sauce, which frogs consider a beautiful treat; but _I_ think it must have been nasty!

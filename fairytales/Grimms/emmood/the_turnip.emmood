@@ -1,0 +1,41 @@
+0:0	N:N	N:N	There were two brothers who were both soldiers; the one was rich and the other poor.
+1:1	N:N	N:N	The poor man thought he would try to better himself; so, pulling off his red coat, he became a gardener, and dug his ground well, and sowed turnips.
+2:2	Su+:Su+	N:N	When the seed came up, there was one plant bigger than all the rest; and it kept getting larger and larger, and seemed as if it would never cease growing; so that it might have been called the prince of turnips for there never was such a one seen before, and never will again.
+3:3	Su+:Su+	N:N	At last it was so big that it filled a cart, and two oxen could hardly draw it; and the gardener knew not what in the world to do with it, nor whether it would be a blessing or a curse to him.
+4:4	N:A	N:N	One day he said to himself, "What shall I do with it? if I sell it, it will bring no more than another; and for eating, the little turnips are better than this; the best thing perhaps is to carry it and give it to the king as a mark of respect."
+5:5	N:N	N:N	Then he yoked his oxen, and drew the turnip to the court, and gave it to the king.
+6:6	H:H	H:N	"What a wonderful thing!" said the king; "I have seen many strange things, but such a monster as this I never saw.
+7:7	Su+:Su+	H:N	Where did you get the seed? or is it only your good luck?
+8:8	N:Su+	N:N	If so, you are a true child of fortune."
+9:9	N:Sa	N:N	"Ah, no!" answered the gardener, "I am no child of fortune; I am a poor soldier, who never could get enough to live upon; so I laid aside my red coat, and set to work, tilling the ground.
+10:10	Sa:Sa	N:S	I have a brother, who is rich, and your majesty knows him well, and all the world knows him; but because I am poor, everybody forgets me."
+11:11	Sa:Sa	N:H	The king then took pity on him, and said, "You shall be poor no longer.
+12:12	H:H	N:H	I will give you so much that you shall be even richer than your brother."
+13:13	N:H	N:H	Then he gave him gold and lands and flocks, and made him so rich that his brother"s fortune could not at all be compared with his.
+14:14	A:A	N:F	When the brother heard of all this, and how a turnip had made the gardener so rich, he envied him sorely, and bethought himself how he could contrive to get the same good fortune for himself.
+15:15	N:A	N:F	However, he determined to manage more cleverly than his brother, and got together a rich present of gold and fine horses for the king; and thought he must have a much larger gift in return; for if his brother had received so much for only a turnip, what must his present be wroth?
+16:16	Su+:H	+:+	The king took the gift very graciously, and said he knew not what to give in return more valuable and wonderful than the great turnip; so the soldier was forced to put it into a cart, and drag it home with him.
+17:17	A:A	A:F	When he reached home, he knew not upon whom to vent his rage and spite; and at length wicked thoughts came into his head, and he resolved to kill his brother.
+18:18	D:A	A:F	So he hired some villains to murder him; and having shown them where to lie in ambush, he went to his brother, and said, "Dear brother, I have found a hidden treasure; let us go and dig it up, and share it between us."
+19:19	Su-:Su-	-:F	The other had no suspicions of his roguery: so they went out together, and as they were travelling along, the murderers rushed out upon him, bound him, and were going to hang him on a tree.
+20:20	F:F	F:F	But whilst they were getting all ready, they heard the trampling of a horse at a distance, which so frightened them that they pushed their prisoner neck and shoulders together into a sack, and swung him up by a cord to the tree, where they left him dangling, and ran away.
+21:21	F:N	F:F	Meantime he worked and worked away, till he made a hole large enough to put out his head.
+22:22	H:H	N:+	When the horseman came up, he proved to be a student, a merry fellow, who was journeying along on his nag, and singing as he went.
+23:23	Su+:Su+	+:+	As soon as the man in the sack saw him passing under the tree, he cried out, "Good morning! good morning to thee, my friend!"
+24:24	F:Su-	N:+	The student looked about everywhere; and seeing no one, and not knowing where the voice came from, cried out, "Who calls me?"
+25:25	N:H	N:N	Then the man in the tree answered, "Lift up thine eyes, for behold here I sit in the sack of wisdom; here have I, in a short time, learned great and wondrous things.
+26:26	N:N	N:N	Compared to this seat, all the learning of the schools is as empty air.
+27:27	H:H	N:N	A little longer, and I shall know all that man can know, and shall come forth wiser than the wisest of mankind.
+28:28	N:H	N:+	Here I discern the signs and motions of the heavens and the stars; the laws that control the winds; the number of the sands on the seashore; the healing of the sick; the virtues of all simples, of birds, and of precious stones.
+29:29	N:H	N:+	Wert thou but once here, my friend, though wouldst feel and own the power of knowledge.
+30:30	H:H	H:+	The student listened to all this and wondered much; at last he said, "Blessed be the day and hour when I found you; cannot you contrive to let me into the sack for a little while?"
+31:31	N:H	N:+	Then the other answered, as if very unwillingly, "A little space I may allow thee to sit here, if thou wilt reward me well and entreat me kindly; but thou must tarry yet an hour below, till I have learnt some little matters that are yet unknown to me."
+32:32	N:A	N:+	So the student sat himself down and waited a while; but the time hung heavy upon him, and he begged earnestly that he might ascend forthwith, for his thirst for knowledge was great.
+33:33	D:H	N:H	Then the other pretended to give way, and said, "Thou must let the sack of wisdom descend, by untying yonder cord, and then thou shalt enter."
+34:34	N:H	N:H	So the student let him down, opened the sack, and set him free.
+35:35	H:A	N:H	"Now then," cried he, "let me ascend quickly."
+36:36	N:N	N:H	As he began to put himself into the sack heels first, "Wait a while," said the gardener, "that is not the way."
+37:37	N:Su-	N:H	Then he pushed him in head first, tied up the sack, and soon swung up the searcher after wisdom dangling in the air.
+38:38	N:H	N:H	"How is it with thee, friend?" said he, "dost thou not feel that wisdom comes unto thee?
+39:39	D:N	N:H	Rest there in peace, till thou art a wiser man than thou wert."
+40:40	D:Sa	N:H	So saying, he trotted off on the student"s nag, and left the poor fellow to gather wisdom till somebody should come and let him down.

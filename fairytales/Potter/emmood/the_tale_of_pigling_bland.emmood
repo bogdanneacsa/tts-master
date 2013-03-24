@@ -1,0 +1,247 @@
+0:0	N:N	N:N	Once upon a time there was an old pig called Aunt Pettitoes.
+1:1	N:N	N:N	She had eight of a family: four little girl pigs, called Cross-patch, Suck-suck, Yock-yock and Spot; and four little boy pigs, called Alexander, Pigling Bland, Chin-Chin and Stumpy.
+2:2	N:N	N:N	Stumpy had had an accident to his tail.
+3:3	H:H	H:H	The eight little pigs had very fine appetites--"Yus, yus, yus! they eat and indeed they DO eat!" said Aunt Pettitoes, looking at her family with pride.
+4:4	F:F	F:F	Suddenly there were fearful squeals; Alexander had squeezed inside the hoops of the pig trough and stuck.
+5:5	N:N	F:N	Aunt Pettitoes and I dragged him out by the hind legs.
+6:6	F:N	F:D	Chin-chin was already in disgrace; it was washing day, and he had eaten a piece of soap.
+7:7	Su-:N	-:N	And presently in a basket of clean clothes, we found another dirty little pig--"Tchut, tut, tut! whichever is this?" grunted Aunt Pettitoes.
+8:8	N:N	N:N	Now all the pig family are pink, or pink with black spots, but this pig child was smutty black all over; when it had been popped into a tub, it proved to be Yock-yock.
+9:9	N:N	N:N	I went into the garden; there I found Cross-patch and Suck-suck rooting up carrots.
+10:10	N:N	-:A	I whipped them myself and led them out by the ears.
+11:11	A:A	-:A	Cross-patch tried to bite me.
+12:12	N:N	-:A	"Aunt Pettitoes, Aunt Pettitoes! you are a worthy person, but your family is not well brought up.
+13:13	N:N	-:A	Every one of them has been in mischief except Spot and Pigling Bland."
+14:14	D:Sa	D:S	"Yus, yus!" sighed Aunt Pettitoes.
+15:15	N:N	-:N	"And they drink bucketfuls of milk; I shall have to get another cow!
+16:16	N:N	N:N	Good little Spot shall stay at home to do the housework; but the others must go.
+17:17	N:N	N:N	Four little boy pigs and four little girl pigs are too many altogether."
+18:18	Sa:N	S:N	"Yus, yus, yus," said Aunt Pettitoes, "there will be more to eat without them."
+19:19	N:N	S:N	So Chin-chin and Suck-suck went away in a wheel-barrow, and Stumpy, Yock-yock and Cross- patch rode away in a cart.
+20:20	N:N	S:N	And the other two little boy pigs, Pigling Bland and Alexander went to market.
+21:21	N:N	S:N	We brushed their coats, we curled their tails and washed their little faces, and wished them good bye in the yard.
+22:22	Sa:Sa	S:S	Aunt Pettitoes wiped her eyes with a large pocket handkerchief, then she wiped Pigling Bland's nose and shed tears; then she wiped Alexander's nose and shed tears; then she passed the handkerchief to Spot.
+23:23	Sa:Sa	S:S	Aunt Pettitoes sighed and grunted, and addressed those little pigs as follows--
+24:24	N:N	N:N	"Now Pigling Bland, son Pigling Bland, you must go to market.
+25:25	N:N	N:N	Take your brother Alexander by the hand.
+26:26	N:N	N:N	Mind your Sunday clothes, and remember to blow your nose" --(Aunt Pettitoes passed round the handkerchief again)--"beware of traps, hen roosts, bacon and eggs; always walk upon your hind legs."
+27:27	Sa:Sa	S:S	Pigling Bland who was a sedate little pig, looked solemnly at his mother, a tear trickled down his cheek.
+28:28	N:H	N:H	Aunt Pettitoes turned to the other--"Now son Alexander take the hand"--"Wee, wee, wee!" giggled Alexander--"take the hand of your brother Pigling Bland, you must go to market.
+29:29	N:N	N:N	Mind--" "Wee, wee, wee!" interrupted Alexander again.
+30:30	N:N	N:N	"You put me out," said Aunt Pettitoes--"Observe signposts and milestones; do not gobble herring bones--" "And remember," said I impressively, "if you once cross the county boundary you cannot come back.
+31:31	N:N	N:N	Alexander, you are not attending.
+32:32	N:N	N:N	Here are two licenses permitting two pigs to go to market in Lancashire.
+33:33	N:N	N:N	Attend Alexander.
+34:34	N:N	N:N	I have had no end of trouble in getting these papers from the policeman."
+35:35	Sa:N	S:N	Pigling Bland listened gravely; Alexander was hopelessly volatile.
+36:36	N:N	N:N	I pinned the papers, for safety, inside their waistcoat pockets; Aunt Pettitoes gave to each a little bundle, and eight conversation peppermints with appropriate moral sentiments in screws of paper.
+37:37	N:N	N:N	Then they started.
+38:38	N:N	N:N	Pigling Bland and Alexander trotted along steadily for a mile; at least Pigling Bland did.
+39:39	N:N	N:N	Alexander made the road half as long again by skipping from side to side.
+40:40	H:H	S:H	He danced about and pinched his brother, singing--
+41:41	H:N	H:N	"This pig went to market, this pig stayed at home, "This pig had a bit of meat--
+42:42	N:N	H:N	let's see what they have given US for dinner, Pigling?"
+43:43	N:N	N:N	Pigling Bland and Alexander sat down and untied their bundles.
+44:44	N:N	N:N	Alexander gobbled up his dinner in no time; he had already eaten all his own peppermints--"Give me one of yours, please, Pigling?"
+45:45	N:N	N:N	"But I wish to preserve them for emergencies," said Pigling Bland doubtfully.
+46:46	H:H	H:H	Alexander went into squeals of laughter.
+47:47	A:N	A:N	Then he pricked Pigling with the pin that had fastened his pig paper; and when Pigling slapped him he dropped the pin, and tried to take Pigling's pin, and the papers got mixed up.
+48:48	A:A	A:A	Pigling Bland reproved Alexander.
+49:49	H:H	H:H	But presently they made it up again, and trotted away together, singing--
+50:50	N:N	H:N	"Tom, Tom the piper's son, stole a pig and away he ran!
+51:51	N:N	H:N	"But all the tune that he could play, was `Over the hills and far away!'"
+52:52	N:N	N:N	"What's that, young Sirs?
+53:53	N:N	N:N	Stole a pig?
+54:54	N:N	N:N	Where are your licenses?" said the policeman.
+55:55	N:N	N:N	They had nearly run against him round a corner.
+56:56	N:N	N:N	Pigling Bland pulled out his paper; Alexander, after fumbling, handed over something scrumply--
+57:57	Su-:N	-:N	"To 2 1/2 oz. conversation sweeties at three farthings"--"What's this? this ain't a license?"
+58:58	F:N	F:N	Alexander's nose lengthened visibly, he had lost it.
+59:59	F:N	F:N	"I had one, indeed I had, Mr. Policeman!"
+60:60	N:N	N:N	"It's not likely they let you start without.
+61:61	N:N	N:N	I am passing the farm.
+62:62	N:N	N:N	You may walk with me."
+63:63	N:N	N:N	"Can I come back too?" inquired Pigling Bland.
+64:64	N:N	N:N	"I see no reason, young Sir; your paper is all right."
+65:65	N:F	N:F	Pigling Bland did not like going on alone, and it was beginning to rain.
+66:66	N:N	N:N	But it is unwise to argue with the police; he gave his brother a peppermint, and watched him out of sight.
+67:67	N:Sa	N:S	To conclude the adventures of Alexander--the policeman sauntered up to the house about tea time, followed by a damp subdued little pig.
+68:68	N:N	N:N	I disposed of Alexander in the neighborhood; he did fairly well when he had settled down.
+69:69	N:Sa	N:S	Pigling Bland went on alone dejectedly; he came to cross roads and a sign-post--"To Market-town 5 miles," "Over the Hills, 4 miles," "To Pettitoes Farm, 3 miles."
+70:70	Su-:Su-	-:-	Pigling Bland was shocked, there was little hope of sleeping in Market Town, and tomorrow was the hiring fair; it was deplorable to think how much time had been wasted by the frivolity of Alexander.
+71:71	N:N	N:N	He glanced wistfully along the road towards the hills, and then set off walking obediently the other way, buttoning up his coat against the rain.
+72:72	D:Sa	D:S	He had never wanted to go; and the idea of standing all by himself in a crowded market, to be stared at, pushed, and hired by some big strange farmer was very disagreeable--
+73:73	N:N	N:N	"I wish I could have a little garden and grow potatoes," said Pigling Bland.
+74:74	Su+:N	+:N	He put his cold hand in his pocket and felt his paper, he put his other hand in his other pocket and felt another paper--Alexander's!
+75:75	Su+:H	+:H	Pigling squealed; then ran back frantically, hoping to overtake Alexander and the policeman.
+76:76	N:N	-:N	He took a wrong turn--several wrong turns, and was quite lost.
+77:77	N:N	-:N	It grew dark, the wind whistled, the trees creaked and groaned.
+78:78	F:F	F:F	Pigling Bland became frightened and cried "Wee, wee, wee!
+79:79	F:F	F:F	I can't find my way home!"
+80:80	N:N	N:N	After an hour's wandering he got out of the wood; the moon shone through the clouds, and Pigling Bland saw a country that was new to him.
+81:81	N:N	N:N	The road crossed a moor; below was a wide valley with a river twinkling in the moonlight, and beyond --in misty distance--lay the hills.
+82:82	Sa:Sa	S:S	He saw a small wooden hut, made his way to it, and crept inside --"I am afraid it IS a hen house, but what can I do?" said Pigling Bland, wet and cold and quite tired out.
+83:83	H:N	N:N	"Bacon and eggs, bacon and eggs!" clucked a hen on a perch.
+84:84	A:A	A:A	"Trap, trap, trap! cackle, cackle, cackle!" scolded the disturbed cockerel.
+85:85	H:N	N:N	"To market, to market! jiggettyjig!" clucked a broody white hen roosting next to him.
+86:86	F:F	F:F	Pigling Bland, much alarmed, determined to leave at daybreak.
+87:87	N:N	N:N	In the meantime, he and the hens fell asleep.
+88:88	N:N	N:N	In less than an hour they were all awakened.
+89:89	N:N	N:N	The owner, Mr. Peter Thomas Piperson, came with a lantern and a hamper to catch six fowls to take to market in the morning.
+90:90	N:N	N:N	He grabbed the white hen roosting next to the cock; then his eye fell upon Pigling Bland, squeezed up in a corner.
+91:91	Su+:N	+:N	He made a singular remark--"Hallo, here's another!" --seized Pigling by the scruff of the neck, and dropped him into the hamper.
+92:92	N:N	-:N	Then he dropped in five more dirty, kicking, cackling hens upon the top of Pigling Bland.
+93:93	N:N	N:N	The hamper containing six fowls and a young pig was no light weight; it was taken down hill, unsteadily, with jerks.
+94:94	N:N	N:N	Pigling, although nearly scratched to pieces, contrived to hide the papers and peppermints inside his clothes.
+95:95	N:N	N:N	At last the hamper was bumped down upon a kitchen floor, the lid was opened, and Pigling was lifted out.
+96:96	H:N	N:N	He looked up, blinking, and saw an offensively ugly elderly man, grinning from ear to ear.
+97:97	N:N	N:N	"This one's come of himself, whatever," said Mr. Piperson, turning Pigling's pockets inside out.
+98:98	N:N	N:N	He pushed the hamper into a corner, threw a sack over it to keep the hens quiet, put a pot on the fire, and unlaced his boots.
+99:99	N:N	N:N	Pigling Bland drew forward a coppy stool, and sat on the edge of it, shyly warming his hands.
+100:100	N:N	N:N	Mr. Piperson pulled off a boot and threw it against the wainscot at the further end of the kitchen.
+101:101	A:N	A:N	There was a smothered noise--"Shut up!" said Mr. Piperson.
+102:102	N:N	N:N	Pigling Bland warmed his hands, and eyed him.
+103:103	A:N	A:N	Mr. Piperson pulled off the other boot and flung it after the first, there was again a curious noise-- "Be quiet, will ye?" said Mr. Piperson.
+104:104	N:N	N:N	Pigling Bland sat on the very edge of the coppy stool.
+105:105	N:N	N:N	Mr. Piperson fetched meal from a chest and made porridge, it seemed to Pigling that something at the further end of the kitchen was taking a suppressed interest in the cooking; but he was too hungry to be troubled by noises.
+106:106	N:N	N:N	Mr. Piperson poured out three platefuls: for himself, for Pigling, and a third-after glaring at Pigling-- he put away with much scuffling, and locked up.
+107:107	N:N	N:N	Pigling Bland ate his supper discreetly.
+108:108	N:N	N:N	After supper Mr. Piperson consulted an almanac, and felt Pigling's ribs; it was too late in the season for curing bacon, and he grudged his meal.
+109:109	N:N	N:N	Besides, the hens had seen this pig.
+110:110	N:N	N:N	He looked at the small remains of a flitch [side of bacon], and then looked undecidedly at Pigling.
+111:111	N:N	N:N	"You may sleep on the rug," said Mr. Peter Thomas Piperson.
+112:112	N:N	N:N	Pigling Bland slept like a top.
+113:113	N:N	N:N	In the morning Mr. Piperson made more porridge; the weather was warmer.
+114:114	N:N	N:N	He looked how much meal was left in the chest, and seemed dissatisfied--"You'll likely be moving on again?" said he to Pigling Bland.
+115:115	N:N	N:N	Before Pigling could reply, a neighbor, who was giving Mr. Piperson and the hens a lift, whistled from the gate.
+116:116	A:N	A:N	Mr. Piperson hurried out with the hamper, enjoining Pigling to shut the door behind him and not meddle with nought; or "I'll come back and skin ye!" said Mr. Piperson.
+117:117	N:N	N:N	It crossed Pigling's mind that if HE had asked for a lift, too, he might still have been in time for market.
+118:118	N:F	N:F	But he distrusted Peter Thomas.
+119:119	N:N	N:N	After finishing breakfast at his leisure, Pigling had a look round the cottage; everything was locked up.
+120:120	N:N	N:N	He found some potato peelings in a bucket in the back kitchen.
+121:121	N:N	N:N	Pigling ate the peel, and washed up the porridge plates in the bucket.
+122:122	N:N	N:N	He sang while he worked--
+123:123	N:N	N:N	"Tom with his pipe made such a noise, He called up all the girls and boys-- "And they all ran to hear him play, "Over the hills and far away!--"
+124:124	N:N	N:N	Suddenly a little smothered voice chimed in--
+125:125	N:N	N:N	"Over the hills and a great way off, The wind shall blow my top knot off."
+126:126	Su+:N	+:N	Pigling Bland put down a plate which he was wiping, and listened.
+127:127	N:N	N:N	After a long pause, Pigling went on tiptoe and peeped round the door into the front kitchen; there was nobody there.
+128:128	N:N	N:N	After another pause, Pigling approached the door of the locked cupboard, and snuffed at the keyhole.
+129:129	N:N	N:N	It was quite quiet.
+130:130	N:N	N:N	After another long pause, Pigling pushed a peppermint under the door.
+131:131	N:N	N:N	It was sucked in immediately.
+132:132	N:N	N:N	In the course of the day Pigling pushed in all his remaining six peppermints.
+133:133	N:N	N:N	When Mr. Piperson returned, he found Pigling sitting before the fire; he had brushed up the hearth and put on the pot to boil; the meal was not get-at-able.
+134:134	N:N	N:N	Mr. Piperson was very affable; he slapped Pigling on the back, made lots of porridge and forgot to lock the meal chest.
+135:135	N:N	N:N	He did lock the cupboard door; but without properly shutting it.
+136:136	N:N	N:N	He went to bed early, and told Pigling upon no account to disturb him next day before twelve o'clock.
+137:137	N:N	N:N	Pigling Bland sat by the fire, eating his supper.
+138:138	N:N	+:N	All at once at his elbow, a little voice spoke--"My name is Pig-wig.
+139:139	N:N	+:N	Make me more porridge, please!"
+140:140	Su+:N	+:N	Pigling Bland jumped, and looked round.
+141:141	H:H	H:H	A perfectly lovely little black Berkshire pig stood smiling beside him.
+142:142	N:N	H:N	She had twinkly little screwed up eyes, a double chin, and a short turned up nose.
+143:143	N:N	N:N	She pointed at Pigling's plate; he hastily gave it to her, and fled to the meal chest--"How did you come here?" asked Pigling Bland.
+144:144	N:N	N:N	"Stolen," replied Pig-wig, with her mouth full.
+145:145	N:N	N:N	Pigling helped himself to meal without scruple.
+146:146	N:N	N:N	"What for?"
+147:147	N:H	N:H	"Bacon, hams," replied Pig- wig cheerfully.
+148:148	Su-:D	-:D	"Why on earth don't you run away?" exclaimed the horrified Pigling.
+149:149	H:N	N:N	"I shall after supper," said Pig- wig decidedly.
+150:150	N:H	N:H	Pigling Bland made more porridge and watched her shyly.
+151:151	N:N	N:N	She finished a second plate, got up, and looked about her, as though she were going to start.
+152:152	N:N	N:N	"You can't go in the dark," said Pigling Bland.
+153:153	F:F	F:F	Pig-wig looked anxious.
+154:154	N:N	N:N	"Do you know your way by day- light?"
+155:155	N:N	N:N	"I know we can see this little white house from the hills across the river.
+156:156	N:N	N:N	Which way are _you_ going, Mr. Pig?"
+157:157	N:N	N:N	"To market--I have two pig papers.
+158:158	N:Sa	N:S	I might take you to the bridge; if you have no objection," said Pigling much confused and sitting on the edge of his coppy stool.
+159:159	N:H	H:H	Pig- wig's gratitude was such and she asked so many questions that it became embarrassing to Pigling Bland.
+160:160	N:N	H:N	He was obliged to shut his eyes and pretend to sleep.
+161:161	N:N	H:N	She became quiet, and there was a smell of peppermint.
+162:162	Su-:Su+	-:+	"I thought you had eaten them?" said Pigling, waking suddenly.
+163:163	N:N	H:N	"Only the corners," replied Pig- wig, studying the sentiments with much interest by the firelight.
+164:164	F:N	F:N	"I wish you wouldn't; he might smell them through the ceiling," said the alarmed Pigling.
+165:165	N:N	N:N	Pig-wig put back the sticky peppermints into her pocket; "Sing something," she demanded.
+166:166	N:N	N:N	"I am sorry.
+167:167	N:N	N:N	. .
+168:168	Sa:Sa	S:S	I have tooth- ache," said Pigling much dismayed.
+169:169	N:N	N:N	"Then I will sing," replied Pig- wig, "You will not mind if I say iddy tidditty?
+170:170	N:N	N:N	I have forgotten some of the words."
+171:171	N:N	N:N	Pigling Bland made no objection; he sat with his eyes half shut, and watched her.
+172:172	H:N	H:N	She wagged her head and rocked about, clapping time and singing in a sweet little grunty voice--
+173:173	N:N	H:N	"A funny old mother pig lived in a stye, and three little piggies had she; "(Ti idditty idditty) umph, umph, umph! and the little pigs said wee, wee!"
+174:174	N:N	H:N	She sang successfully through three or four verses, only at every verse her head nodded a little lower, and her little twinkly eyes closed up--
+175:175	N:N	H:N	"Those three little piggies grew peaky and lean, and lean they might very well be; "For somehow they couldn't say umph, umph, umph! and they wouldn't say wee, wee, wee!
+176:176	N:N	H:N	"For somehow they couldn't say--
+177:177	N:N	H:N	Pig-wig's head bobbed lower and lower, until she rolled over, a little round ball, fast asleep on the hearth-rug.
+178:178	N:N	H:N	Pigling Bland, on tiptoe, covered her up with an antimacassar.
+179:179	F:F	F:F	He was afraid to go to sleep himself; for the rest of the night he sat listening to the chirping of the crickets and to the snores of Mr. Piperson overhead.
+180:180	N:N	N:N	Early in the morning, between dark and daylight, Pigling tied up his little bundle and woke up Pig- wig.
+181:181	F:H	F:H	She was excited and half- frightened.
+182:182	F:N	F:N	"But it's dark!
+183:183	F:N	F:N	How can we find our way?"
+184:184	N:N	F:N	"The cock has crowed; we must start before the hens come out; they might shout to Mr. Piperson."
+185:185	F:Sa	F:S	Pig-wig sat down again, and commenced to cry.
+186:186	N:N	N:N	"Come away Pig-wig; we can see when we get used to it.
+187:187	N:N	N:N	Come!
+188:188	F:N	F:N	I can hear them clucking!"
+189:189	N:N	N:N	Pigling had never said shuh! to a hen in his life, being peaceable; also he remembered the hamper.
+190:190	N:N	N:N	He opened the house door quietly and shut it after them.
+191:191	N:N	N:N	There was no garden; the neighborhood of Mr. Piperson's was all scratched up by fowls.
+192:192	N:N	N:N	They slipped away hand in hand across an untidy field to the road.
+193:193	N:N	N:N	"Tom, Tom the piper's son, stole a pig and away he ran!
+194:194	N:N	N:N	"But all the tune that he could play, was `Over the hills and far away!'"
+195:195	N:N	N:N	"Come Pig-wig, we must get to the bridge before folks are stirring."
+196:196	N:N	N:N	"Why do you want to go to market, Pigling?" inquired Pig-wig.
+197:197	N:N	N:N	The sun rose while they were crossing the moor, a dazzle of light over the tops of the hills.
+198:198	N:N	N:N	The sunshine crept down the slopes into the peaceful green valleys, where little white cottages nestled in gardens and orchards.
+199:199	N:N	N:N	"That's Westmorland," said Pig- wig.
+200:200	H:H	H:H	She dropped Pigling's hand and commenced to dance, singing-- presently.
+201:201	N:N	N:N	"I don't want; I want to grow potatoes."
+202:202	N:N	N:N	"Have a peppermint?" said Pig-wig.
+203:203	A:A	A:A	Pigling Bland refused quite crossly.
+204:204	N:N	N:N	"Does your poor toothy hurt?" inquired Pig- wig.
+205:205	A:N	A:N	Pigling Bland grunted.
+206:206	N:N	N:N	Pig-wig ate the peppermint herself, and followed the opposite side of the road.
+207:207	A:N	A:N	"Pig-wig! keep under the wall, there's a man ploughing."
+208:208	N:N	N:N	Pig-wig crossed over, they hurried down hill towards the county boundary.
+209:209	F:N	F:N	Suddenly Pigling stopped; he heard wheels.
+210:210	N:N	N:N	Slowly jogging up the road below them came a tradesman's cart.
+211:211	N:N	N:N	The reins flapped on the horse's back, the grocer was reading a newspaper.
+212:212	F:N	F:N	"Take that peppermint out of your mouth, Pig-wig, we may have to run.
+213:213	F:N	F:N	Don't say one word.
+214:214	N:N	F:N	Leave it to me.
+215:215	F:F	F:F	And in sight of the bridge!" said poor Pigling, nearly crying.
+216:216	N:F	F:F	He began to walk frightfully lame, holding Pig-wig's arm.
+217:217	N:N	N:N	The grocer, intent upon his newspaper, might have passed them, if his horse had not shied and snorted.
+218:218	N:N	N:N	He pulled the cart crossways, and held down his whip.
+219:219	N:N	N:N	"Hallo?
+220:220	N:N	N:N	Where are you going to?"--Pigling Bland stared at him vacantly.
+221:221	N:N	N:N	"Are you deaf?
+222:222	N:N	N:N	Are you going to market?"
+223:223	N:N	N:N	Pigling nodded slowly.
+224:224	N:N	N:N	"I thought as much.
+225:225	N:N	N:N	It was yesterday.
+226:226	N:N	N:N	Show me your license?"
+227:227	N:N	N:N	Pigling stared at the off hind shoe of the grocer's horse which had picked up a stone.
+228:228	D:N	D:N	The grocer flicked his whip-- "Papers?
+229:229	D:N	D:N	Pig license?"
+230:230	N:N	F:N	Pigling fumbled in all his pockets, and handed up the papers.
+231:231	D:N	D:N	The grocer read them, but still seemed dissatisfied.
+232:232	Su-:N	-:N	"This here pig is a young lady; is her name Alexander?"
+233:233	N:N	N:N	Pig-wig opened her mouth and shut it again; Pigling coughed asthmatically.
+234:234	N:A	N:A	The grocer ran his finger down the advertisement column of his newspaper--"Lost, stolen or strayed, 10S. reward;" he looked suspiciously at Pig-wig.
+235:235	N:N	N:N	Then he stood up in the trap, and whistled for the ploughman.
+236:236	N:N	N:N	"You wait here while I drive on and speak to him," said the grocer, gathering up the reins.
+237:237	N:N	N:N	He knew that pigs are slippery; but surely, such a VERY lame pig could never run!
+238:238	F:N	F:N	"Not yet, Pig-wig, he will look back."
+239:239	N:N	N:N	The grocer did so; he saw the two pigs stock-still in the middle of the road.
+240:240	N:N	N:N	Then he looked over at his horse's heels; it was lame also; the stone took some time to knock out, after he got to the ploughman.
+241:241	F:N	F:N	"Now, Pig-wig, NOW!" said Pigling Bland.
+242:242	N:N	+:N	Never did any pigs run as these pigs ran!
+243:243	N:N	+:N	They raced and squealed and pelted down the long white hill towards the bridge.
+244:244	F:N	+:N	Little fat Pig- wig's petticoats fluttered, and her feet went pitter, patter, pitter, as she bounded and jumped.
+245:245	N:N	+:N	They ran, and they ran, and they ran down the hill, and across a short cut on level green turf at the bottom, between pebble beds and rushes.
+246:246	H:H	H:H	They came to the river, they came to the bridge--they crossed it hand in hand--then over the hills and far away she danced with Pigling Bland!

@@ -1,0 +1,73 @@
+0:0	F:F	F:F	There was once a miller who had one beautiful daughter, and as she was grown up, he was anxious that she should be well married and provided for.
+1:1	N:N	N:N	He said to himself, "I will give her to the first suitable man who comes and asks for her hand."
+2:2	N:N	N:N	Not long after a suitor appeared, and as he appeared to be very rich and the miller could see nothing in him with which to find fault, he betrothed his daughter to him.
+3:3	Sa:Sa	S:S	But the girl did not care for the man as a girl ought to care for her betrothed husband.
+4:4	D:F	D:F	She did not feel that she could trust him, and she could not look at him nor think of him without an inward shudder.
+5:5	N:N	N:N	One day he said to her, "You have not yet paid me a visit, although we have been betrothed for some time."
+6:6	N:N	N:N	"I do not know where your house is," she answered.
+7:7	N:N	N:F	"My house is out there in the dark forest," he said.
+8:8	N:N	N:F	She tried to excuse herself by saying that she would not be able to find the way thither.
+9:9	N:N	N:N	Her betrothed only replied, "You must come and see me next Sunday; I have already invited guests for that day, and that you may not mistake the way, I will strew ashes along the path."
+10:10	F:F	F:F	When Sunday came, and it was time for the girl to start, a feeling of dread came over her which she could not explain, and that she might be able to find her path again, she filled her pockets with peas and lentils to sprinkle on the ground as she went along.
+11:11	N:N	N:F	On reaching the entrance to the forest she found the path strewed with ashes, and these she followed, throwing down some peas on either side of her at every step she took.
+12:12	N:N	N:F	She walked the whole day until she came to the deepest, darkest part of the forest.
+13:13	F:Sa	F:S	There she saw a lonely house, looking so grim and mysterious, that it did not please her at all.
+14:14	N:N	N:F	She stepped inside, but not a soul was to be seen, and a great silence reigned throughout.
+15:15	N:N	N:-	Suddenly a voice cried:
+16:16	N:N	N:-	"Turn back, turn back, young maiden fair, Linger not in this murderers" lair."
+17:17	N:N	N:-	The girl looked up and saw that the voice came from a bird hanging in a cage on the wall.
+18:18	N:N	N:-	Again it cried:
+19:19	N:N	N:-	"Turn back, turn back, young maiden fair, Linger not in this murderers" lair."
+20:20	N:N	N:F	The girl passed on, going from room to room of the house, but they were all empty, and still she saw no one.
+21:21	N:N	N:F	At last she came to the cellar, and there sat a very, very old woman, who could not keep her head from shaking.
+22:22	N:N	N:N	"Can you tell me," asked the girl, "if my betrothed husband lives here?"
+23:23	Sa:Sa	S:S	"Ah, you poor child," answered the old woman, "what a place for you to come to!
+24:24	N:N	N:S	This is a murderers" den.
+25:25	N:N	N:S	You think yourself a promised bride, and that your marriage will soon take place, but it is with death that you will keep your marriage feast.
+26:26	N:N	N:F	Look, do you see that large cauldron of water which I am obliged to keep on the fire!
+27:27	N:N	N:-	As soon as they have you in their power they will kill you without mercy, and cook and eat you, for they are eaters of men.
+28:28	Sa:Sa	S:S	If I did not take pity on you and save you, you would be lost."
+29:29	N:N	N:F	Thereupon the old woman led her behind a large cask, which quite hid her from view.
+30:30	N:N	N:F	"Keep as still as a mouse," she said; "do not move or speak, or it will be all over with you.
+31:31	N:N	N:F	Tonight, when the robbers are all asleep, we will flee together.
+32:32	N:Sa	N:S	I have long been waiting for an opportunity to escape."
+33:33	N:N	N:-	The words were hardly out of her mouth when the godless crew returned, dragging another young girl along with them.
+34:34	F:A	F:A	They were all drunk, and paid no heed to her cries and lamentations.
+35:35	N:Sa	N:S	They gave her wine to drink, three glasses full, one of white wine, one of red, and one of yellow, and with that her heart gave way and she died.
+36:36	N:N	N:-	Then they tore of her dainty clothing, laid her on a table, and cut her beautiful body into pieces, and sprinkled salt upon it.
+37:37	F:F	F:F	The poor betrothed girl crouched trembling and shuddering behind the cask, for she saw what a terrible fate had been intended for her by the robbers.
+38:38	N:N	N:-	One of them now noticed a gold ring still remaining on the little finger of the murdered girl, and as he could not draw it off easily, he took a hatchet and cut off the finger; but the finger sprang into the air, and fell behind the cask into the lap of the girl who was hiding there.
+39:39	N:N	N:-	The robber took a light and began looking for it, but he could not find it.
+40:40	N:N	N:F	"Have you looked behind the large cask?" said one of the others.
+41:41	N:N	N:N	But the old woman called out, "Come and eat your suppers, and let the thing be till tomorrow; the finger won"t run away."
+42:42	N:N	N:N	"The old woman is right," said the robbers, and they ceased looking for the finger and sat down.
+43:43	N:N	N:N	The old woman then mixed a sleeping draught with their wine, and before long they were all lying on the floor of the cellar, fast asleep and snoring.
+44:44	N:N	N:N	As soon as the girl was assured of this, she came from behind the cask.
+45:45	F:F	F:F	She was obliged to step over the bodies of the sleepers, who were lying close together, and every moment she was filled with renewed dread lest she should awaken them.
+46:46	N:F	N:F	But God helped her, so that she passed safely over them, and then she and the old woman went upstairs, opened the door, and hastened as fast as they could from the murderers" den.
+47:47	N:N	N:+	They found the ashes scattered by the wind, but the peas and lentils had sprouted, and grown sufficiently above the ground, to guide them in the moonlight along the path.
+48:48	N:N	N:N	All night long they walked, and it was morning before they reached the mill.
+49:49	N:N	N:N	Then the girl told her father all that had happened.
+50:50	N:N	N:N	The day came that had been fixed for the marriage.
+51:51	N:N	N:N	The bridegroom arrived and also a large company of guests, for the miller had taken care to invite all his friends and relations.
+52:52	N:N	N:N	As they sat at the feast, each guest in turn was asked to tell a tale; the bride sat still and did not say a word.
+53:53	N:N	N:N	"And you, my love," said the bridegroom, turning to her, "is there no tale you know?
+54:54	N:N	N:N	Tell us something."
+55:55	N:N	N:N	"I will tell you a dream, then," said the bride.
+56:56	N:N	N:F	"I went alone through a forest and came at last to a house; not a soul could I find within, but a bird that was hanging in a cage on the wall cried:
+57:57	N:N	N:F	"Turn back, turn back, young maiden fair, Linger not in this murderers" lair."
+58:58	N:N	N:F	and again a second time it said these words."
+59:59	N:N	N:F	"My darling, this is only a dream."
+60:60	N:N	N:F	"I went on through the house from room to room, but they were all empty, and everything was so grim and mysterious.
+61:61	N:N	N:F	At last I went down to the cellar, and there sat a very, very old woman, who could not keep her head still.
+62:62	N:N	N:F	I asked her if my betrothed lived here, and she answered, "Ah, you poor child, you are come to a murderers" den; your betrothed does indeed live here, but he will kill you without mercy and afterwards cook and eat you.""
+63:63	N:N	N:F	"My darling, this is only a dream."
+64:64	N:N	N:F	"The old woman hid me behind a large cask, and scarcely had she done this when the robbers returned home, dragging a young girl along with them.
+65:65	N:N	N:F	They gave her three kinds of wine to drink, white, red, and yellow, and with that she died."
+66:66	N:N	N:F	"My darling, this is only a dream."
+67:67	N:N	N:F	"Then they tore off her dainty clothing, and cut her beautiful body into pieces and sprinkled salt upon it."
+68:68	N:N	N:F	"My darling, this is only a dream."
+69:69	N:N	N:F	"And one of the robbers saw that there was a gold ring still left on her finger, and as it was difficult to draw off, he took a hatchet and cut off her finger; but the finger sprang into the air and fell behind the great cask into my lap.
+70:70	N:N	N:-	And here is the finger with the ring." and with these words the bride drew forth the finger and shewed it to the assembled guests.
+71:71	F:F	F:F	The bridegroom, who during this recital had grown deadly pale, up and tried to escape, but the guests seized him and held him fast.
+72:72	N:N	N:H	They delivered him up to justice, and he and all his murderous band were condemned to death for their wicked deeds.

@@ -1,0 +1,87 @@
+0:0	N:N	N:N	Long before you or I were born, there reigned, in a country a great way off, a king who had three sons.
+1:1	Sa:N	N:N	This king once fell very ill--so ill that nobody thought he could live.
+2:2	Sa:Sa	S:S	His sons were very much grieved at their father"s sickness; and as they were walking together very mournfully in the garden of the palace, a little old man met them and asked what was the matter.
+3:3	Sa:Sa	S:S	They told him that their father was very ill, and that they were afraid nothing could save him.
+4:4	H:N	N:S	"I know what would," said the little old man; "it is the Water of Life.
+5:5	N:N	N:S	If he could have a draught of it he would be well again; but it is very hard to get."
+6:6	F:N	S:S	Then the eldest son said, "I will soon find it": and he went to the sick king, and begged that he might go in search of the Water of Life, as it was the only thing that could save him.
+7:7	N:N	S:S	"No," said the king.
+8:8	D:F	S:S	"I had rather die than place you in such great danger as you must meet with in your journey."
+9:9	H:H	N:S	But he begged so hard that the king let him go; and the prince thought to himself, "If I bring my father this water, he will make me sole heir to his kingdom."
+10:10	F:Su-	N:N	Then he set out: and when he had gone on his way some time he came to a deep valley, overhung with rocks and woods; and as he looked around, he saw standing above him on one of the rocks a little ugly dwarf, with a sugarloaf cap and a scarlet cloak; and the dwarf called to him and said, "Prince, whither so fast?"
+11:11	D:A	D:-	"What is that to thee, you ugly imp?" said the prince haughtily, and rode on.
+12:12	A:A	A:N	But the dwarf was enraged at his behaviour, and laid a fairy spell of ill-luck upon him; so that as he rode on the mountain pass became narrower and narrower, and at last the way was so straitened that he could not go to step forward: and when he thought to have turned his horse round and go back the way he came, he heard a loud laugh ringing round him, and found that the path was closed behind him, so that he was shut in all round.
+13:13	Su-:F	-:N	He next tried to get off his horse and make his way on foot, but again the laugh rang in his ears, and he found himself unable to move a step, and thus he was forced to abide spellbound.
+14:14	F:N	N:N	Meantime the old king was lingering on in daily hope of his son"s return, till at last the second son said, "Father, I will go in search of the Water of Life."
+15:15	H:H	N:N	For he thought to himself, "My brother is surely dead, and the kingdom will fall to me if I find the water."
+16:16	N:A	N:N	The king was at first very unwilling to let him go, but at last yielded to his wish.
+17:17	N:Su-	N:N	So he set out and followed the same road which his brother had done, and met with the same elf, who stopped him at the same spot in the mountains, saying, as before, "Prince, prince, whither so fast?"
+18:18	D:A	D:A	"Mind your own affairs, busybody!" said the prince scornfully, and rode on.
+19:19	N:N	D:A	But the dwarf put the same spell upon him as he put on his elder brother, and he, too, was at last obliged to take up his abode in the heart of the mountains.
+20:20	N:N	N:A	Thus it is with proud silly people, who think themselves above everyone else, and are too proud to ask or take advice.
+21:21	N:H	N:H	When the second prince had thus been gone a long time, the youngest son said he would go and search for the Water of Life, and trusted he should soon be able to make his father well again.
+22:22	N:N	N:N	So he set out, and the dwarf met him too at the same spot in the valley, among the mountains, and said, "Prince, whither so fast?"
+23:23	N:Su+	N:N	And the prince said, "I am going in search of the Water of Life, because my father is ill, and like to die: can you help me?
+24:24	F:H	N:+	Pray be kind, and aid me if you can!"
+25:25	N:N	N:+	"Do you know where it is to be found?" asked the dwarf.
+26:26	N:N	N:+	"No," said the prince, "I do not.
+27:27	N:H	N:+	Pray tell me if you know."
+28:28	H:H	N:+	"Then as you have spoken to me kindly, and are wise enough to seek for advice, I will tell you how and where to go.
+29:29	N:N	N:F	The water you seek springs from a well in an enchanted castle; and, that you may be able to reach it in safety, I will give you an iron wand and two little loaves of bread; strike the iron door of the castle three times with the wand, and it will open: two hungry lions will be lying down inside gaping for their prey, but if you throw them the bread they will let you pass; then hasten on to the well, and take some of the Water of Life before the clock strikes twelve; for if you tarry longer the door will shut upon you for ever."
+30:30	H:N	N:F	Then the prince thanked his little friend with the scarlet cloak for his friendly aid, and took the wand and the bread, and went travelling on and on, over sea and over land, till he came to his journey"s end, and found everything to be as the dwarf had told him.
+31:31	N:N	N:F	The door flew open at the third stroke of the wand, and when the lions were quieted he went on through the castle and came at length to a beautiful hall.
+32:32	N:N	N:F	Around it he saw several knights sitting in a trance; then he pulled off their rings and put them on his own fingers.
+33:33	N:N	N:F	In another room he saw on a table a sword and a loaf of bread, which he also took.
+34:34	H:H	H:+	Further on he came to a room where a beautiful young lady sat upon a couch; and she welcomed him joyfully, and said, if he would set her free from the spell that bound her, the kingdom should be his, if he would come back in a year and marry her.
+35:35	N:N	N:+	Then she told him that the well that held the Water of Life was in the palace gardens; and bade him make haste, and draw what he wanted before the clock struck twelve.
+36:36	N:N	N:F	He walked on; and as he walked through beautiful gardens he came to a delightful shady spot in which stood a couch; and he thought to himself, as he felt tired, that he would rest himself for a while, and gaze on the lovely scenes around him.
+37:37	N:N	N:F	So he laid himself down, and sleep fell upon him unawares, so that he did not wake up till the clock was striking a quarter to twelve.
+38:38	F:F	F:F	Then he sprang from the couch dreadfully frightened, ran to the well, filled a cup that was standing by him full of water, and hastened to get away in time.
+39:39	Su-:N	-:F	Just as he was going out of the iron door it struck twelve, and the door fell so quickly upon him that it snapped off a piece of his heel.
+40:40	Su+:H	H:H	When he found himself safe, he was overjoyed to think that he had got the Water of Life; and as he was going on his way homewards, he passed by the little dwarf, who, when he saw the sword and the loaf, said, "You have made a noble prize; with the sword you can at a blow slay whole armies, and the bread will never fail you."
+41:41	N:Sa	N:H	Then the prince thought to himself, "I cannot go home to my father without my brothers"; so he said, "My dear friend, cannot you tell me where my two brothers are, who set out in search of the Water of Life before me, and never came back?"
+42:42	N:A	N:H	"I have shut them up by a charm between two mountains," said the dwarf, "because they were proud and ill-behaved, and scorned to ask advice."
+43:43	A:A	H:F	The prince begged so hard for his brothers, that the dwarf at last set them free, though unwillingly, saying, "Beware of them, for they have bad hearts."
+44:44	H:H	H:F	Their brother, however, was greatly rejoiced to see them, and told them all that had happened to him; how he had found the Water of Life, and had taken a cup full of it; and how he had set a beautiful princess free from a spell that bound her; and how she had engaged to wait a whole year, and then to marry him, and to give him the kingdom.
+45:45	Su-:Sa	-:F	Then they all three rode on together, and on their way home came to a country that was laid waste by war and a dreadful famine, so that it was feared all must die for want.
+46:46	H:H	N:F	But the prince gave the king of the land the bread, and all his kingdom ate of it.
+47:47	H:H	H:F	And he lent the king the wonderful sword, and he slew the enemy"s army with it; and thus the kingdom was once more in peace and plenty.
+48:48	N:N	N:F	In the same manner he befriended two other countries through which they passed on their way.
+49:49	A:A	A:F	When they came to the sea, they got into a ship and during their voyage the two eldest said to themselves, "Our brother has got the water which we could not find, therefore our father will forsake us and give him the kingdom, which is our right"; so they were full of envy and revenge, and agreed together how they could ruin him.
+50:50	Su-:N	A:A	Then they waited till he was fast asleep, and poured the Water of Life out of the cup, and took it for themselves, giving him bitter sea-water instead.
+51:51	N:N	N:A	When they came to their journey"s end, the youngest son brought his cup to the sick king, that he might drink and be healed.
+52:52	Su-:N	-:A	Scarcely, however, had he tasted the bitter sea-water when he became worse even than he was before; and then both the elder sons came in, and blamed the youngest for what they had done; and said that he wanted to poison their father, but that they had found the Water of Life, and had brought it with them.
+53:53	N:H	N:A	He no sooner began to drink of what they brought him, than he felt his sickness leave him, and was as strong and well as in his younger days.
+54:54	Su+:D	N:A	Then they went to their brother, and laughed at him, and said, "Well, brother, you found the Water of Life, did you?
+55:55	H:H	N:A	You have had the trouble and we shall have the reward.
+56:56	N:H	N:A	Pray, with all your cleverness, why did not you manage to keep your eyes open?
+57:57	D:H	-:A	Next year one of us will take away your beautiful princess, if you do not take care.
+58:58	D:N	-:A	You had better say nothing about this to our father, for he does not believe a word you say; and if you tell tales, you shall lose your life into the bargain: but be quiet, and we will let you off."
+59:59	A:A	A:A	The old king was still very angry with his youngest son, and thought that he really meant to have taken away his life; so he called his court together, and asked what should be done, and all agreed that he ought to be put to death.
+60:60	Sa:Sa	S:A	The prince knew nothing of what was going on, till one day, when the king"s chief huntsmen went a-hunting with him, and they were alone in the wood together, the huntsman looked so sorrowful that the prince said, "My friend, what is the matter with you?"
+61:61	Sa:Sa	S:A	"I cannot and dare not tell you," said he.
+62:62	F:N	S:A	But the prince begged very hard, and said, "Only tell me what it is, and do not think I shall be angry, for I will forgive you."
+63:63	Sa:Sa	S:F	"Alas!" said the huntsman; "the king has ordered me to shoot you."
+64:64	Su-:F	-:F	The prince started at this, and said, "Let me live, and I will change dresses with you; you shall take my royal coat to show to my father, and do you give me your shabby one."
+65:65	H:H	S:H	"With all my heart," said the huntsman; "I am sure I shall be glad to save you, for I could not have shot you."
+66:66	N:N	N:H	Then he took the prince"s coat, and gave him the shabby one, and went away through the wood.
+67:67	N:N	N:H	Some time after, three grand embassies came to the old king"s court, with rich gifts of gold and precious stones for his youngest son; now all these were sent from the three kings to whom he had lent his sword and loaf of bread, in order to rid them of their enemy and feed their people.
+68:68	D:Sa	S:H	This touched the old king"s heart, and he thought his son might still be guiltless, and said to his court, "O that my son were still alive! how it grieves me that I had him killed!"
+69:69	H:H	H:H	"He is still alive," said the huntsman; "and I am glad that I had pity on him, but let him go in peace, and brought home his royal coat."
+70:70	H:H	H:H	At this the king was overwhelmed with joy, and made it known thoughout all his kingdom, that if his son would come back to his court he would forgive him.
+71:71	H:N	N:H	Meanwhile the princess was eagerly waiting till her deliverer should come back; and had a road made leading up to her palace all of shining gold; and told her courtiers that whoever came on horseback, and rode straight up to the gate upon it, was her true lover; and that they must let him in: but whoever rode on one side of it, they must be sure was not the right one; and that they must send him away at once.
+72:72	N:N	N:H	The time soon came, when the eldest brother thought that he would make haste to go to the princess, and say that he was the one who had set her free, and that he should have her for his wife, and the kingdom with her.
+73:73	N:Su+	N:H	As he came before the palace and saw the golden road, he stopped to look at it, and he thought to himself, "It is a pity to ride upon this beautiful road"; so he turned aside and rode on the right-hand side of it.
+74:74	N:N	N:H	But when he came to the gate, the guards, who had seen the road he took, said to him, he could not be what he said he was, and must go about his business.
+75:75	N:Su+	N:H	The second prince set out soon afterwards on the same errand; and when he came to the golden road, and his horse had set one foot upon it, he stopped to look at it, and thought it very beautiful, and said to himself, "What a pity it is that anything should tread here!"
+76:76	N:N	N:H	Then he too turned aside and rode on the left side of it.
+77:77	N:N	N:H	But when he came to the gate the guards said he was not the true prince, and that he too must go away about his business; and away he went.
+78:78	F:N	N:H	Now when the full year was come round, the third brother left the forest in which he had lain hid for fear of his father"s anger, and set out in search of his betrothed bride.
+79:79	H:H	H:H	So he journeyed on, thinking of her all the way, and rode so quickly that he did not even see what the road was made of, but went with his horse straight over it; and as he came to the gate it flew open, and the princess welcomed him with joy, and said he was her deliverer, and should now be her husband and lord of the kingdom.
+80:80	N:H	N:H	When the first joy at their meeting was over, the princess told him she had heard of his father having forgiven him, and of his wish to have him home again: so, before his wedding with the princess, he went to visit his father, taking her with him.
+81:81	N:H	N:H	Then he told him everything; how his brothers had cheated and robbed him, and yet that he had borne all those wrongs for the love of his father.
+82:82	A:A	A:H	And the old king was very angry, and wanted to punish his wicked sons; but they made their escape, and got into a ship and sailed away over the wide sea, and where they went to nobody knew and nobody cared.
+83:83	H:H	H:H	And now the old king gathered together his court, and asked all his kingdom to come and celebrate the wedding of his son and the princess.
+84:84	H:H	H:H	And young and old, noble and squire, gentle and simple, came at once on the summons; and among the rest came the friendly dwarf, with the sugarloaf hat, and a new scarlet cloak.
+85:85	N:H	H:H	And the wedding was held, and the merry bells run.
+86:86	H:H	H:H	And all the good people they danced and they sung, And feasted and frolick"d I can"t tell how long.

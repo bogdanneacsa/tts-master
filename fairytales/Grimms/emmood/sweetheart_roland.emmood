@@ -1,0 +1,58 @@
+0:0	N:N	N:N	There was once upon a time a woman who was a real witch and had two daughters, one ugly and wicked, and this one she loved because she was her own daughter, and one beautiful and good, and this one she hated, because she was her stepdaughter.
+1:1	A:A	N:A	The stepdaughter once had a pretty apron, which the other fancied so much that she became envious, and told her mother that she must and would have that apron.
+2:2	A:N	N:A	"Be quiet, my child," said the old woman, "and you shall have it.
+3:3	A:N	F:-	Your stepsister has long deserved death; tonight when she is asleep I will come and cut her head off.
+4:4	F:N	F:-	Only be careful that you are at the far side of the bed, and push her well to the front."
+5:5	F:N	F:+	It would have been all over with the poor girl if she had not just then been standing in a corner, and heard everything.
+6:6	F:N	F:+	All day long she dared not go out of doors, and when bedtime had come, the witch"s daughter got into bed first, so as to lie at the far side, but when she was asleep, the other pushed her gently to the front, and took for herself the place at the back, close by the wall.
+7:7	F:N	F:-	In the night, the old woman came creeping in, she held an axe in her right hand, and felt with her left to see if anyone were lying at the outside, and then she grasped the axe with both hands, and cut her own child"s head off.
+8:8	F:N	F:-	When she had gone away, the girl got up and went to her sweetheart, who was called Roland, and knocked at his door.
+9:9	F:F	F:-	When he came out, she said to him: "Listen, dearest Roland, we must fly in all haste; my stepmother wanted to kill me, but has struck her own child.
+10:10	F:N	F:F	When daylight comes, and she sees what she has done, we shall be lost."
+11:11	F:F	F:F	"But," said Roland, "I counsel you first to take away her magic wand, or we cannot escape if she pursues us."
+12:12	F:N	F:-	The maiden fetched the magic wand, and she took the dead girl"s head and dropped three drops of blood on the ground, one in front of the bed, one in the kitchen, and one on the stairs.
+13:13	F:N	F:F	Then she hurried away with her lover.
+14:14	N:N	F:S	When the old witch got up next morning, she called her daughter, and wanted to give her the apron, but she did not come.
+15:15	A:Sa	F:S	Then the witch cried: "Where are you?"
+16:16	N:N	F:N	"Here, on the stairs, I am sweeping," answered the first drop of blood.
+17:17	A:Sa	F:S	The old woman went out, but saw no one on the stairs, and cried again: "Where are you?"
+18:18	N:N	F:N	"Here in the kitchen, I am warming myself," cried the second drop of blood.
+19:19	F:N	F:S	She went into the kitchen, but found no one.
+20:20	F:F	F:S	Then she cried again: "Where are you?"
+21:21	N:N	F:S	"Ah, here in the bed, I am sleeping," cried the third drop of blood.
+22:22	N:N	F:S	She went into the room to the bed.
+23:23	F:N	F:S	What did she see there?
+24:24	D:N	F:S	Her own child, whose head she had cut off, bathed in her blood.
+25:25	A:A	F:A	The witch fell into a passion, sprang to the window, and as she could look forth quite far into the world, she perceived her stepdaughter hurrying away with her sweetheart Roland.
+26:26	A:A	A:A	"That shall not help you," cried she, "even if you have got a long way off, you shall still not escape me."
+27:27	A:N	A:A	She put on her many-league boots, in which she covered an hour"s walk at every step, and it was not long before she overtook them.
+28:28	F:N	F:+	The girl, however, when she saw the old woman striding towards her, changed, with her magic wand, her sweetheart Roland into a lake, and herself into a duck swimming in the middle of it.
+29:29	A:N	F:+	The witch placed herself on the shore, threw breadcrumbs in, and went to endless trouble to entice the duck; but the duck did not let herself be enticed, and the old woman had to go home at night as she had come.
+30:30	F:N	F:N	At this the girl and her sweetheart Roland resumed their natural shapes again, and they walked on the whole night until daybreak.
+31:31	N:N	F:N	Then the maiden changed herself into a beautiful flower which stood in the midst of a briar hedge, and her sweetheart Roland into a fiddler.
+32:32	A:N	F:N	It was not long before the witch came striding up towards them, and said to the musician: "Dear musician, may I pluck that beautiful flower for myself?"
+33:33	N:N	F:N	"Oh, yes," he replied, "I will play to you while you do it."
+34:34	A:N	A:N	As she was hastily creeping into the hedge and was just going to pluck the flower, knowing perfectly well who the flower was, he began to play, and whether she would or not, she was forced to dance, for it was a magical dance.
+35:35	A:N	A:-	The faster he played, the more violent springs was she forced to make, and the thorns tore her clothes from her body, and pricked her and wounded her till she bled, and as he did not stop, she had to dance till she lay dead on the ground.
+36:36	H:N	H:H	As they were now set free, Roland said: "Now I will go to my father and arrange for the wedding."
+37:37	H:N	H:H	"Then in the meantime I will stay here and wait for you," said the girl, "and that no one may recognize me, I will change myself into a red stone landmark."
+38:38	N:N	H:H	Then Roland went away, and the girl stood like a red landmark in the field and waited for her beloved.
+39:39	H:N	S:S	But when Roland got home, he fell into the snares of another, who so fascinated him that he forgot the maiden.
+40:40	Sa:Sa	S:S	The poor girl remained there a long time, but at length, as he did not return at all, she was sad, and changed herself into a flower, and thought: "Someone will surely come this way, and trample me down."
+41:41	N:N	S:N	It befell, however, that a shepherd kept his sheep in the field and saw the flower, and as it was so pretty, plucked it, took it with him, and laid it away in his chest.
+42:42	F:N	F:N	From that time forth, strange things happened in the shepherd"s house.
+43:43	Su+:N	+:N	When he arose in the morning, all the work was already done, the room was swept, the table and benches cleaned, the fire in the hearth was lighted, and the water was fetched, and at noon, when he came home, the table was laid, and a good dinner served.
+44:44	Su+:Su+	+:+	He could not conceive how this came to pass, for he never saw a human being in his house, and no one could have concealed himself in it.
+45:45	F:F	+:F	He was certainly pleased with this good attendance, but still at last he was so afraid that he went to a wise woman and asked for her advice.
+46:46	N:N	F:N	The wise woman said: "There is some enchantment behind it, listen very early some morning if anything is moving in the room, and if you see anything, no matter what it is, throw a white cloth over it, and then the magic will be stopped."
+47:47	F:N	F:+	The shepherd did as she bade him, and next morning just as day dawned, he saw the chest open, and the flower come out.
+48:48	F:N	F:N	Swiftly he sprang towards it, and threw a white cloth over it.
+49:49	Su+:N	+:N	Instantly the transformation came to an end, and a beautiful girl stood before him, who admitted to him that she had been the flower, and that up to this time she had attended to his house-keeping.
+50:50	Sa:Su-	S:-	She told him her story, and as she pleased him he asked her if she would marry him, but she answered: "No," for she wanted to remain faithful to her sweetheart Roland, although he had deserted her.
+51:51	Sa:N	S:N	Nevertheless, she promised not to go away, but to continue keeping house for the shepherd.
+52:52	H:N	S:N	And now the time drew near when Roland"s wedding was to be celebrated, and then, according to an old custom in the country, it was announced that all the girls were to be present at it, and sing in honour of the bridal pair.
+53:53	Sa:Sa	S:S	When the faithful maiden heard of this, she grew so sad that she thought her heart would break, and she would not go thither, but the other girls came and took her.
+54:54	Sa:N	S:S	When it came to her turn to sing, she stepped back, until at last she was the only one left, and then she could not refuse.
+55:55	Su+:Su+	+:+	But when she began her song, and it reached Roland"s ears, he sprang up and cried: "I know the voice, that is the true bride, I will have no other!"
+56:56	Su+:N	+:H	Everything he had forgotten, and which had vanished from his mind, had suddenly come home again to his heart.
+57:57	H:H	H:H	Then the faithful maiden held her wedding with her sweetheart Roland, and grief came to an end and joy began.

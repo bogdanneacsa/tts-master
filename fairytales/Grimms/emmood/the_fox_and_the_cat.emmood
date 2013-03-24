@@ -1,0 +1,21 @@
+0:0	H:N	H:N	It happened that the cat met the fox in a forest, and as she thought to herself: "He is clever and full of experience, and much esteemed in the world," she spoke to him in a friendly way.
+1:1	H:N	H:N	"Good day, dear Mr Fox, how are you?
+2:2	N:N	H:N	How is all with you?
+3:3	N:N	H:N	How are you getting on in these hard times?"
+4:4	D:N	D:N	The fox, full of all kinds of arrogance, looked at the cat from head to foot, and for a long time did not know whether he would give any answer or not.
+5:5	D:A	D:A	At last he said: "Oh, you wretched beard-cleaner, you piebald fool, you hungry mouse-hunter, what can you be thinking of?
+6:6	D:A	D:A	Have you the cheek to ask how I am getting on?
+7:7	D:N	D:A	What have you learnt?
+8:8	A:A	D:A	How many arts do you understand?"
+9:9	Sa:N	D:N	"I understand but one," replied the cat, modestly.
+10:10	A:N	S:A	"What art is that?" asked the fox.
+11:11	N:N	N:N	"When the hounds are following me, I can spring into a tree and save myself."
+12:12	A:N	A:A	"Is that all?" said the fox.
+13:13	N:N	N:A	"I am master of a hundred arts, and have into the bargain a sackful of cunning.
+14:14	N:N	N:A	You make me sorry for you; come with me, I will teach you how people get away from the hounds."
+15:15	F:N	F:N	Just then came a hunter with four dogs.
+16:16	F:N	F:-	The cat sprang nimbly up a tree, and sat down at the top of it, where the branches and foliage quite concealed her.
+17:17	F:F	F:-	"Open your sack, Mr Fox, open your sack," cried the cat to him, but the dogs had already seized him, and were holding him fast.
+18:18	Sa:F	F:-	"Ah, Mr Fox," cried the cat.
+19:19	D:F	F:S	"You with your hundred arts are left in the lurch!
+20:20	Sa:N	S:S	Had you been able to climb like me, you would not have lost your life."

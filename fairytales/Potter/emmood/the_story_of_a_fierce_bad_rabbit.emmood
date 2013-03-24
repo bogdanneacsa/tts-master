@@ -1,0 +1,18 @@
+0:0	N:N	A:N	This is a fierce bad Rabbit; look at his savage whiskers and his claws and his turned-up tail.
+1:1	N:N	N:N	This is a nice gentle Rabbit.
+2:2	N:N	N:N	His mother has given him a carrot.
+3:3	N:N	N:S	The bad Rabbit would like some carrot.
+4:4	N:N	N:N	He doesn't say "Please."
+5:5	N:N	-:A	He takes it!
+6:6	N:N	-:A	And he scratches the good Rabbit very badly.
+7:7	N:F	S:F	The good Rabbit creeps away and hides in a hole.
+8:8	Sa:Sa	S:S	It feels sad.
+9:9	N:N	N:N	This is a man with a gun.
+10:10	N:N	N:N	He sees something sitting on a bench.
+11:11	H:N	N:N	He thinks it is a very funny bird!
+12:12	N:N	N:N	He comes creeping up behind the trees.
+13:13	N:N	-:-	And then he shoots--BANG!
+14:14	N:N	N:N	This is what happens--
+15:15	N:N	N:N	But this is all he finds on the bench when he rushes up with his gun.
+16:16	N:N	N:N	The good Rabbit peeps out of its hole . . .
+17:17	Su+:F	+:F	. . . and it sees the bad Rabbit tearing past--without any tail or whiskers!

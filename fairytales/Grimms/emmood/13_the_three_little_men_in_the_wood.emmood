@@ -1,0 +1,92 @@
+0:0	N:N	N:N	There was once a man whose wife died, and a woman whose husband died, and the man had a daughter, and the woman also had a daughter.
+1:1	N:N	N:N	The girls were acquainted with each other, and went out walking together, and afterwards came to the woman in her house.
+2:2	N:N	N:N	Then said she to the man"s daughter, "Listen, tell thy father that I would like to marry him, and then thou shalt wash thyself in milk every morning, and drink wine, but my own daughter shall wash herself in water and drink water."
+3:3	N:N	N:N	The girl went home, and told her father what the woman had said.
+4:4	N:N	N:N	The man said, "What shall I do?
+5:5	N:N	N:+	Marriage is a joy and also a torment."
+6:6	N:N	N:N	At length as he could come to no decision, he pulled off his boot, and said, "Take this boot, it has a hole in the sole of it.
+7:7	N:N	N:N	Go with it up to the loft, hang it on the big nail, and then pour water into it.
+8:8	N:N	N:+	If it hold the water, then I will again take a wife, but if it run through, I will not."
+9:9	N:N	N:-	The girl did as she was ordered, but the water drew the hole together, and the boot became full to the top.
+10:10	N:N	N:N	She informed her father how it had turned out.
+11:11	N:N	H:H	Then he himself went up, and when he saw that she was right, he went to the widow and wooed her, and the wedding was celebrated.
+12:12	N:N	N:N	The next morning, when the two girls got up, there stood before the man"s daughter milk for her to wash in and wine for her to drink, but before the woman"s daughter stood water to wash herself with and water for drinking.
+13:13	N:N	N:N	On the second morning, stood water for washing and water for drinking before the man"s daughter as well as before the woman"s daughter.
+14:14	N:N	N:N	And on the third morning stood water for washing and water for drinking before the man"s daughter, and milk for washing and wine for drinking, before the woman"s daughter, and so it continued.
+15:15	D:N	D:-	The woman became bitterly unkind to her step-daughter, and day by day did her best to treat her still worse.
+16:16	D:N	D:-	She was also envious because her step-daughter was beautiful and lovable, and her own daughter ugly and repulsive.
+17:17	N:N	N:N	Once, in winter, when everything was frozen as hard as a stone, and hill and vale lay covered with snow, the woman made a frock of paper, called her step-daughter, and said, "Here, put on this dress and go out into the wood, and fetch me a little basketful of strawberries,---I have a fancy for some."
+18:18	Su-:Su-	-:-	"Good heavens!" said the girl, "no strawberries grow in winter!
+19:19	N:N	-:-	The ground is frozen, and besides the snow has covered everything.
+20:20	Su-:N	-:-	And why am I to go in this paper frock?
+21:21	Su-:N	-:-	It is so cold outside that one"s very breath freezes!
+22:22	Su-:N	-:-	The wind will blow through the frock, and the thorns will tear it off my body."
+23:23	A:N	A:A	"Wilt thou contradict me again?" said the stepmother, "See that thou goest, and do not show thy face again until thou hast the basketful of strawberries!"
+24:24	D:N	D:-	Then she gave her a little piece of hard bread, and said, "This will last thee the day," and thought, "Thou wilt die of cold and hunger outside, and wilt never be seen again by me."
+25:25	N:N	N:N	Then the maiden was obedient, and put on the paper frock, and went out with the basket.
+26:26	N:N	N:-	Far and wide there was nothing but snow, and not a green blade to be seen.
+27:27	N:N	N:N	When she got into the wood she saw a small house out of which peeped three dwarfs.
+28:28	N:N	N:N	She wished them good day, and knocked modestly at the door.
+29:29	N:N	H:N	They cried, "Come in," and she entered the room and seated herself on the bench by the stove, where she began to warm herself and eat her breakfast.
+30:30	N:N	N:N	The elves said, "Give us, too, some of it."
+31:31	N:N	N:N	"Willingly," she said, and divided her bit of bread in two and gave them the half.
+32:32	Su-:N	-:N	They asked, "What dost thou here in the forest in the winter time, in thy thin dress?"
+33:33	N:N	N:N	"Ah," she answered, "I am to look for a basketful of strawberries, and am not to go home until I can take them with me."
+34:34	N:N	N:N	When she had eaten her bread, they gave her a broom and said, "Sweep away the snow at the back door with it."
+35:35	N:N	N:N	But when she was outside, the three little men said to each other, "What shall we give her as she is so good, and has shared her bread with us?"
+36:36	H:N	H:N	Then said the first, "My gift is, that she shall every day grow more beautiful."
+37:37	H:N	H:N	The second said, "My gift is, that gold pieces shall fall out of her mouth every time she speaks."
+38:38	H:N	H:N	The third said, "My gift is, that a king shall come and take her to wife."
+39:39	Su+:N	H:N	The girl, however, did as the little men had bidden her, swept away the snow behind the little house with the broom, and what did she find but real ripe strawberries, which came up quite dark-red out of the snow!
+40:40	H:H	H:H	In her joy she hastily gathered her basket full, thanked the little men, shook hands with each of them, and ran home to take her step-mother what she had longed for so much.
+41:41	N:N	N:+	When she went in and said good-evening, a piece of gold at once fell from her mouth.
+42:42	N:N	+:+	Thereupon she related what had happened to her in the wood, but with every word she spoke, gold pieces fell from her mouth, until very soon the whole room was covered with them.
+43:43	D:A	D:A	"Now look at her arrogance," cried the step-sister, "to throw about gold in that way!" but she was secretly envious of it, and wanted to go into the forest also to seek strawberries.
+44:44	N:N	N:N	The mother said, "No, my dear little daughter, it is too cold, thou mightest die of cold."
+45:45	N:N	N:N	However, as her daughter let her have no peace, the mother at last yielded, made her a magnificent dress of fur, which she was obliged to put on, and gave her bread-and-butter and cake with her.
+46:46	N:N	N:N	The girl went into the forest and straight up to the little house.
+47:47	N:N	N:N	The three little elves peeped out again, but she did not greet them, and without looking round at them and without speaking to them, she went awkwardly into the room, seated herself by the stove, and began to eat her bread-and-butter and cake.
+48:48	D:N	D:-	"Give us some of it," cried the little men; but she replied, "There is not enough for myself, so how can I give it away to other people?"
+49:49	N:N	N:N	When she had done eating, they said, "There is a broom for thee, sweep all clean for us outside by the back-door."
+50:50	D:A	D:A	"Humph!
+51:51	D:N	D:-	Sweep for yourselves," she answered, "I am not your servant."
+52:52	N:N	D:-	When she saw that they were not going to give her anything, she went out by the door.
+53:53	N:N	D:-	Then the little men said to each other, "What shall we give her as she is so naughty, and has a wicked envious heart, that will never let her do a good turn to any one?"
+54:54	D:N	D:-	The first said, "I grant that she may grow uglier every day."
+55:55	D:N	D:-	The second said, "I grant that at every word she says, a toad shall spring out of her mouth."
+56:56	D:N	D:-	The third said, "I grant that she may die a miserable death."
+57:57	A:A	A:A	The maiden looked for strawberries outside, but as she found none, she went angrily home.
+58:58	Su-:F	-:F	And when she opened her mouth, and was about to tell her mother what had happened to her in the wood, with every word she said, a toad sprang out of her mouth, so that every one was seized with horror of her.
+59:59	A:A	A:A	Then the step-mother was still more enraged, and thought of nothing but how to do every possible injury to the man"s daughter, whose beauty, however, grew daily greater.
+60:60	N:N	A:A	At length she took a cauldron, set it on the fire, and boiled yarn in it.
+61:61	N:N	A:-	When it was boiled, she flung it on the poor girl"s shoulder, and gave her an axe in order that she might go on the frozen river, cut a hole in the ice, and rinse the yarn.
+62:62	N:N	N:N	She was obedient, went thither and cut a hole in the ice; and while she was in the midst of her cutting, a splendid carriage came driving up, in which sat the King.
+63:63	N:N	N:N	The carriage stopped, and the King asked,"My child, who are thou, and what art thou doing here?"
+64:64	N:N	N:N	"I am a poor girl, and I am rinsing yarn."
+65:65	N:N	N:N	Then the King felt compassion, and when he saw that she was so very beautiful, he said to her, "Wilt thou go away with me?"
+66:66	H:H	H:H	"Ah, yes, with all my heart," she answered, for she was glad to get away from the mother and sister.
+67:67	H:N	H:H	So she got into the carriage and drove away with the King, and when they arrived at his palace, the wedding was celebrated with great pomp, as the little men had granted to the maiden.
+68:68	N:N	N:N	When a year was over, the young Queen bore a son, and as the step-mother had heard of her great good-fortune, she came with her daughter to the palace and pretended that she wanted to pay her a visit.
+69:69	N:N	-:-	Once, however, when the King had gone out, and no one else was present, the wicked woman seized the Queen by the head, and her daughter seized her by the feet, and they lifted her out of the bed, and threw her out of the window into the stream which flowed by.
+70:70	N:N	N:N	Then the ugly daughter laid herself in the bed, and the old woman covered her up over her head.
+71:71	N:N	N:-	When the King came home again and wanted to speak to his wife, the old woman cried, "Hush, hush, that can"t be now, she is lying in a violent perspiration; you must let her rest to-day."
+72:72	N:N	N:N	The King suspected no evil, and did not come back again till next morning; and as he talked with his wife and she answered him, with every word a toad leaped out, whereas formerly a piece of gold had fallen out.
+73:73	N:N	N:-	Then he asked what that could be, but the old woman said that she had got that from the violent perspiration, and would soon lose it again.
+74:74	N:N	N:N	During the night, however, the scullion saw a duck come swimming up the gutter, and it said,
+75:75	N:N	N:N	"King, what art thou doing now?
+76:76	N:N	N:N	Sleepest thou, or wakest thou?"
+77:77	N:N	N:N	And as he returned no answer, it said,
+78:78	N:N	N:N	"And my guests, What may they do?"
+79:79	N:N	N:N	The scullion said,
+80:80	N:N	N:N	"They are sleeping soundly, too."
+81:81	N:N	N:N	Then it asked again,
+82:82	N:N	N:N	"What does little baby mine?"
+83:83	N:N	N:N	He answered,
+84:84	N:N	N:N	"Sleepeth in her cradle fine."
+85:85	N:N	N:N	Then she went upstairs in the form of the Queen, nursed the baby, shook up its little bed, covered it over, and then swam away again down the gutter in the shape of a duck.
+86:86	N:N	N:-	She came thus for two nights; on the third, she said to the scullion, "Go and tell the King to take his sword and swing it three times over me on the threshold."
+87:87	N:N	H:H	Then the scullion ran and told this to the King, who came with his sword and swung it thrice over the spirit, and at the third time, his wife stood before him strong, living, and healthy as she had been before.
+88:88	H:H	H:H	Thereupon the King was full of great joy, but he kept the Queen hidden in a chamber until the Sunday, when the baby was to be christened.
+89:89	N:N	N:-	And when it was christened he said, "What does a person deserve who drags another out of bed and throws him in the water?"
+90:90	N:N	N:-	"The wretch deserves nothing better," answered the old woman, "than to be taken and put in a barrel stuck full of nails, and rolled down hill into the water."
+91:91	N:N	N:-	"Then," said the King, "Thou hast pronounced thine own sentence;" and he ordered such a barrel to be brought, and the old woman to be put into it with her daughter, and then the top was hammered on, and the barrel rolled down hill until it went into the river.

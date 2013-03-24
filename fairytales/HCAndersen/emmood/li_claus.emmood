@@ -1,0 +1,211 @@
+0:0	N:N	N:N	IN a village there once lived two men who had the same name.
+1:1	N:N	N:N	They were both called Claus.
+2:2	N:N	N:N	One of them had four horses, but the other had only one; so to distinguish them, people called the owner of the four horses, "Great Claus," and he who had only one, "Little Claus."
+3:3	N:N	N:N	Now we shall hear what happened to them, for this is a true story.
+4:4	N:N	N:N	Through the whole week, Little Claus was obliged to plough for Great Claus, and lend him his one horse; and once a week, on a Sunday, Great Claus lent him all his four horses.
+5:5	N:N	N:N	Then how Little Claus would smack his whip over all five horses, they were as good as his own on that one day.
+6:6	N:N	N:H	The sun shone brightly, and the church bells were ringing merrily as the people passed by, dressed in their best clothes, with their prayer-books under their arms.
+7:7	N:N	N:H	They were going to hear the clergyman preach.
+8:8	H:H	H:H	They looked at Little Claus ploughing with his five horses, and he was so proud that he smacked his whip, and said, "Gee-up, my five horses."
+9:9	D:N	D:A	"You must not say that," said Big Claus; "for only one of them belongs to you."
+10:10	N:N	N:N	But Little Claus soon forgot what he ought to say, and when any one passed he would call out, "Gee-up, my five horses!"
+11:11	D:N	D:A	"Now I must beg you not to say that again," said Big Claus; "for if you do, I shall hit your horse on the head, so that he will drop dead on the spot, and there will be an end of him."
+12:12	H:H	H:H	"I promise you I will not say it any more," said the other; but as soon as people came by, nodding to him, and wishing him "Good day," he became so pleased, and thought how grand it looked to have five horses ploughing in his field, that he cried out again, "Gee-up, all my horses!"
+13:13	Su-:N	-:A	"I'll gee-up your horses for you," said Big Claus; and seizing a hammer, he struck the one horse of Little Claus on the head, and he fell dead instantly.
+14:14	Sa:Sa	S:S	"Oh, now I have no horse at all, said Little Claus, weeping.
+15:15	N:N	N:N	But after a while he took off the dead horse's skin, and hung the hide to dry in the wind.
+16:16	N:N	N:N	Then he put the dry skin into a bag, and, placing it over his shoulder, went out into the next town to sell the horse's skin.
+17:17	N:N	N:N	He had a very long way to go, and had to pass through a dark, gloomy forest.
+18:18	N:N	N:N	Presently a storm arose, and he lost his way, and before he discovered the right path, evening came on, and it was still a long way to the town, and too far to return home before night.
+19:19	N:N	N:N	Near the road stood a large farmhouse.
+20:20	N:N	N:N	The shutters outside the windows were closed, but lights shone through the crevices at the top.
+21:21	N:N	N:N	"I might get permission to stay here for the night," thought Little Claus; so he went up to the door and knocked.
+22:22	N:N	N:N	The farmer's wife opened the door; but when she heard what he wanted, she told him to go away, as her husband would not allow her to admit strangers.
+23:23	Sa:N	S:A	"Then I shall be obliged to lie out here," said Little Claus to himself, as the farmer's wife shut the door in his face.
+24:24	N:N	N:N	Near to the farmhouse stood a large haystack, and between it and the house was a small shed, with a thatched roof.
+25:25	N:N	N:F	"I can lie up there," said Little Claus, as he saw the roof; "it will make a famous bed, but I hope the stork will not fly down and bite my legs;" for on it stood a living stork, whose nest was in the roof.
+26:26	N:N	N:N	So Little Claus climbed to the roof of the shed, and while he turned himself to get comfortable, he discovered that the wooden shutters, which were closed, did not reach to the tops of the windows of the farmhouse, so that he could see into a room, in which a large table was laid out with wine, roast meat, and a splendid fish.
+27:27	H:N	H:N	The farmer's wife and the sexton were sitting at the table together; and she filled his glass, and helped him plenteously to fish, which appeared to be his favorite dish.
+28:28	N:N	N:N	"If I could only get some, too," thought Little Claus; and then, as he stretched his neck towards the window he spied a large, beautiful pie,- indeed they had a glorious feast before them.
+29:29	N:N	N:N	At this moment he heard some one riding down the road, towards the farmhouse.
+30:30	N:N	N:N	It was the farmer returning home.
+31:31	N:N	N:N	He was a good man, but still he had a very strange prejudice,- he could not bear the sight of a sexton.
+32:32	N:N	N:N	If one appeared before him, he would put himself in a terrible rage.
+33:33	N:N	N:N	In consequence of this dislike, the sexton had gone to visit the farmer's wife during her husband's absence from home, and the good woman had placed before him the best she had in the house to eat.
+34:34	F:F	F:F	When she heard the farmer coming she was frightened, and begged the sexton to hide himself in a large empty chest that stood in the room.
+35:35	F:N	F:F	He did so, for he knew her husband could not endure the sight of a sexton.
+36:36	F:N	F:F	The woman then quickly put away the wine, and hid all the rest of the nice things in the oven; for if her husband had seen them he would have asked what they were brought out for.
+37:37	Sa:N	N:S	"Oh, dear," sighed Little Claus from the top of the shed, as he saw all the good things disappear.
+38:38	Su-:N	-:N	"Is any one up there?" asked the farmer, looking up and discovering Little Claus.
+39:39	Su-:N	-:N	"Why are you lying up there?
+40:40	N:N	N:N	Come down, and come into the house with me."
+41:41	N:N	N:N	So Little Claus came down and told the farmer how he had lost his way and begged for a night's lodging.
+42:42	N:N	N:N	"All right," said the farmer; "but we must have something to eat first."
+43:43	N:H	N:H	The woman received them both very kindly, laid the cloth on a large table, and placed before them a dish of porridge.
+44:44	N:N	N:S	The farmer was very hungry, and ate his porridge with a good appetite, but Little Claus could not help thinking of the nice roast meat, fish and pies, which he knew were in the oven.
+45:45	N:N	N:N	Under the table, at his feet, lay the sack containing the horse's skin, which he intended to sell at the next town.
+46:46	N:Sa	N:S	Now Little Claus did not relish the porridge at all, so he trod with his foot on the sack under the table, and the dry skin squeaked quite loud.
+47:47	N:N	N:N	"Hush!" said Little Claus to his sack, at the same time treading upon it again, till it squeaked louder than before.
+48:48	Su-:N	N:N	"Hallo! what have you got in your sack!" asked the farmer.
+49:49	N:N	N:N	"Oh, it is a conjuror," said Little Claus; "and he says we need not eat porridge, for he has conjured the oven full of roast meat, fish, and pie."
+50:50	Su+:N	+:H	"Wonderful!" cried the farmer, starting up and opening the oven door; and there lay all the nice things hidden by the farmer's wife, but which he supposed had been conjured there by the wizard under the table.
+51:51	F:N	N:N	The woman dared not say anything; so she placed the things before them, and they both ate of the fish, the meat, and the pastry.
+52:52	N:N	N:N	Then Little Claus trod again upon his sack, and it squeaked as before.
+53:53	N:N	N:N	"What does he say now?" asked the farmer.
+54:54	N:N	N:N	"He says," replied Little Claus, "that there are three bottles of wine for us, standing in the corner, by the oven."
+55:55	H:H	H:H	So the woman was obliged to bring out the wine also, which she had hidden, and the farmer drank it till he became quite merry.
+56:56	N:N	N:N	He would have liked such a conjuror as Little Claus carried in his sack.
+57:57	N:N	N:N	"Could he conjure up the evil one?" asked the farmer.
+58:58	H:H	H:H	"I should like to see him now, while I am so merry."
+59:59	N:N	N:N	"Oh, yes!" replied Little Claus, "my conjuror can do anything I ask him,- can you not?" he asked, treading at the same time on the sack till it squeaked.
+60:60	N:F	N:F	"Do you hear? he answers 'Yes,' but he fears that we shall not like to look at him."
+61:61	N:H	N:H	"Oh, I am not afraid.
+62:62	N:N	N:N	What will he be like?"
+63:63	N:N	N:N	"Well, he is very much like a sexton."
+64:64	N:N	N:N	"Ha!" said the farmer, "then he must be ugly.
+65:65	N:N	N:N	Do you know I cannot endure the sight of a sexton.
+66:66	N:N	N:N	However, that doesn't matter, I shall know who it is; so I shall not mind.
+67:67	N:N	N:H	Now then, I have got up my courage, but don't let him come too near me."
+68:68	N:N	N:N	"Stop, I must ask the conjuror," said Little Claus; so he trod on the bag, and stooped his ear down to listen.
+69:69	N:N	N:N	"What does he say?"
+70:70	N:N	N:N	"He says that you must go and open that large chest which stands in the corner, and you will see the evil one crouching down inside; but you must hold the lid firmly, that he may not slip out."
+71:71	F:F	F:F	"Will you come and help me hold it?" said the farmer, going towards the chest in which his wife had hidden the sexton, who now lay inside, very much frightened.
+72:72	N:N	N:N	The farmer opened the lid a very little way, and peeped in.
+73:73	Su-:N	-:N	"Oh," cried he, springing backwards, "I saw him, and he is exactly like our sexton.
+74:74	Su-:F	-:F	How dreadful it is!"
+75:75	N:N	N:N	So after that he was obliged to drink again, and they sat and drank till far into the night.
+76:76	N:N	N:N	"You must sell your conjuror to me," said the farmer; "ask as much as you like, I will pay it; indeed I would give you directly a whole bushel of gold."
+77:77	N:N	N:N	"No, indeed, I cannot," said Little Claus; "only think how much profit I could make out of this conjuror."
+78:78	N:N	N:N	"But I should like to have him," said the fanner, still continuing his entreaties.
+79:79	N:N	N:N	"Well," said Little Claus at length, "you have been so good as to give me a night's lodging, I will not refuse you; you shall have the conjuror for a bushel of money, but I will have quite full measure."
+80:80	N:N	N:N	"So you shall," said the farmer; "but you must take away the chest as well.
+81:81	D:N	D:F	I would not have it in the house another hour; there is no knowing if he may not be still there."
+82:82	N:N	N:N	So Little Claus gave the farmer the sack containing the dried horse's skin, and received in exchange a bushel of money- full measure.
+83:83	N:N	N:N	The farmer also gave him a wheelbarrow on which to carry away the chest and the gold.
+84:84	N:N	N:N	"Farewell," said Little Claus, as he went off with his money and the great chest, in which the sexton lay still concealed.
+85:85	N:N	N:N	On one side of the forest was a broad, deep river, the water flowed so rapidly that very few were able to swim against the stream.
+86:86	N:N	N:N	A new bridge had lately been built across it, and in the middle of this bridge Little Claus stopped, and said, loud enough to be heard by the sexton, "Now what shall I do with this stupid chest; it is as heavy as if it were full of stones: I shall be tired if I roll it any farther, so I may as well throw it in the river; if it swims after me to my house, well and good, and if not, it will not much matter."
+87:87	N:N	N:N	So he seized the chest in his hand and lifted it up a little, as if he were going to throw it into the water.
+88:88	F:N	F:F	"No, leave it alone," cried the sexton from within the chest; "let me out first."
+89:89	N:F	N:F	"Oh," exclaimed Little Claus, pretending to be frightened, "he is in there still, is he?
+90:90	N:N	N:F	I must throw him into the river, that he may be drowned."
+91:91	F:N	F:F	"Oh, no; oh, no," cried the sexton; "I will give you a whole bushel full of money if you will let me go.
+92:92	N:N	N:N	"Why, that is another matter," said Little Claus, opening the chest.
+93:93	N:N	N:N	The sexton crept out, pushed the empty chest into the water, and went to his house, then he measured out a whole bushel full of gold for Little Claus, who had already received one from the farmer, so that now he had a barrow full.
+94:94	H:N	H:N	"I have been well paid for my horse," said he to himself when he reached home, entered his own room, and emptied all his money into a heap on the floor.
+95:95	N:N	N:N	"How vexed Great Claus will be when he finds out how rich I have become all through my one horse; but I shall not tell him exactly how it all happened."
+96:96	N:N	N:N	Then he sent a boy to Great Claus to borrow a bushel measure.
+97:97	D:N	N:N	"What can he want it for?" thought Great Claus; so he smeared the bottom of the measure with tar, that some of whatever was put into it might stick there and remain.
+98:98	N:N	N:N	And so it happened; for when the measure returned, three new silver florins were sticking to it.
+99:99	N:N	N:+	"What does this mean?" said Great Claus; so he ran off directly to Little Claus, and asked, "Where did you get so much money?"
+100:100	N:N	N:N	"Oh, for my horse's skin, I sold it yesterday."
+101:101	N:N	N:N	"It was certainly well paid for then," said Great Claus; and he ran home to his house, seized a hatchet, and knocked all his four horses on the head, flayed off their skins, and took them to the town to sell.
+102:102	N:N	N:N	"Skins, skins, who'll buy skins?" he cried, as he went through the streets.
+103:103	N:N	N:N	All the shoemakers and tanners came running, and asked how much he wanted for them.
+104:104	N:N	N:N	"A bushel of money, for each," replied Great Claus.
+105:105	Su-:N	-:-	"Are you mad?" they all cried; "do you think we have money to spend by the bushel?"
+106:106	N:N	N:N	"Skins, skins," he cried again, "who'll buy skins?" but to all who inquired the price, his answer was, "a bushel of money."
+107:107	A:N	A:A	"He is making fools of us," said they all; then the shoemakers took their straps, and the tanners their leather aprons, and began to beat Great Claus.
+108:108	A:A	A:A	"Skins, skins!" they cried, mocking him; "yes, we'll mark your skin for you, till it is black and blue."
+109:109	A:N	A:A	"Out of the town with him," said they.
+110:110	F:N	F:F	And Great Claus was obliged to run as fast as he could, he had never before been so thoroughly beaten.
+111:111	A:N	A:A	"Ah," said he, as he came to his house; "Little Claus shall pay me for this; I will beat him to death."
+112:112	N:N	N:N	Meanwhile the old grandmother of Little Claus died.
+113:113	Sa:Sa	S:S	She had been cross, unkind, and really spiteful to him; but he was very sorry, and took the dead woman and laid her in his warm bed to see if he could bring her to life again.
+114:114	N:N	N:S	There he determined that she should lie the whole night, while he seated himself in a chair in a corner of the room as he had often done before.
+115:115	N:N	N:F	During the night, as he sat there, the door opened, and in came Great Claus with a hatchet.
+116:116	N:N	N:F	He knew well where Little Claus's bed stood; so he went right up to it, and struck the old grandmother on the head. thinking it must be Little Claus.
+117:117	A:N	A:A	"There," cried he, "now you cannot make a fool of me again;" and then he went home.
+118:118	Su-:N	-:A	"That is a very wicked man," thought Little Claus; "he meant to kill me.
+119:119	N:N	N:N	It is a good thing for my old grandmother that she was already dead, or he would have taken her life."
+120:120	N:N	N:N	Then he dressed his old grandmother in her best clothes, borrowed a horse of his neighbor, and harnessed it to a cart.
+121:121	N:N	N:N	Then he placed the old woman on the back seat, so that she might not fall out as he drove, and rode away through the wood.
+122:122	N:N	N:N	By sunrise they reached a large inn, where Little Claus stopped and went to get something to eat.
+123:123	N:A	N:A	The landlord was a rich man, and a good man too; but as passionate as if he had been made of pepper and snuff.
+124:124	N:N	N:N	"Good morning," said he to Little Claus; "you are come betimes to-day."
+125:125	N:N	N:N	"Yes," said Little Claus; "I am going to the town with my old grandmother; she is sitting at the back of the wagon, but I cannot bring her into the room.
+126:126	N:N	N:N	Will you take her a glass of mead? but you must speak very loud, for she cannot hear well."
+127:127	N:N	N:N	"Yes, certainly I will," replied the landlord; and, pouring out a glass of mead, he carried it out to the dead grandmother, who sat upright in the cart.
+128:128	N:N	N:N	"Here is a glass of mead from your grandson," said the landlord.
+129:129	N:N	N:N	The dead woman did not answer a word, but sat quite still.
+130:130	N:N	N:N	"Do you not hear?" cried the landlord as loud as he could; "here is a glass of mead from your grandson."
+131:131	A:A	A:A	Again and again he bawled it out, but as she did not stir he flew into a passion, and threw the glass of mead in her face; it struck her on the nose, and she fell backwards out of the cart, for she was only seated there, not tied in.
+132:132	Su-:N	A:A	Hallo!" cried Little Claus, rushing out of the door, and seizing hold of the landlord by the throat; "you have killed my grandmother; see, here is a great hole in her forehead."
+133:133	Su-:N	-:F	"Oh, how unfortunate," said the landlord, wringing his hands.
+134:134	D:N	-:S	"This all comes of my fiery temper.
+135:135	F:N	F:F	Dear Little Claus, I will give you a bushel of money; I will bury your grandmother as if she were my own; only keep silent, or else they will cut off my head, and that would be disagreeable."
+136:136	N:N	N:N	So it happened that Little Claus received another bushel of money, and the landlord buried his old grandmother as if she had been his own.
+137:137	N:N	N:N	When Little Claus reached home again, he immediately sent a boy to Great Claus, requesting him to lend him a bushel measure.
+138:138	Su-:N	-:-	"How is this?" thought Great Claus; "did I not kill him?
+139:139	N:N	-:-	I must go and see for myself."
+140:140	N:N	N:N	So he went to Little Claus, and took the bushel measure with him.
+141:141	N:Su-	-:-	"How did you get all this money?" asked Great Claus, staring with wide open eyes at his neighbor's treasures.
+142:142	N:N	N:N	"You killed my grandmother instead of me," said Little Claus; "so I have sold her for a bushel of money."
+143:143	N:N	N:N	"That is a good price at all events," said Great Claus.
+144:144	N:N	N:N	So he went home, took a hatchet, and killed his old grandmother with one blow.
+145:145	N:N	N:N	Then he placed her on a cart, and drove into the town to the apothecary, and asked him if he would buy a dead body.
+146:146	N:N	N:N	"Whose is it, and where did you get it?" asked the apothecary.
+147:147	N:N	N:N	"It is my grandmother," he replied; "I killed her with a blow, that I might get a bushel of money for her."
+148:148	Su-:N	-:F	"Heaven preserve us!" cried the apothecary, "you are out of your mind.
+149:149	D:N	-:F	Don't say such things, or you will lose your head."
+150:150	D:N	D:F	And then he talked to him seriously about the wicked deed he had done, and told him that such a wicked man would surely be punished.
+151:151	F:F	F:F	Great Claus got so frightened that he rushed out of the surgery, jumped into the cart, whipped up his horses, and drove home quickly.
+152:152	N:F	N:F	The apothecary and all the people thought him mad, and let him drive where he liked.
+153:153	A:N	A:A	"You shall pay for this," said Great Claus, as soon as he got into the highroad, "that you shall, Little Claus."
+154:154	N:N	N:A	So as soon as he reached home he took the largest sack he could find and went over to Little Claus.
+155:155	A:N	A:A	"You have played me another trick," said he.
+156:156	A:N	A:A	"First, I killed all my horses, and then my old grandmother, and it is all your fault; but you shall not make a fool of me any more."
+157:157	A:N	A:A	So he laid hold of Little Claus round the body, and pushed him into the sack, which he took on his shoulders, saying, "Now I'm going to drown you in the river.
+158:158	N:N	N:N	He had a long way to go before he reached the river, and Little Claus was not a very light weight to carry.
+159:159	N:N	N:N	The road led by the church, and as they passed he could hear the organ playing and the people singing beautifully.
+160:160	N:N	N:N	Great Claus put down the sack close to the church-door, and thought he might as well go in and hear a psalm before he went any farther.
+161:161	N:N	N:N	Little Claus could not possibly get out of the sack, and all the people were in church; so in he went.
+162:162	F:N	F:S	"Oh dear, oh dear," sighed Little Claus in the sack, as he turned and twisted about; but he found he could not loosen the string with which it was tied.
+163:163	N:N	N:N	Presently an old cattle driver, with snowy hair, passed by, carrying a large staff in his hand, with which he drove a large herd of cows and oxen before him.
+164:164	N:N	N:N	They stumbled against the sack in which lay Little Claus, and turned it over.
+165:165	N:N	N:S	"Oh dear," sighed Little Claus, "I am very young, yet I am soon going to heaven."
+166:166	Sa:Sa	S:S	"And I, poor fellow," said the drover, "I who am so old already, cannot get there."
+167:167	N:N	N:N	"Open the sack," cried Little Claus; "creep into it instead of me, and you will soon be there."
+168:168	H:N	H:N	"With all my heart," replied the drover, opening the sack, from which sprung Little Claus as quickly as possible.
+169:169	N:N	N:N	"Will you take care of my cattle?" said the old man, as he crept into the bag.
+170:170	N:N	N:N	"Yes," said Little Claus, and he tied up the sack, and then walked off with all the cows and oxen.
+171:171	N:N	N:N	When Great Claus came out of church, he took up the sack, and placed it on his shoulders.
+172:172	N:N	N:N	It appeared to have become lighter, for the old drover was not half so heavy as Little Claus.
+173:173	Su+:N	+:N	"How light he seems now," said he.
+174:174	H:N	H:N	"Ah, it is because I have been to a church."
+175:175	N:N	N:N	So he walked on to the river, which was deep and broad, and threw the sack containing the old drover into the water, believing it to be Little Claus.
+176:176	H:N	H:A	"There you may lie!" he exclaimed; "you will play me no more tricks now."
+177:177	N:N	N:N	Then he turned to go home, but when he came to a place where two roads crossed, there was Little Claus driving the cattle.
+178:178	Su-:N	-:-	"How is this?" said Great Claus.
+179:179	Su-:N	-:-	"Did I not drown you just now?"
+180:180	N:N	N:N	"Yes," said Little Claus; "you threw me into the river about half an hour ago."
+181:181	N:N	N:N	"But wherever did you get all these fine beasts?" asked Great Claus.
+182:182	N:N	N:N	"These beasts are sea-cattle," replied Little Claus.
+183:183	H:N	H:N	"I'll tell you the whole story, and thank you for drowning me; I am above you now, I am really very rich.
+184:184	N:F	N:F	I was frightened, to be sure, while I lay tied up in the sack, and the wind whistled in my ears when you threw me into the river from the bridge, and I sank to the bottom immediately; but I did not hurt myself, for I fell upon beautifully soft grass which grows down there; and in a moment, the sack opened, and the sweetest little maiden came towards me.
+185:185	N:N	N:N	She had snow-white robes, and a wreath of green leaves on her wet hair.
+186:186	N:N	N:N	She took me by the hand, and said, 'So you are come, Little Claus, and here are some cattle for you to begin with.
+187:187	N:N	N:N	About a mile farther on the road, there is another herd for you.'
+188:188	N:N	N:N	Then I saw that the river formed a great highway for the people who live in the sea.
+189:189	N:N	N:N	They were walking and driving here and there from the sea to the land at the, spot where the river terminates.
+190:190	N:N	N:N	The bed of the river was covered with the loveliest flowers and sweet fresh grass.
+191:191	N:N	N:N	The fish swam past me as rapidly as the birds do here in the air.
+192:192	N:N	N:N	How handsome all the people were, and what fine cattle were grazing on the hills and in the valleys!"
+193:193	N:N	N:N	"But why did you come up again," said Great Claus, "if it was all so beautiful down there?
+194:194	N:N	N:N	I should not have done so?"
+195:195	N:N	N:N	"Well," said Little Claus, "it was good policy on my part; you heard me say just now that I was told by the sea-maiden to go a mile farther on the road, and I should find a whole herd of cattle.
+196:196	N:N	N:N	By the road she meant the river, for she could not travel any other way; but I knew the winding of the river, and how it bends, sometimes to the right and sometimes to the left, and it seemed a long way, so I chose a shorter one; and, by coming up to the land, and then driving across the fields back again to the river, I shall save half a mile, and get all my cattle more quickly."
+197:197	Su+:N	+:N	"What a lucky fellow you are!" exclaimed Great Claus.
+198:198	N:N	+:N	"Do you think I should get any sea-cattle if I went down to the bottom of the river?"
+199:199	N:N	N:N	"Yes, I think so," said Little Claus; "but I cannot carry you there in a sack, you are too heavy.
+200:200	N:H	N:H	However if you will go there first, and then creep into a sack, I will throw you in with the greatest pleasure."
+201:201	H:N	H:N	"Thank you," said Great Claus; "but remember, if I do not get any sea-cattle down there I shall come up again and give you a good thrashing."
+202:202	N:N	N:N	"No, now, don't be too fierce about it!" said Little Claus, as they walked on towards the river.
+203:203	N:N	N:N	When they approached it, the cattle, who were very thirsty, saw the stream, and ran down to drink.
+204:204	N:N	N:N	"See what a hurry they are in," said Little Claus, "they are longing to get down again," "Come, help me, make haste," said Great Claus; "or you'll get beaten."
+205:205	N:N	N:N	So he crept into a large sack, which had been lying across the back of one of the oxen.
+206:206	N:N	N:N	"Put in a stone," said Great Claus, "or I may not sink."
+207:207	N:N	N:N	"Oh, there's not much fear of that," he replied; still he put a large stone into the bag, and then tied it tightly, and gave it a push.
+208:208	N:N	N:N	"Plump!"
+209:209	N:N	N:N	In went Great Claus, and immediately sank to the bottom of the river.
+210:210	N:N	N:N	"I'm afraid he will not find any cattle," said Little Claus, and then he drove his own beasts homewards.

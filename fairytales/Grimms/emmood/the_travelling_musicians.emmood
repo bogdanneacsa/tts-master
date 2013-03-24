@@ -1,0 +1,46 @@
+0:0	N:N	N:N	An honest farmer had once an ass that had been a faithful servant to him a great many years, but was now growing old and every day more and more unfit for work.
+1:1	N:F	N:S	His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, "For there," thought he, "I may turn musician."
+2:2	N:N	N:S	After he had travelled a little way, he spied a dog lying by the roadside and panting as if he were tired.
+3:3	N:Su-	N:S	"What makes you pant so, my friend?" said the ass.
+4:4	Sa:Sa	N:S	"Alas!" said the dog, "my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?"
+5:5	N:H	N:H	"Hark ye!" said the ass, "I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?"
+6:6	N:H	N:H	The dog said he was willing, and they jogged on together.
+7:7	N:Sa	N:N	They had not gone far before they saw a cat sitting in the middle of the road and making a most rueful face.
+8:8	N:Su-	N:N	"Pray, my good lady," said the ass, "what"s the matter with you?
+9:9	Su-:N	N:N	You look quite out of spirits!"
+10:10	F:Sa	N:S	"Ah, me!" said the cat, "how can one be in good spirits when one"s life is in danger?
+11:11	Sa:Sa	S:S	Because I am beginning to grow old, and had rather lie at my ease by the fire than run about the house after the mice, my mistress laid hold of me, and was going to drown me; and though I have been lucky enough to get away from her, I do not know what I am to live upon."
+12:12	H:H	H:H	"Oh," said the ass, "by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician."
+13:13	H:H	H:H	The cat was pleased with the thought, and joined the party.
+14:14	Su+:Su-	N:H	Soon afterwards, as they were passing by a farmyard, they saw a cock perched upon a gate, and screaming out with all his might and main.
+15:15	H:Su-	N:S	"Bravo!" said the ass; "upon my word, you make a famous noise; pray what is all this about?"
+16:16	F:F	F:S	"Why," said the cock, "I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don"t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!"
+17:17	Su-:H	-:H	"Heaven forbid!" said the ass, "come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off!
+18:18	N:N	N:H	Besides, who knows?
+19:19	N:H	N:H	If we care to sing in tune, we may get up some kind of a concert; so come along with us."
+20:20	H:H	H:H	"With all my heart," said the cock: so they all four went on jollily together.
+21:21	N:N	N:H	They could not, however, reach the great city the first day; so when night came on, they went into a wood to sleep.
+22:22	N:N	N:H	The ass and the dog laid themselves down under a great tree, and the cat climbed up into the branches; while the cock, thinking that the higher he sat the safer he should be, flew up to the very top of the tree, and then, according to his custom, before he went to sleep, looked out on all sides of him to see that everything was well.
+23:23	Su+:Su+	H:H	In doing this, he saw afar off something bright and shining and calling to his companions said, "There must be a house no great way off, for I see a light."
+24:24	N:Su-	N:H	"If that be the case," said the ass, "we had better change our quarters, for our lodging is not the best in the world!"
+25:25	H:N	H:H	"Besides," added the dog, "I should not be the worse for a bone or two, or a bit of meat."
+26:26	F:N	N:F	So they walked off together towards the spot where Chanticleer had seen the light, and as they drew near it became larger and brighter, till they at last came close to a house in which a gang of robbers lived.
+27:27	N:N	N:F	The ass, being the tallest of the company, marched up to the window and peeped in.
+28:28	N:N	N:F	"Well, Donkey," said Chanticleer, "what do you see?"
+29:29	N:N	N:F	"What do I see?" replied the ass.
+30:30	Su-:Su+	-:+	"Why, I see a table spread with all kinds of good things, and robbers sitting round it making merry."
+31:31	H:Su+	N:+	"That would be a noble lodging for us," said the cock.
+32:32	H:N	N:+	"Yes," said the ass, "if we could only get in"; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan.
+33:33	N:N	N:N	The ass placed himself upright on his hind legs, with his forefeet resting against the window; the dog got upon his back; the cat scrambled up to the dog"s shoulders, and the cock flew up and sat upon the cat"s head.
+34:34	N:N	N:N	When all was ready a signal was given, and they began their music.
+35:35	Su+:N	N:-	The ass brayed, the dog barked, the cat mewed, and the cock screamed; and then they all broke through the window at once, and came tumbling into the room, amongst the broken glass, with a most hideous clatter!
+36:36	F:F	F:+	The robbers, who had been not a little frightened by the opening concert, had now no doubt that some frightful hobgoblin had broken in upon them, and scampered away as fast as they could.
+37:37	H:H	H:H	The coast once clear, our travellers soon sat down and dispatched what the robbers had left, with as much eagerness as if they had not expected to eat again for a month.
+38:38	H:N	H:H	As soon as they had satisfied themselves, they put out the lights, and each once more sought out a resting-place to his own liking.
+39:39	N:N	N:H	The donkey laid himself down upon a heap of straw in the yard, the dog stretched himself upon a mat behind the door, the cat rolled herself up on the hearth before the warm ashes, and the cock perched upon a beam on the top of the house; and, as they were all rather tired with their journey, they soon fell asleep.
+40:40	N:A	N:F	But about midnight, when the robbers saw from afar that the lights were out and that all seemed quiet, they began to think that they had been in too great a hurry to run away; and one of them, who was bolder than the rest, went to see what was going on.
+41:41	N:N	N:F	Finding everything still, he marched into the kitchen, and groped about till he found a match in order to light a candle; and then, espying the glittering fiery eyes of the cat, he mistook them for live coals, and held the match to them to light it.
+42:42	A:Su-	A:+	But the cat, not understanding this joke, sprang at his face, and spat, and scratched at him.
+43:43	F:F	F:+	This frightened him dreadfully, and away he ran to the back door; but there the dog jumped up and bit him in the leg; and as he was crossing over the yard the ass kicked him; and the cock, who had been awakened by the noise, crowed with all his might.
+44:44	F:F	F:+	At this the robber ran back as fast as he could to his comrades, and told the captain how a horrid witch had got into the house, and had spat at him and scratched his face with her long bony fingers; how a man with a knife in his hand had hidden himself behind the door, and stabbed him in the leg; how a black monster stood in the yard and struck him with a club, and how the devil had sat upon the top of the house and cried out, "Throw the rascal up here!"
+45:45	H:H	H:H	After this the robbers never dared to go back to the house; but the musicians were so pleased with their quarters that they took up their abode there; and there they are, I dare say, at this very day.

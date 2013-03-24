@@ -1,0 +1,104 @@
+0:0	N:N	N:N	Once upon a time there was a woodmouse, and her name was Mrs. Tittlemouse.
+1:1	N:N	N:N	She lived in a bank under a hedge.
+2:2	N:N	N:N	Such a funny house!
+3:3	N:N	N:N	There were yards and yards of sandy passages, leading to store- rooms and nut cellars and seed cellars, all amongst the roots of the hedge.
+4:4	N:N	N:N	There was a kitchen, a parlor, a pantry, and a larder.
+5:5	N:N	N:N	Also, there was Mrs. Tittle- mouse's bedroom, where she slept in a little box bed!
+6:6	N:N	N:N	Mrs. Tittlemouse was a most terribly tidy particular little mouse, always sweeping and dusting the soft sandy floors.
+7:7	N:N	N:N	Sometimes a beetle lost its way in the passages.
+8:8	D:N	D:N	"Shuh! shuh! little dirty feet!" said Mrs. Tittlemouse, clattering her dustpan.
+9:9	N:N	N:N	And one day a little old woman ran up and down in a red spotty cloak.
+10:10	Su-:N	-:N	"Your house is on fire, Mother Ladybird!
+11:11	Su-:N	-:N	Fly away home to your children!"
+12:12	N:N	N:N	Another day, a big fat spider came in to shelter from the rain.
+13:13	N:N	N:N	"Beg pardon, is this not Miss Muffet's?"
+14:14	A:D	A:D	"Go away, you bold bad spider!
+15:15	D:N	D:N	Leaving ends of cobweb all over my nice clean house!"
+16:16	N:N	D:N	She bundled the spider out at a window.
+17:17	N:N	N:N	He let himself down the hedge with a long thin bit of string.
+18:18	N:N	N:N	Mrs. Tittlemouse went on her way to a distant storeroom, to fetch cherrystones and thistle- down seed for dinner.
+19:19	N:N	N:N	All along the passage she sniffed, and looked at the floor.
+20:20	N:N	N:N	"I smell a smell of honey; is it the cowslips outside, in the hedge?
+21:21	D:N	D:N	I am sure I can see the marks of little dirty feet."
+22:22	H:N	H:N	Suddenly round a corner, she met Babbitty Bumble--"Zizz, Bizz, Bizzz!" said the bumble bee.
+23:23	D:A	A:A	Mrs. Tittlemouse looked at her severely.
+24:24	N:Sa	D:S	She wished that she had a broom.
+25:25	N:N	N:N	"Good-day, Babbitty Bumble; I should be glad to buy some bees- wax.
+26:26	N:N	N:N	But what are you doing down here?
+27:27	D:N	D:N	Why do you always come in at a window, and say, Zizz, Bizz, Bizzz?"
+28:28	A:A	A:A	Mrs. Tittle- mouse began to get cross.
+29:29	N:A	N:A	"Zizz, Wizz, Wizzz!" replied Babbitty Bumble in a peevish squeak.
+30:30	N:N	N:N	She sidled down a passage, and disappeared into a storeroom which had been used for acorns.
+31:31	N:N	N:N	Mrs. Tittlemouse had eaten the acorns before Christmas; the storeroom ought to have been empty.
+32:32	N:N	N:N	But it was full of untidy dry moss.
+33:33	N:N	N:N	Mrs. Tittlemouse began to pull out the moss.
+34:34	N:N	N:N	Three or four other bees put their heads out, and buzzed fiercely.
+35:35	A:A	A:A	"I am not in the habit of letting lodgings; this is an intrusion!" said Mrs. Tittlemouse.
+36:36	N:A	A:A	"I will have them turned out --" "Buzz!
+37:37	N:N	N:N	Buzz!
+38:38	N:N	N:N	Buzzz!"--"I wonder who would help me?"
+39:39	N:N	N:N	"Bizz, Wizz, Wizzz!"
+40:40	N:N	N:N	--"I will not have Mr. Jackson; he never wipes his feet."
+41:41	N:N	N:N	Mrs. Tittlemouse decided to leave the bees till after dinner.
+42:42	N:N	N:N	When she got back to the parlor, she heard some one coughing in a fat voice; and there sat Mr. Jackson himself.
+43:43	H:H	H:H	He was sitting all over a small rocking chair, twiddling his thumbs and smiling, with his feet on the fender.
+44:44	N:N	N:N	He lived in a drain below the hedge, in a very dirty wet ditch.
+45:45	N:N	N:N	"How do you do, Mr. Jackson?
+46:46	Su-:N	-:N	Deary me, you have got very wet!"
+47:47	H:H	H:H	"Thank you, thank you, thank you, Mrs. Tittlemouse!
+48:48	N:N	H:N	I'll sit awhile and dry myself," said Mr. Jackson.
+49:49	H:H	H:H	He sat and smiled, and the water dripped off his coat tails.
+50:50	N:N	N:N	Mrs. Tittlemouse went round with a mop.
+51:51	N:N	N:N	He sat such a while that he had to be asked if he would take some dinner?
+52:52	N:N	N:N	First she offered him cherry- stones.
+53:53	H:H	H:H	"Thank you, thank you, Mrs. Tittlemouse!
+54:54	N:N	H:N	No teeth, no teeth, no teeth!" said Mr. Jackson.
+55:55	N:N	N:N	He opened his mouth most unnecessarily wide; he certainly had not a tooth in his head.
+56:56	N:N	N:N	Then she offered him thistle- down seed--"Tiddly, widdly, widdly!
+57:57	N:N	N:N	Pouff, pouff, puff." said Mr. Jackson.
+58:58	N:N	N:N	He blew the thistle- down all over the room.
+59:59	H:H	H:H	"Thank you, thank you, thank you, Mrs. Tittlemouse!
+60:60	H:H	H:H	Now what I really--REALLY should like-- would be a little dish of honey!"
+61:61	Sa:Sa	N:S	"I am afraid I have not got any, Mr. Jackson!" said Mrs. Tittlemouse.
+62:62	N:H	N:H	"Tiddly, widdly, widdly, Mrs. Tittlemouse!" said the smiling Mr. Jackson, "I can SMELL it; that is why I came to call."
+63:63	N:N	N:N	Mr. Jackson rose ponderously from the table, and began to look into the cupboards.
+64:64	N:N	N:N	Mrs. Tittlemouse followed him with a dishcloth, to wipe his large wet footmarks off the parlor floor.
+65:65	N:N	N:N	When he had convinced himself that there was no honey in the cupboards, he began to walk down the passage.
+66:66	N:N	N:N	"Indeed, indeed, you will stick fast, Mr. Jackson!"
+67:67	N:N	N:N	"Tiddly, widdly, widdly, Mrs. Tittlemouse!"
+68:68	N:N	N:N	First he squeezed into the pantry.
+69:69	Su-:N	N:N	"Tiddly, widdly, widdly?
+70:70	Su-:N	-:N	No honey?
+71:71	Su-:N	-:N	No honey, Mrs. Tittlemouse?"
+72:72	N:N	-:N	There were three creepy-crawly people hiding in the plate rack.
+73:73	N:N	N:N	Two of them got away; but the littlest one he caught.
+74:74	N:N	N:N	Then he squeezed into the larder.
+75:75	N:N	N:N	Miss Butterfly was tasting the sugar; but she flew away out of the window.
+76:76	Su+:N	+:N	"Tiddly, widdly, widdly, Mrs. Tittlemouse; you seem to have plenty of visitors!"
+77:77	D:N	D:N	"And without any invitation!" said Mrs. Thomasina Tittlemouse.
+78:78	N:N	N:N	They went along the sandy passage--"Tiddly, widdly--" "Buzz!
+79:79	N:N	N:N	Wizz!
+80:80	N:N	N:N	Wizz!"
+81:81	N:N	N:N	He met Babbitty round a corner, and snapped her up, and put her down again.
+82:82	D:N	D:N	"I do not like bumble bees.
+83:83	D:N	D:N	They are all over bristles," said Mr. Jackson, wiping his mouth with his coat sleeve.
+84:84	A:A	A:A	"Get out, you nasty old toad!" shrieked Babbitty Bumble.
+85:85	A:A	A:A	"I shall go distracted!" scolded Mrs. Tittlemouse.
+86:86	N:N	N:N	She shut herself up in the nut cellar while Mr. Jackson pulled out the bees-nest.
+87:87	N:N	N:N	He seemed to have no objection to stings.
+88:88	N:N	N:N	When Mrs. Tittlemouse ventured to come out--everybody had gone away.
+89:89	A:D	A:D	But the untidiness was something dreadful--"Never did I see such a mess--smears of honey; and moss, and thistledown--and marks of big and little dirty feet-- all over my nice clean house!"
+90:90	N:N	A:N	She gathered up the moss and the remains of the bees- wax.
+91:91	N:N	N:N	Then she went out and fetched some twigs, to partly close up the front door.
+92:92	A:N	A:N	"I will make it too small for Mr. Jackson!"
+93:93	N:N	A:N	She fetched soft soap, and flannel, and a new scrubbing brush from the storeroom.
+94:94	N:N	N:N	But she was too tired to do any more.
+95:95	N:N	N:N	First she fell asleep in her chair, and then she went to bed.
+96:96	D:Sa	D:S	"Will it ever be tidy again?" said poor Mrs. Tittlemouse.
+97:97	N:N	N:N	Next morning she got up very early and began a spring cleaning which lasted a fort- night.
+98:98	N:N	N:N	She swept, and scrubbed, and dusted; and she rubbed up the furniture with bees- wax, and polished her little tin spoons.
+99:99	N:N	N:N	When it was all beautifully neat and clean, she gave a party to five other little mice, without Mr. Jackson.
+100:100	N:N	N:N	He smelt the party and came up the bank, but he could not squeeze in at the door.
+101:101	N:N	N:N	So they handed him out acorn cupfuls of honeydew through the window, and he was not at all offended.
+102:102	H:N	H:N	He sat outside in the sun, and said--"Tiddly, widdly, widdly!
+103:103	H:N	H:N	Your very good health, Mrs. Tittlemouse!"

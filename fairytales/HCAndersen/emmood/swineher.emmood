@@ -1,0 +1,94 @@
+0:0	N:N	N:N	ONCE upon a time lived a poor prince; his kingdom was very small, but it was large enough to enable him to marry, and marry he would.
+1:1	N:N	N:N	It was rather bold of him that he went and asked the emperor's daughter: "Will you marry me?" but he ventured to do so, for his name was known far and wide, and there were hundreds of princesses who would have gladly accepted him, but would she do so?
+2:2	N:N	N:N	Now we shall see.
+3:3	N:N	N:N	On the grave of the prince's father grew a rose-tree, the most beautiful of its kind.
+4:4	N:N	N:N	It bloomed only once in five years, and then it had only one single rose upon it, but what a rose!
+5:5	N:N	H:H	It had such a sweet scent that one instantly forgot all sorrow and grief when one smelt it.
+6:6	N:N	H:H	He had also a nightingale, which could sing as if every sweet melody was in its throat.
+7:7	N:N	N:H	This rose and the nightingale he wished to give to the princess; and therefore both were put into big silver cases and sent to her.
+8:8	H:H	H:H	The emperor ordered them to be carried into the great hall where the princess was just playing "Visitors are coming" with her ladies-in-waiting; when she saw the large cases with the presents therein, she clapped her hands for joy.
+9:9	N:N	H:H	"I wish it were a little pussy cat," she said.
+10:10	N:N	N:N	But then the rose-tree with the beautiful rose was unpacked.
+11:11	H:N	H:H	"Oh, how nicely it is made," exclaimed the ladies.
+12:12	H:N	H:H	"It is more than nice," said the emperor, "it is charming."
+13:13	Su-:Sa	S:S	The princess touched it and nearly began to cry.
+14:14	Su-:N	S:D	"For shame, pa," she said, "it is not artificial, it is natural!"
+15:15	D:N	D:D	"For shame, it is natural" repeated all her ladies.
+16:16	N:N	N:N	"Let us first see what the other case contains before we are angry," said the emperor; then the nightingale was taken out, and it sang so beautifully that no one could possibly say anything unkind about it.
+17:17	H:N	H:H	"Superbe, charmant," said the ladies of the court, for they all prattled French, one worse than the other.
+18:18	N:N	N:H	"How much the bird reminds me of the musical box of the late lamented empress," said an old courtier, "it has exactly the same tone, the same execution."
+19:19	Sa:Sa	S:S	"You are right," said the emperor, and began to cry like a little child.
+20:20	N:N	N:S	"I hope it is not natural," said the princess.
+21:21	N:N	N:N	"Yes, certainly it is natural," replied those who had brought the presents.
+22:22	N:N	D:A	"Then let it fly," said the princess, and refused to see the prince.
+23:23	N:H	N:H	But the prince was not discouraged.
+24:24	N:N	N:N	He painted his face, put on common clothes, pulled his cap over his forehead, and came back.
+25:25	N:N	N:N	"Good day, emperor," he said, "could you not give me some employment at the court?"
+26:26	N:N	N:N	"There are so many," replied the emperor, "who apply for places, that for the present I have no vacancy, but I will remember you.
+27:27	N:N	N:N	But wait a moment; it just comes into my mind, I require somebody to look after my pigs, for I have a great many."
+28:28	N:N	N:N	Thus the prince was appointed imperial swineherd, and as such he lived in a wretchedly small room near the pigsty; there he worked all day long, and when it was night he had made a pretty little pot.
+29:29	N:N	N:H	There were little bells round the rim, and when the water began to boil in it, the bells began to play the old tune:
+30:30	N:N	H:H	"A jolly old sow once lived in a sty, Three little piggies had she," &c.
+31:31	N:N	H:+	But what was more wonderful was that, when one put a finger into the steam rising from the pot, one could at once smell what meals they were preparing on every fire in the whole town.
+32:32	N:N	N:H	That was indeed much more remarkable than the rose.
+33:33	H:H	H:H	When the princess with her ladies passed by and heard the tune, she stopped and looked quite pleased, for she also could play it- in fact, it was the only tune she could play, and she played it with one finger.
+34:34	H:N	H:H	"That is the tune I know," she exclaimed.
+35:35	N:N	H:H	"He must be a well-educated swineherd.
+36:36	N:N	N:H	Go and ask him how much the instrument is."
+37:37	N:N	N:N	One of the ladies had to go and ask; but she put on pattens.
+38:38	N:N	N:N	"What will you take for your pot?" asked the lady.
+39:39	N:N	H:N	"I will have ten kisses from the princess," said the swineherd.
+40:40	D:N	D:A	"God forbid," said the lady.
+41:41	N:N	N:N	"Well, I cannot sell it for less," replied the swineherd.
+42:42	N:N	N:N	"What did he say?" said the princess.
+43:43	N:N	N:A	I really cannot tell you," replied the lady.
+44:44	N:N	N:N	"You can whisper it into my ear."
+45:45	D:N	D:A	"It is very naughty," said the princess, and walked off.
+46:46	N:N	N:N	But when she had gone a little distance, the bells rang again so sweetly:
+47:47	N:N	N:H	"A jolly old sow once lived in a sty, Three little piggies had she," &c.
+48:48	N:N	N:N	"Ask him," said the princess, "if he will be satisfied with ten kisses from one of my ladies."
+49:49	N:N	N:N	"No, thank you," said the swineherd: "ten kisses from the princess, or I keep my pot."
+50:50	D:N	D:A	"That is tiresome," said the princess.
+51:51	N:N	N:A	"But you must stand before me, so that nobody can see it."
+52:52	N:N	N:N	The ladies placed themselves in front of her and spread out their dresses, and she gave the swineherd ten kisses and received the pot.
+53:53	H:H	H:H	That was a pleasure!
+54:54	N:N	N:N	Day and night the water in the pot was boiling; there was not a single fire in the whole town of which they did not know what was preparing on it, the chamberlain's as well as the shoemaker's.
+55:55	H:H	H:H	The ladies danced and clapped their hands for joy.
+56:56	N:N	H:H	"We know who will eat soup and pancakes; we know who will eat porridge and cutlets; oh, how interesting!"
+57:57	N:N	N:H	"Very interesting, indeed," said the mistress of the household.
+58:58	N:N	N:N	"But you must not betray me, for I am the emperor's daughter."
+59:59	N:N	N:N	"Of course not," they all said.
+60:60	N:N	N:N	The swineherd- that is to say, the prince- but they did not know otherwise than that he was a real swineherd- did not waste a single day without doing something; he made a rattle, which, when turned quickly round, played all the waltzes, galops, and polkas known since the creation of the world.
+61:61	H:N	H:H	"But that is superbe," said the princess passing by.
+62:62	H:N	H:H	"I have never heard a more beautiful composition.
+63:63	N:N	N:N	Go down and ask him what the instrument costs; but I shall not kiss him again."
+64:64	N:N	N:N	"He will have a hundred kisses from the princess," said the lady, who had gone down to ask him.
+65:65	D:N	D:A	"I believe he is mad," said the princess, and walked off, but soon she stopped.
+66:66	N:N	N:N	"One must encourage art," she said.
+67:67	N:N	N:N	"I am the emperor's daughter!
+68:68	N:N	N:N	Tell him I will give him ten kisses, as I did the other day; the remainder one of my ladies can give him.
+69:69	D:N	D:A	"But we do not like to kiss him" said the ladies.
+70:70	N:N	N:A	"That is nonsense," said the princess; "if I can kiss him, you can also do it.
+71:71	N:N	N:A	Remember that I give you food and employment."
+72:72	N:N	N:N	And the lady had to go down once more.
+73:73	N:N	N:N	"A hundred kisses from the princess," said the swineherd, "or everybody keeps his own."
+74:74	N:N	N:N	"Place yourselves before me," said the princess then.
+75:75	N:N	N:N	They did as they were bidden, and the princess kissed him.
+76:76	N:N	N:-	"I wonder what that crowd near the pigsty means!" said the emperor, who had just come out on his balcony.
+77:77	N:N	N:-	He rubbed his eyes and put his spectacles on.
+78:78	D:N	N:-	"The ladies of the court are up to some mischief, I think.
+79:79	N:N	N:N	I shall have to go down and see."
+80:80	N:N	N:N	He pulled up his shoes, for they were down at the heels, and he was very quick about it.
+81:81	N:N	N:N	When he had come down into the courtyard he walked quite softly, and the ladies were so busily engaged in counting the kisses, that all should be fair, that they did not notice the emperor.
+82:82	N:N	N:N	He raised himself on tiptoe.
+83:83	Su-:N	-:A	"What does this mean?" he said, when he saw that his daughter was kissing the swineherd, and then hit their heads with his shoe just as the swineherd received the sixty-eighth kiss.
+84:84	A:A	A:A	"Go out of my sight," said the emperor, for he was very angry; and both the princess and the swineherd were banished from the empire.
+85:85	Sa:Sa	S:S	There she stood and cried, the swineherd scolded her, and the rain came down in torrents.
+86:86	Sa:N	S:S	"Alas, unfortunate creature that I am!" said the princess, "I wish I had accepted the prince.
+87:87	Sa:Sa	S:S	Oh, how wretched I am!"
+88:88	N:N	N:+	The swineherd went behind a tree, wiped his face, threw off his poor attire and stepped forth in his princely garments; he looked so beautiful that the princess could not help bowing to him.
+89:89	N:A	N:A	"I have now learnt to despise you," he said.
+90:90	D:N	D:A	"You refused an honest prince; you did not appreciate the rose and the nightingale; but you did not mind kissing a swineherd for his toys; you have no one but yourself to blame!"
+91:91	N:N	N:A	And then he returned into his kingdom and left her behind.
+92:92	N:N	N:N	She could now sing at her leisure:
+93:93	N:N	N:N	"A jolly old sow once lived in a sty, Three little piggies has she," &c.

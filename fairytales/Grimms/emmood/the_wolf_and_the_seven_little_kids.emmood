@@ -1,0 +1,53 @@
+0:0	H:H	H:H	There was once upon a time an old goat who had seven little kids, and loved them with all the love of a mother for her children.
+1:1	N:N	N:N	One day she wanted to go into the forest and fetch some food.
+2:2	N:F	N:F	So she called all seven to her and said: "Dear children, I have to go into the forest, be on your guard against the wolf; if he comes in, he will devour you all--skin, hair, and everything.
+3:3	N:N	N:F	The wretch often disguises himself, but you will know him at once by his rough voice and his black feet."
+4:4	N:N	N:N	The kids said: "Dear mother, we will take good care of ourselves; you may go away without any anxiety."
+5:5	H:H	H:H	Then the old one bleated, and went on her way with an easy mind.
+6:6	N:N	N:N	It was not long before someone knocked at the house-door and called: "Open the door, dear children; your mother is here, and has brought something back with her for each of you."
+7:7	N:N	N:N	But the little kids knew that it was the wolf, by the rough voice.
+8:8	F:A	F:A	"We will not open the door," cried they, "you are not our mother.
+9:9	N:A	N:A	She has a soft, pleasant voice, but your voice is rough; you are the wolf!"
+10:10	N:N	N:N	Then the wolf went away to a shopkeeper and bought himself a great lump of chalk, ate this and made his voice soft with it.
+11:11	N:N	N:N	Then he came back, knocked at the door of the house, and called: "Open the door, dear children, your mother is here and has brought something back with her for each of you."
+12:12	F:A	F:A	But the wolf had laid his black paws against the window, and the children saw them and cried: "We will not open the door, our mother has not black feet like you: you are the wolf!"
+13:13	N:N	N:N	Then the wolf ran to a baker and said: "I have hurt my feet, rub some dough over them for me."
+14:14	N:N	N:N	And when the baker had rubbed his feet over, he ran to the miller and said: "Strew some white meal over my feet for me."
+15:15	A:A	A:A	The miller thought to himself: "The wolf wants to deceive someone," and refused; but the wolf said: "If you will not do it, I will devour you."
+16:16	F:F	F:F	Then the miller was afraid, and made his paws white for him.
+17:17	N:N	N:N	Truly, this is the way of mankind.
+18:18	N:N	N:N	So now the wretch went for the third time to the house-door, knocked at it and said: "Open the door for me, children, your dear little mother has come home, and has brought every one of you something back from the forest with her."
+19:19	N:N	N:N	The little kids cried: "First show us your paws that we may know if you are our dear little mother."
+20:20	N:H	N:H	Then he put his paws in through the window and when the kids saw that they were white, they believed that all he said was true, and opened the door.
+21:21	N:Su-	N:-	But who should come in but the wolf!
+22:22	F:F	F:F	They were terrified and wanted to hide themselves.
+23:23	N:F	F:F	One sprang under the table, the second into the bed, the third into the stove, the fourth into the kitchen, the fifth into the cupboard, the sixth under the washing-bowl, and the seventh into the clock-case.
+24:24	N:Sa	F:S	But the wolf found them all, and used no great ceremony; one after the other he swallowed them down his throat.
+25:25	N:N	F:N	The youngest, who was in the clock-case, was the only one he did not find.
+26:26	H:H	F:S	When the wolf had satisfied his appetite he took himself off, laid himself down under a tree in the green meadow outside, and began to sleep.
+27:27	N:N	N:N	Soon afterwards the old goat came home again from the forest.
+28:28	Su-:Su-	-:-	Ah! what a sight she saw there!
+29:29	N:N	-:-	The house-door stood wide open.
+30:30	N:N	-:-	The table, chairs, and benches were thrown down, the washing-bowl lay broken to pieces, and the quilts and pillows were pulled off the bed.
+31:31	N:N	S:-	She sought her children, but they were nowhere to be found.
+32:32	N:N	S:-	She called them one after another by name, but no one answered.
+33:33	N:N	N:S	At last, when she came to the youngest, a soft voice cried: "Dear mother, I am in the clock-case."
+34:34	N:N	S:S	She took the kid out, and it told her that the wolf had come and had eaten all the others.
+35:35	Sa:Sa	S:S	Then you may imagine how she wept over her poor children.
+36:36	Sa:Sa	S:S	At length in her grief she went out, and the youngest kid ran with her.
+37:37	N:N	N:S	When they came to the meadow, there lay the wolf by the tree and snored so loud that the branches shook.
+38:38	N:N	N:S	She looked at him on every side and saw that something was moving and struggling in his gorged belly.
+39:39	Su+:Su+	+:+	"Ah, heavens," she said, "is it possible that my poor children whom he has swallowed down for his supper, can be still alive?"
+40:40	N:Su+	H:+	Then the kid had to run home and fetch scissors, and a needle and thread, and the goat cut open the monster"s stomach, and hardly had she made one cut, than one little kid thrust its head out, and when she had cut farther, all six sprang out one after another, and were all still alive, and had suffered no injury whatever, for in his greediness the monster had swallowed them down whole.
+41:41	H:H	H:H	What rejoicing there was!
+42:42	H:H	H:H	They embraced their dear mother, and jumped like a tailor at his wedding.
+43:43	N:A	N:A	The mother, however, said: "Now go and look for some big stones, and we will fill the wicked beast"s stomach with them while he is still asleep."
+44:44	N:N	N:N	Then the seven kids dragged the stones thither with all speed, and put as many of them into this stomach as they could get in; and the mother sewed him up again in the greatest haste, so that he was not aware of anything and never once stirred.
+45:45	N:N	N:N	When the wolf at length had had his fill of sleep, he got on his legs, and as the stones in his stomach made him very thirsty, he wanted to go to a well to drink.
+46:46	N:N	N:N	But when he began to walk and to move about, the stones in his stomach knocked against each other and rattled.
+47:47	F:Su-	F:-	Then cried he:
+48:48	F:Su-	F:-	"What rumbles and tumbles Against my poor bones?
+49:49	N:N	F:-	I thought "twas six kids, But it feels like big stones."
+50:50	Sa:Sa	H:S	And when he got to the well and stooped over the water to drink, the heavy stones made him fall in, and he drowned miserably.
+51:51	H:H	H:H	When the seven kids saw that, they came running to the spot and cried aloud: "The wolf is dead!
+52:52	H:H	H:H	The wolf is dead!" and danced for joy round about the well with their mother.

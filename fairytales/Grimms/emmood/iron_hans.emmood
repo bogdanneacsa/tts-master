@@ -1,0 +1,148 @@
+0:0	N:N	N:N	There was once upon a time a king who had a great forest near his palace, full of all kinds of wild animals.
+1:1	F:N	F:N	One day he sent out a huntsman to shoot him a roe, but he did not come back.
+2:2	F:N	F:N	"Perhaps some accident has befallen him," said the king, and the next day he sent out two more huntsmen who were to search for him, but they too stayed away.
+3:3	F:F	F:F	Then on the third day, he sent for all his huntsmen, and said: "Scour the whole forest through, and do not give up until you have found all three."
+4:4	F:N	F:F	But of these also, none came home again, none were seen again.
+5:5	N:N	F:N	From that time forth, no one would any longer venture into the forest, and it lay there in deep stillness and solitude, and nothing was seen of it, but sometimes an eagle or a hawk flying over it.
+6:6	N:N	F:F	This lasted for many years, when an unknown huntsman announced himself to the king as seeking a situation, and offered to go into the dangerous forest.
+7:7	F:F	F:F	The king, however, would not give his consent, and said: "It is not safe in there; I fear it would fare with you no better than with the others, and you would never come out again."
+8:8	A:F	F:F	The huntsman replied: "Lord, I will venture it at my own risk, of fear I know nothing."
+9:9	N:N	F:F	The huntsman therefore betook himself with his dog to the forest.
+10:10	F:N	F:F	It was not long before the dog fell in with some game on the way, and wanted to pursue it; but hardly had the dog run two steps when it stood before a deep pool, could go no farther, and a naked arm stretched itself out of the water, seized it, and drew it under.
+11:11	F:N	F:F	When the huntsman saw that, he went back and fetched three men to come with buckets and bale out the water.
+12:12	D:N	F:N	When they could see to the bottom there lay a wild man whose body was brown like rusty iron, and whose hair hung over his face down to his knees.
+13:13	N:N	F:N	They bound him with cords, and led him away to the castle.
+14:14	Su-:N	F:N	There was great astonishment over the wild man; the king, however, had him put in an iron cage in his courtyard, and forbade the door to be opened on pain of death, and the queen herself was to take the key into her keeping.
+15:15	H:N	H:N	And from this time forth everyone could again go into the forest with safety.
+16:16	Sa:N	H:N	The king had a son of eight years, who was once playing in the courtyard, and while he was playing, his golden ball fell into the cage.
+17:17	A:N	F:N	The boy ran thither and said: "Give me my ball out."
+18:18	A:N	F:N	"Not till you have opened the door for me," answered the man.
+19:19	A:N	F:N	"No," said the boy, "I will not do that; the king has forbidden it," and ran away.
+20:20	F:N	F:N	The next day he again went and asked for his ball; the wild man said: "Open my door," but the boy would not.
+21:21	Sa:N	F:N	On the third day the king had ridden out hunting, and the boy went once more and said: "I cannot open the door even if I wished, for I have not the key."
+22:22	N:N	F:N	Then the wild man said: "It lies under your mother"s pillow, you can get it there."
+23:23	Sa:N	F:N	The boy, who wanted to have his ball back, cast all thought to the winds, and brought the key.
+24:24	Sa:N	F:N	The door opened with difficulty, and the boy pinched his fingers.
+25:25	H:N	F:N	When it was open the wild man stepped out, gave him the golden ball, and hurried away.
+26:26	F:F	F:F	The boy had become afraid; he called and cried after him: "Oh, wild man, do not go away, or I shall be beaten!"
+27:27	N:N	F:N	The wild man turned back, took him up, set him on his shoulder, and went with hasty steps into the forest.
+28:28	A:N	A:F	When the king came home, he observed the empty cage, and asked the queen how that had happened.
+29:29	Su-:N	A:F	She knew nothing about it, and sought the key, but it was gone.
+30:30	F:N	F:N	She called the boy, but no one answered.
+31:31	F:N	F:N	The king sent out people to seek for him in the fields, but they did not find him.
+32:32	Sa:Sa	S:S	Then he could easily guess what had happened, and much grief reigned in the royal court.
+33:33	Sa:N	S:N	When the wild man had once more reached the dark forest, he took the boy down from his shoulder, and said to him: "You will never see your father and mother again, but I will keep you with me, for you have set me free, and I have compassion on you.
+34:34	H:N	S:N	If you do all I bid you, you shall fare well.
+35:35	H:N	S:N	Of treasure and gold have I enough, and more than anyone in the world."
+36:36	F:N	F:N	He made a bed of moss for the boy on which he slept, and the next morning the man took him to a well, and said: "Behold, the gold well is as bright and clear as crystal, you shall sit beside it, and take care that nothing falls into it, or it will be polluted.
+37:37	N:N	F:N	I will come every evening to see if you have obeyed my order."
+38:38	F:N	F:N	The boy placed himself by the brink of the well, and often saw a golden fish or a golden snake show itself therein, and took care that nothing fell in.
+39:39	Sa:N	F:N	As he was thus sitting, his finger hurt him so violently that he involuntarily put it in the water.
+40:40	F:N	F:-	He drew it quickly out again, but saw that it was quite gilded, and whatsoever pains he took to wash the gold off again, all was to no purpose.
+41:41	A:A	F:A	In the evening Iron Hans came back, looked at the boy, and said: "What has happened to the well?"
+42:42	F:F	F:F	"Nothing nothing," he answered, and held his finger behind his back, that the man might not see it.
+43:43	A:N	F:N	But he said: "You have dipped your finger into the water, this time it may pass, but take care you do not again let anything go in."
+44:44	N:N	F:N	By daybreak the boy was already sitting by the well and watching it.
+45:45	F:Sa	F:S	His finger hurt him again and he passed it over his head, and then unhappily a hair fell down into the well.
+46:46	F:N	F:F	He took it quickly out, but it was already quite gilded.
+47:47	A:N	F:A	Iron Hans came, and already knew what had happened.
+48:48	A:N	F:A	"You have let a hair fall into the well," said he.
+49:49	A:N	F:A	"I will allow you to watch by it once more, but if this happens for the third time then the well is polluted and you can no longer remain with me."
+50:50	F:N	F:N	On the third day, the boy sat by the well, and did not stir his finger, however much it hurt him.
+51:51	Sa:N	F:N	But the time was long to him, and he looked at the reflection of his face on the surface of the water.
+52:52	Su-:N	F:N	And as he still bent down more and more while he was doing so, and trying to look straight into the eyes, his long hair fell down from his shoulders into the water.
+53:53	Su-:N	F:F	He raised himself up quickly, but the whole of the hair of his head was already golden and shone like the sun.
+54:54	F:F	F:F	You can imagine how terrified the poor boy was!
+55:55	F:N	F:F	He took his pockethandkerchief and tied it round his head, in order that the man might not see it.
+56:56	A:N	A:A	When he came he already knew everything, and said: "Take the handkerchief off."
+57:57	Sa:N	A:F	Then the golden hair streamed forth, and let the boy excuse himself as he might, it was of no use.
+58:58	A:N	A:A	"You have not stood the trial and can stay here no longer.
+59:59	A:N	A:A	Go forth into the world, there you will learn what poverty is.
+60:60	Sa:N	S:N	But as you have not a bad heart, and as I mean well by you, there is one thing I will grant you; if you fall into any difficulty, come to the forest and cry: "Iron Hans," and then I will come and help you.
+61:61	N:N	S:N	My power is great, greater than you think, and I have gold and silver in abundance."
+62:62	N:N	S:N	Then the king"s son left the forest, and walked by beaten and unbeaten paths ever onwards until at length he reached a great city.
+63:63	Sa:N	S:N	There he looked for work, but could find none, and he learnt nothing by which he could help himself.
+64:64	N:N	S:N	At length he went to the palace, and asked if they would take him in.
+65:65	Su+:N	S:N	The people about court did not at all know what use they could make of him, but they liked him, and told him to stay.
+66:66	N:N	S:N	At length the cook took him into his service, and said he might carry wood and water, and rake the cinders together.
+67:67	F:N	F:N	Once when it so happened that no one else was at hand, the cook ordered him to carry the food to the royal table, but as he did not like to let his golden hair be seen, he kept his little cap on.
+68:68	A:N	F:A	Such a thing as that had never yet come under the king"s notice, and he said: "When you come to the royal table you must take your hat off."
+69:69	F:N	F:N	He answered: "Ah, Lord, I cannot; I have a bad sore place on my head."
+70:70	A:A	F:A	Then the king had the cook called before him and scolded him, and asked how he could take such a boy as that into his service; and that he was to send him away at once.
+71:71	Sa:N	S:N	The cook, however, had pity on him, and exchanged him for the gardener"s boy.
+72:72	Sa:N	S:N	And now the boy had to plant and water the garden, hoe and dig, and bear the wind and bad weather.
+73:73	N:N	S:N	Once in summer when he was working alone in the garden, the day was so warm he took his little cap off that the air might cool him.
+74:74	Su+:N	+:N	As the sun shone on his hair it glittered and flashed so that the rays fell into the bedroom of the king"s daughter, and up she sprang to see what that could be.
+75:75	Su+:N	+:N	Then she saw the boy, and cried to him: "Boy, bring me a wreath of flowers."
+76:76	F:N	F:N	He put his cap on with all haste, and gathered wild field-flowers and bound them together.
+77:77	A:N	F:N	When he was ascending the stairs with them, the gardener met him, and said: "How can you take the king"s daughter a garland of such common flowers?
+78:78	A:N	F:N	Go quickly, and get another, and seek out the prettiest and rarest."
+79:79	A:N	F:N	"Oh, no," replied the boy, "the wild ones have more scent, and will please her better."
+80:80	N:N	F:N	When he got into the room, the king"s daughter said: "Take your cap off, it is not seemly to keep it on in my presence."
+81:81	F:N	F:N	He again said: "I may not, I have a sore head."
+82:82	Su+:N	F:H	She, however, caught at his cap and pulled it off, and then his golden hair rolled down on his shoulders, and it was splendid to behold.
+83:83	Su-:N	F:H	He wanted to run out, but she held him by the arm, and gave him a handful of ducats.
+84:84	N:N	F:N	With these he departed, but he cared nothing for the gold pieces.
+85:85	H:N	F:N	He took them to the gardener, and said: "I present them to your children, they can play with them."
+86:86	Su-:N	F:N	The following day the king"s daughter again called to him that he was to bring her a wreath of field-flowers, and then he went in with it, she instantly snatched at his cap, and wanted to take it away from him, but he held it fast with both hands.
+87:87	N:N	F:N	She again gave him a handful of ducats, but he would not keep them, and gave them to the gardener for playthings for his children.
+88:88	A:N	F:N	On the third day things went just the same; she could not get his cap away from him, and he would not have her money.
+89:89	N:N	F:S	Not long afterwards, the country was overrun by war.
+90:90	F:F	F:F	The king gathered together his people, and did not know whether or not he could offer any opposition to the enemy, who was superior in strength and had a mighty army.
+91:91	A:N	F:N	Then said the gardener"s boy: "I am grown up, and will go to the wars also, only give me a horse."
+92:92	Su-:N	A:N	The others laughed, and said: "Seek one for yourself when we are gone, we will leave one behind us in the stable for you."
+93:93	A:N	A:N	When they had gone forth, he went into the stable, and led the horse out; it was lame of one foot, and limped hobblety jib, hobblety jib; nevertheless he mounted it, and rode away to the dark forest.
+94:94	N:N	A:N	When he came to the outskirts, he called "Iron Hans" three times so loudly that it echoed through the trees.
+95:95	N:N	A:N	Thereupon the wild man appeared immediately, and said: "What do you desire?"
+96:96	N:N	A:N	"I want a strong steed, for I am going to the wars."
+97:97	H:N	H:N	"That you shall have, and still more than you ask for."
+98:98	H:N	H:N	Then the wild man went back into the forest, and it was not long before a stable-boy came out of it, who led a horse that snorted with its nostrils, and could hardly be restrained, and behind them followed a great troop of warriors entirely equipped in iron, and their swords flashed in the sun.
+99:99	H:N	H:N	The youth made over his three-legged horse to the stable-boy, mounted the other, and rode at the head of the soldiers.
+100:100	Sa:N	S:S	When he got near the battlefield a great part of the king"s men had already fallen, and little was wanting to make the rest give way.
+101:101	A:N	H:N	Then the youth galloped thither with his iron soldiers, broke like a hurricane over the enemy, and beat down all who opposed him.
+102:102	H:N	H:N	They began to flee, but the youth pursued, and never stopped, until there was not a single man left.
+103:103	H:N	H:N	Instead of returning to the king, however, he conducted his troop by byways back to the forest, and called forth Iron Hans.
+104:104	N:N	H:N	"What do you desire?" asked the wild man.
+105:105	N:N	H:N	"Take back your horse and your troops, and give me my three-legged horse again."
+106:106	H:N	H:N	All that he asked was done, and soon he was riding on his three-legged horse.
+107:107	H:H	H:H	When the king returned to his palace, his daughter went to meet him, and wished him joy of his victory.
+108:108	N:N	H:N	"I am not the one who carried away the victory," said he, "but a strange knight who came to my assistance with his soldiers."
+109:109	Su+:N	H:N	The daughter wanted to hear who the strange knight was, but the king did not know, and said: "He followed the enemy, and I did not see him again."
+110:110	Su+:H	H:H	She inquired of the gardener where his boy was, but he smiled, and said: "He has just come home on his threelegged horse, and the others have been mocking him, and crying: "Here comes our hobblety jib back again!"
+111:111	N:N	A:N	They asked, too: "Under what hedge have you been lying sleeping all the time?"
+112:112	A:N	A:N	So he said: "I did the best of all, and it would have gone badly without me."
+113:113	A:N	A:N	And then he was still more ridiculed."
+114:114	N:N	A:H	The king said to his daughter: "I will proclaim a great feast that shall last for three days, and you shall throw a golden apple.
+115:115	N:N	A:N	Perhaps the unknown man will show himself."
+116:116	H:N	H:N	When the feast was announced, the youth went out to the forest, and called Iron Hans.
+117:117	N:N	H:N	"What do you desire?" asked he.
+118:118	H:N	H:N	"That I may catch the king"s daughter"s golden apple."
+119:119	H:N	H:N	"It is as safe as if you had it already," said Iron Hans.
+120:120	H:N	H:N	"You shall likewise have a suit of red armour for the occasion, and ride on a spirited chestnut-horse."
+121:121	H:N	H:N	When the day came, the youth galloped to the spot, took his place amongst the knights, and was recognized by no one.
+122:122	H:N	H:N	The king"s daughter came forward, and threw a golden apple to the knights, but none of them caught it but he, only as soon as he had it he galloped away.
+123:123	N:N	H:N	On the second day Iron Hans equipped him as a white knight, and gave him a white horse.
+124:124	H:N	H:H	Again he was the only one who caught the apple, and he did not linger an instant, but galloped off with it.
+125:125	A:A	H:A	The king grew angry, and said: "That is not allowed; he must appear before me and tell his name."
+126:126	A:N	A:A	He gave the order that if the knight who caught the apple, should go away again they should pursue him, and if he would not come back willingly, they were to cut him down and stab him.
+127:127	H:N	A:N	On the third day, he received from Iron Hans a suit of black armour and a black horse, and again he caught the apple.
+128:128	A:N	A:S	But when he was riding off with it, the king"s attendants pursued him, and one of them got so near him that he wounded the youth"s leg with the point of his sword.
+129:129	H:N	H:A	The youth nevertheless escaped from them, but his horse leapt so violently that the helmet fell from the youth"s head, and they could see that he had golden hair.
+130:130	N:N	H:N	They rode back and announced this to the king.
+131:131	N:N	H:N	The following day the king"s daughter asked the gardener about his boy.
+132:132	H:N	H:H	"He is at work in the garden; the queer creature has been at the festival too, and only came home yesterday evening; he has likewise shown my children three golden apples which he has won."
+133:133	N:N	H:N	The king had him summoned into his presence, and he came and again had his little cap on his head.
+134:134	H:N	H:H	But the king"s daughter went up to him and took it off, and then his golden hair fell down over his shoulders, and he was so handsome that all were amazed.
+135:135	Su+:N	H:H	"Are you the knight who came every day to the festival, always in different colours, and who caught the three golden apples?" asked the king.
+136:136	H:N	H:H	"Yes," answered he, "and here the apples are," and he took them out of his pocket, and returned them to the king.
+137:137	N:N	H:H	"If you desire further proof, you may see the wound which your people gave me when they followed me.
+138:138	H:N	H:H	But I am likewise the knight who helped you to your victory over your enemies."
+139:139	Su+:N	H:N	"If you can perform such deeds as that, you are no gardener"s boy; tell me, who is your father?"
+140:140	H:N	H:H	"My father is a mighty king, and gold have I in plenty as great as I require."
+141:141	Su+:N	H:N	"I well see," said the king, "that I owe my thanks to you; can I do anything to please you?"
+142:142	H:N	H:H	"Yes," answered he, "that indeed you can.
+143:143	N:N	H:N	Give me your daughter to wife."
+144:144	H:H	H:H	The maiden laughed, and said: "He does not stand much on ceremony, but I have already seen by his golden hair that he was no gardener"s boy," and then she went and kissed him.
+145:145	H:H	H:H	His father and mother came to the wedding, and were in great delight, for they had given up all hope of ever seeing their dear son again.
+146:146	Su+:N	+:+	And as they were sitting at the marriage-feast, the music suddenly stopped, the doors opened, and a stately king came in with a great retinue.
+147:147	H:N	+:H	He went up to the youth, embraced him and said: "I am Iron Hans, and was by enchantment a wild man, but you have set me free; all the treasures which I possess, shall be your property."

@@ -1,0 +1,85 @@
+0:0	N:N	N:N	There was once a man called Frederick: he had a wife whose name was Catherine, and they had not long been married.
+1:1	N:N	N:N	One day Frederick said.
+2:2	H:N	N:N	"Kate!
+3:3	N:N	N:N	I am going to work in the fields; when I come back I shall be hungry so let me have something nice cooked, and a good draught of ale."
+4:4	N:N	N:N	"Very well," said she, "it shall all be ready."
+5:5	N:N	N:N	When dinner-time drew nigh, Catherine took a nice steak, which was all the meat she had, and put it on the fire to fry.
+6:6	N:N	N:N	The steak soon began to look brown, and to crackle in the pan; and Catherine stood by with a fork and turned it: then she said to herself, "The steak is almost ready, I may as well go to the cellar for the ale."
+7:7	N:N	N:N	So she left the pan on the fire and took a large jug and went into the cellar and tapped the ale cask.
+8:8	N:N	N:N	The beer ran into the jug and Catherine stood looking on.
+9:9	Su-:N	N:N	At last it popped into her head, "The dog is not shut up--he may be running away with the steak; that"s well thought of."
+10:10	Su-:N	-:N	So up she ran from the cellar; and sure enough the rascally cur had got the steak in his mouth, and was making off with it.
+11:11	N:N	N:N	Away ran Catherine, and away ran the dog across the field: but he ran faster than she, and stuck close to the steak.
+12:12	Sa:A	N:N	"It"s all gone, and "what can"t be cured must be endured"," said Catherine.
+13:13	N:N	N:N	So she turned round; and as she had run a good way and was tired, she walked home leisurely to cool herself.
+14:14	Su-:N	N:N	Now all this time the ale was running too, for Catherine had not turned the cock; and when the jug was full the liquor ran upon the floor till the cask was empty.
+15:15	N:Su-	N:N	When she got to the cellar stairs she saw what had happened.
+16:16	Su-:Su-	-:N	"My stars!" said she, "what shall I do to keep Frederick from seeing all this slopping about?"
+17:17	N:N	N:N	So she thought a while; and at last remembered that there was a sack of fine meal bought at the last fair, and that if she sprinkled this over the floor it would suck up the ale nicely.
+18:18	H:H	H:N	"What a lucky thing," said she, "that we kept that meal! we have now a good use for it."
+19:19	Su-:N	N:N	So away she went for it: but she managed to set it down just upon the great jug full of beer, and upset it; and thus all the ale that had been saved was set swimming on the floor also.
+20:20	D:Su-	N:N	"Ah! well," said she, "when one goes another may as well follow."
+21:21	H:H	H:N	Then she strewed the meal all about the cellar, and was quite pleased with her cleverness, and said, "How very neat and clean it looks!"
+22:22	N:N	N:N	At noon Frederick came home.
+23:23	N:N	N:N	"Now, wife," cried he, "what have you for dinner?"
+24:24	D:H	N:N	"O Frederick!" answered she, "I was cooking you a steak; but while I went down to draw the ale, the dog ran away with it; and while I ran after him, the ale ran out; and when I went to dry up the ale with the sack of meal that we got at the fair, I upset the jug: but the cellar is now quite dry, and looks so clean!"
+25:25	A:Su-	A:N	"Kate, Kate," said he, "how could you do all this?"
+26:26	A:Su-	A:N	Why did you leave the steak to fry, and the ale to run, and then spoil all the meal?"
+27:27	Sa:Su-	S:N	"Why, Frederick," said she, "I did not know I was doing wrong; you should have told me before."
+28:28	N:Su-	N:N	The husband thought to himself, "If my wife manages matters thus, I must look sharp myself."
+29:29	N:H	N:N	Now he had a good deal of gold in the house: so he said to Catherine, "What pretty yellow buttons these are!
+30:30	N:N	N:N	I shall put them into a box and bury them in the garden; but take care that you never go near or meddle with them."
+31:31	N:N	N:N	"No, Frederick," said she, "that I never will."
+32:32	N:N	N:N	As soon as he was gone, there came by some pedlars with earthenware plates and dishes, and they asked her whether she would buy.
+33:33	Sa:Sa	N:N	"Oh dear me, I should like to buy very much, but I have no money: if you had any use for yellow buttons, I might deal with you."
+34:34	Su+:H	N:N	"Yellow buttons!" said they: "let us have a look at them."
+35:35	N:F	N:F	"Go into the garden and dig where I tell you, and you will find the yellow buttons: I dare not go myself."
+36:36	N:H	N:F	So the rogues went: and when they found what these yellow buttons were, they took them all away, and left her plenty of plates and dishes.
+37:37	Su-:Su-	-:F	Then she set them all about the house for a show: and when Frederick came back, he cried out, "Kate, what have you been doing?"
+38:38	H:H	N:F	"See," said she, "I have bought all these with your yellow buttons: but I did not touch them myself; the pedlars went themselves and dug them up."
+39:39	A:Su-	A:S	"Wife, wife," said Frederick, "what a pretty piece of work you have made! those yellow buttons were all my money: how came you to do such a thing?"
+40:40	Sa:Su-	N:S	"Why," answered she, "I did not know there was any harm in it; you should have told me."
+41:41	H:H	N:+	Catherine stood musing for a while, and at last said to her husband, "Hark ye, Frederick, we will soon get the gold back: let us run after the thieves."
+42:42	N:H	N:N	"Well, we will try," answered he; "but take some butter and cheese with you, that we may have something to eat by the way."
+43:43	D:N	N:H	"Very well," said she; and they set out: and as Frederick walked the fastest, he left his wife some way behind.
+44:44	N:H	N:H	"It does not matter," thought she: "when we turn back, I shall be so much nearer home than he."
+45:45	N:N	N:N	Presently she came to the top of a hill, down the side of which there was a road so narrow that the cart wheels always chafed the trees on each side as they passed.
+46:46	N:Sa	N:S	"Ah, see now," said she, "how they have bruised and wounded those poor trees; they will never get well."
+47:47	Sa:Sa	N:S	So she took pity on them, and made use of the butter to grease them all, so that the wheels might not hurt them so much.
+48:48	N:N	N:N	While she was doing this kind office one of her cheeses fell out of the basket, and rolled down the hill.
+49:49	N:Su-	N:S	Catherine looked, but could not see where it had gone; so she said, "Well, I suppose the other will go the same way and find you; he has younger legs than I have."
+50:50	N:N	N:S	Then she rolled the other cheese after it; and away it went, nobody knows where, down the hill.
+51:51	N:A	N:S	But she said she supposed that they knew the road, and would follow her, and she could not stay there all day waiting for them.
+52:52	N:N	N:F	At last she overtook Frederick, who desired her to give him something to eat.
+53:53	N:N	N:F	Then she gave him the dry bread.
+54:54	N:Su-	N:F	"Where are the butter and cheese?" said he.
+55:55	N:H	N:F	"Oh!" answered she, "I used the butter to grease those poor trees that the wheels chafed so: and one of the cheeses ran away so I sent the other after it to find it, and I suppose they are both on the road together somewhere."
+56:56	A:A	A:F	"What a goose you are to do such silly things!" said the husband.
+57:57	Sa:Su-	A:F	"How can you say so?" said she; "I am sure you never told me not."
+58:58	N:A	N:N	They ate the dry bread together; and Frederick said, "Kate, I hope you locked the door safe when you came away."
+59:59	N:Su-	N:N	"No," answered she, "you did not tell me."
+60:60	D:A	A:N	"Then go home, and do it now before we go any farther," said Frederick, "and bring with you something to eat."
+61:61	N:H	N:N	Catherine did as he told her, and thought to herself by the way, "Frederick wants something to eat; but I don"t think he is very fond of butter and cheese: I"ll bring him a bag of fine nuts, and the vinegar, for I have often seen him take some."
+62:62	Su-:N	N:N	When she reached home, she bolted the back door, but the front door she took off the hinges, and said, "Frederick told me to lock the door, but surely it can nowhere be so safe if I take it with me."
+63:63	N:H	N:N	So she took her time by the way; and when she overtook her husband she cried out, "There, Frederick, there is the door itself, you may watch it as carefully as you please."
+64:64	Su-:A	-:N	"Alas! alas!" said he, "what a clever wife I have!
+65:65	A:A	A:N	I sent you to make the house fast, and you take the door away, so that everybody may go in and out as they please--however, as you have brought the door, you shall carry it about with you for your pains."
+66:66	N:N	A:N	"Very well," answered she, "I"ll carry the door; but I"ll not carry the nuts and vinegar bottle also--that would be too much of a load; so if you please, I"ll fasten them to the door."
+67:67	N:N	N:N	Frederick of course made no objection to that plan, and they set off into the wood to look for the thieves; but they could not find them: and when it grew dark, they climbed up into a tree to spend the night there.
+68:68	N:Su+	N:N	Scarcely were they up, than who should come by but the very rogues they were looking for.
+69:69	N:N	N:N	They were in truth great rascals, and belonged to that class of people who find things before they are lost; they were tired; so they sat down and made a fire under the very tree where Frederick and Catherine were.
+70:70	N:N	N:N	Frederick slipped down on the other side, and picked up some stones.
+71:71	N:Su-	N:N	Then he climbed up again, and tried to hit the thieves on the head with them: but they only said, "It must be near morning, for the wind shakes the fir-apples down."
+72:72	N:Sa	N:N	Catherine, who had the door on her shoulder, began to be very tired; but she thought it was the nuts upon it that were so heavy: so she said softly, "Frederick, I must let the nuts go."
+73:73	D:A	D:F	"No," answered he, "not now, they will discover us."
+74:74	D:A	D:F	"I can"t help that: they must go."
+75:75	A:A	D:F	"Well, then, make haste and throw them down, if you will."
+76:76	D:Su+	D:F	Then away rattled the nuts down among the boughs and one of the thieves cried, "Bless me, it is hailing."
+77:77	N:Sa	N:F	A little while after, Catherine thought the door was still very heavy: so she whispered to Frederick, "I must throw the vinegar down."
+78:78	D:A	N:F	"Pray don"t," answered he, "it will discover us."
+79:79	D:Sa	N:F	"I can"t help that," said she, "go it must."
+80:80	N:Su-	N:F	So she poured all the vinegar down; and the thieves said, "What a heavy dew there is!"
+81:81	N:Sa	N:F	At last it popped into Catherine"s head that it was the door itself that was so heavy all the time: so she whispered, "Frederick, I must throw the door down soon."
+82:82	A:F	D:F	But he begged and prayed her not to do so, for he was sure it would betray them.
+83:83	F:F	F:H	"Here goes, however," said she: and down went the door with such a clatter upon the thieves, that they cried out "Murder!" and not knowing what was coming, ran away as fast as they could, and left all the gold.
+84:84	H:H	H:H	So when Frederick and Catherine came down, there they found all their money safe and sound.

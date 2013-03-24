@@ -1,0 +1,39 @@
+0:0	N:N	N:N	A louse and a flea kept house together and were brewing beer in an egg-shell.
+1:1	N:N	-:-	Then the little louse fell in and burnt herself.
+2:2	Su-:F	-:-	On this the little flea began to scream loudly.
+3:3	Su-:N	-:-	Then said the little room-door, "Little flea, why art thou screaming?"
+4:4	Su-:N	-:-	"Because the louse has burnt herself."
+5:5	N:N	N:N	Then the little door began to creak.
+6:6	N:N	-:N	On this a little broom in the corner said, "Why art thou creaking, little door?"
+7:7	N:N	N:N	"Have I not reason to creak?"
+8:8	Sa:N	-:-	"The little louse has burnt herself, The little flea is weeping."
+9:9	N:F	-:-	So the little broom began to sweep frantically.
+10:10	N:N	-:-	Then a little cart passed by and said, "Why art thou sweeping, little broom?"
+11:11	N:N	-:-	"Have I not reason to sweep?"
+12:12	Su-:N	-:-	"The little louse has burnt herself, The little flea is weeping,
+13:13	Su-:N	-:-	The little door is creaking."
+14:14	N:N	-:-	So the little cart said, "Then I will run," and began to run wildly.
+15:15	N:N	-:-	Then said the ash-heap by which it ran, "Why art thou running so, little cart?"
+16:16	N:N	-:-	"Have I not reason to run?"
+17:17	Su-:N	-:-	"The little louse has burnt herself, The little flea is weeping,
+18:18	Su-:N	-:N	The little door is creaking, The little broom is sweeping."
+19:19	N:Su-	-:-	The ash-heap said, "Then I will burn furiously," and began to burn in clear flames.
+20:20	N:N	-:-	A little tree stood near the ash-heap and said, "Ash-heap, why art thou burning?"
+21:21	N:N	-:-	"Have I not reason to burn?"
+22:22	Su-:N	-:-	"The little louse has burnt herself, The little flea is weeping,
+23:23	Su-:N	-:-	The little door is creaking, The little broom is sweeping,
+24:24	Su-:N	-:-	The little cart is running."
+25:25	N:N	-:-	The little tree said, "Then I will shake myself," and began to shake herself so that all her leaves fell off; a girl who came up with her water-pitcher saw that, and said, "Little tree, why art thou shaking thyself?"
+26:26	N:N	-:-	"Have I not reason to shake myself?"
+27:27	Su-:N	-:N	"The little louse has burnt herself, The little flea is weeping,
+28:28	Su-:N	-:N	The little door is creaking, The little broom is sweeping,
+29:29	Su-:N	-:N	The little cart is running, The little ash-heap is burning."
+30:30	N:N	-:-	On this the girl said, "Then I will break my little water-pitcher," and she broke her little water-pitcher.
+31:31	N:N	-:-	Then said the little spring from which ran the water, "Girl, why art thou breaking thy water-jug?"
+32:32	N:N	-:-	"Have I not reason to break my water-jug?"
+33:33	Su-:N	-:N	"The little louse has burnt herself, The little flea is weeping,
+34:34	Su-:N	-:N	The little door is creaking, The little broom is sweeping,
+35:35	Su-:N	-:N	The little cart is running, The little ash-heap is burning,
+36:36	Su-:N	-:N	The little tree is shaking itself."
+37:37	Su-:Su-	-:-	"Oh, ho!" said the spring, "then I will begin to flow," and began to flow violently.
+38:38	N:N	-:-	And in the water everything was drowned, the girl, the little tree, the little ash-heap, the little cart, the broom, the little door, the little flea, the little louse, all together.
