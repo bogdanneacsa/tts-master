@@ -1,0 +1,438 @@
+@relation tfidf_features
+
+@attribute amish numeric
+@attribute bomb numeric
+@attribute help numeric
+@attribute german numeric
+@attribute hungari numeric
+@attribute offici numeric
+@attribute celebr numeric
+@attribute approv numeric
+@attribute rest numeric
+@attribute kati numeric
+@attribute protest numeric
+@attribute paper numeric
+@attribute london numeric
+@attribute ga numeric
+@attribute fear numeric
+@attribute find numeric
+@attribute islam numeric
+@attribute slow numeric
+@attribute cancer numeric
+@attribute wed numeric
+@attribute tv numeric
+@attribute winner numeric
+@attribute gunman numeric
+@attribute iraqi numeric
+@attribute bush numeric
+@attribute spread numeric
+@attribute award numeric
+@attribute sweet numeric
+@attribute terror numeric
+@attribute tropic numeric
+@attribute scrutini numeric
+@attribute dad numeric
+@attribute digit numeric
+@attribute global numeric
+@attribute crash numeric
+@attribute risk numeric
+@attribute get numeric
+@attribute hurrican numeric
+@attribute soni numeric
+@attribute pula numeric
+@attribute baghdad numeric
+@attribute import numeric
+@attribute world numeric
+@attribute bath numeric
+@attribute victori numeric
+@attribute hastert numeric
+@attribute school numeric
+@attribute mars? numeric
+@attribute magic numeric
+@attribute prize numeric
+@attribute question numeric
+@attribute brain numeric
+@attribute die numeric
+@attribute drop numeric
+@attribute list numeric
+@attribute violent numeric
+@attribute bad numeric
+@attribute scientist numeric
+@attribute madonnaa numeric
+@attribute lose numeric
+@attribute ban numeric
+@attribute found numeric
+@attribute men numeric
+@attribute urg numeric
+@attribute prevent numeric
+@attribute set numeric
+@attribute cher numeric
+@attribute deal numeric
+@attribute porn numeric
+@attribute lebanon numeric
+@attribute dead numeric
+@attribute sex numeric
+@attribute jump numeric
+@attribute vaccin numeric
+@attribute martian numeric
+@attribute video numeric
+@attribute link numeric
+@attribute run numeric
+@attribute girl numeric
+@attribute kidnap numeric
+@attribute paul numeric
+@attribute britain numeric
+@attribute calam numeric
+@attribute brazil numeric
+@attribute detect numeric
+@attribute alcohol numeric
+@attribute sun numeric
+@attribute journalist numeric
+@attribute mud numeric
+@attribute leav numeric
+@attribute internet numeric
+@attribute new numeric
+@attribute appeal numeric
+@attribute boost numeric
+@attribute anniversari numeric
+@attribute troop numeric
+@attribute franc numeric
+@attribute cincimii numeric
+@attribute poverti numeric
+@attribute power numeric
+@attribute u.s. numeric
+@attribute french numeric
+@attribute yanke numeric
+@attribute reason numeric
+@attribute death numeric
+@attribute china numeric
+@attribute sink numeric
+@attribute cruis numeric
+@attribute iraq numeric
+@attribute peac numeric
+@attribute search numeric
+@attribute launch numeric
+@attribute auction numeric
+@attribute militari numeric
+@attribute could numeric
+@attribute alaska numeric
+@attribute admit numeric
+@attribute kentucki numeric
+@attribute threat numeric
+@attribute presid numeric
+@attribute studi numeric
+@attribute confus numeric
+@attribute flood numeric
+@attribute student numeric
+@attribute shopper numeric
+@attribute win numeric
+@attribute insist numeric
+@attribute three numeric
+@attribute restrict numeric
+@attribute pair numeric
+@attribute right numeric
+@attribute gunmen numeric
+@attribute scandal numeric
+@attribute miss numeric
+@attribute appl numeric
+@attribute plot numeric
+@attribute use numeric
+@attribute spinach numeric
+@attribute tackl numeric
+@attribute two numeric
+@attribute happi numeric
+@attribute start numeric
+@attribute live numeric
+@attribute violenc numeric
+@attribute music numeric
+@attribute expand numeric
+@attribute storm numeric
+@attribute tom numeric
+@attribute call numeric
+@attribute tell numeric
+@attribute reduc numeric
+@attribute israel numeric
+@attribute lander numeric
+@attribute way numeric
+@attribute riot numeric
+@attribute fire numeric
+@attribute gaza numeric
+@attribute protect numeric
+@attribute reign numeric
+@attribute warn numeric
+@attribute holm numeric
+@attribute part numeric
+@attribute game numeric
+@attribute adult numeric
+@attribute child numeric
+@attribute russian numeric
+@attribute ha numeric
+@attribute women numeric
+@attribute case numeric
+@attribute heavi numeric
+@attribute photograph numeric
+@attribute veget numeric
+@attribute man-mad numeric
+@attribute isra numeric
+@attribute flu numeric
+@attribute rate numeric
+@attribute us numeric
+@attribute cite numeric
+@attribute probe numeric
+@attribute record numeric
+@attribute -report numeric
+@attribute uk numeric
+@attribute land numeric
+@attribute star numeric
+@attribute aliv numeric
+@attribute immigr numeric
+@attribute heart numeric
+@attribute indonesia numeric
+@attribute ipod numeric
+@attribute life numeric
+@attribute say numeric
+@attribute good numeric
+@attribute journal: numeric
+@attribute file numeric
+@attribute madonna numeric
+@attribute north numeric
+@attribute ship numeric
+@attribute seek numeric
+@attribute marathon numeric
+@attribute condemn numeric
+@attribute hit numeric
+@attribute diplomat numeric
+@attribute end numeric
+@attribute goal numeric
+@attribute polic numeric
+@attribute make numeric
+@attribute forc numeric
+@attribute satellit numeric
+@attribute freed numeric
+@attribute toddler numeric
+@attribute plant numeric
+@attribute mar numeric
+@attribute raid numeric
+@attribute may numeric
+@attribute drink numeric
+@attribute reach numeric
+@attribute kill numeric
+@attribute befor numeric
+@attribute plane numeric
+@attribute suburb numeric
+@attribute addict numeric
+@attribute attack numeric
+@attribute date numeric
+@attribute googl numeric
+@attribute grow numeric
+@attribute tune numeric
+@attribute man numeric
+@attribute evad numeric
+@attribute scuffl numeric
+@attribute moder numeric
+@attribute older numeric
+@attribute adopt numeric
+@attribute taint numeric
+@attribute campu numeric
+@attribute idiot numeric
+@attribute nasa numeric
+@attribute add numeric
+@attribute minutemen numeric
+@attribute alzheimer numeric
+@attribute standoff numeric
+@attribute dow numeric
+@attribute vike numeric
+@attribute valence {-1,0,1}
+
+@data
+{71 0.737390349454,164 0.675466855243,242 -1}
+{167 1.0,242 -1}
+{155 0.707106781187,210 0.707106781187,242 -1}
+{137 0.707106781187,209 0.707106781187,242 -1}
+{45 0.707106781187,132 0.707106781187,242 -1}
+{68 0.55973860113,164 0.55973860113,168 0.611052695608,242 -1}
+{194 1.0,242 1}
+{20 0.53706166213,23 0.459961706091,131 0.53706166213,216 0.459961706091,242 -1}
+{100 0.629527540709,236 0.776978169249,242 1}
+{213 1.0,242 1}
+{123 1.0,242 -1}
+{110 0.65827566204,111 0.752776960837,242 1}
+{174 1.0,242 1}
+{64 1.0,242 -1}
+{86 0.707106781187,235 0.707106781187,242 1}
+{100 0.629527540709,195 0.776978169249,242 -1}
+{88 0.635768146939,91 0.437718775786,187 0.635768146939,242 -1}
+{69 1.0,242 -1}
+{146 0.625184480997,200 0.780477011014,242 -1}
+{100 0.762033820271,108 0.647537224229,242 1}
+{16 0.776978169249,221 0.629527540709,242 -1}
+{80 0.737390349454,146 0.675466855243,242 -1}
+{181 1.0,242 -1}
+{61 0.440510824407,127 0.440510824407,165 0.416739798887,180 0.514350373976,196 0.416739798887,242 1}
+{35 0.613547115672,186 0.613547115672,221 0.497111530446,242 1}
+{65 0.54364616377,147 0.593484982379,222 0.593484982379,242 1}
+{156 0.650484082926,208 0.759519886415,242 1}
+{24 1.0,242 -1}
+{23 0.491104289976,54 0.65574460097,236 0.573424445473,242 -1}
+{21 0.737390349454,198 0.675466855243,242 1}
+{144 1.0,242 1}
+{216 1.0,242 -1}
+{50 0.676659238311,189 0.438186468356,235 0.591713523724,242 1}
+{108 0.515791192891,197 0.856714331231,242 1}
+{45 0.57735026919,71 0.57735026919,132 0.57735026919,242 -1}
+{65 0.54364616377,147 0.593484982379,222 0.593484982379,242 1}
+{74 0.647185371436,114 0.592836979663,189 0.479265490666,242 -1}
+{67 1.0,242 -1}
+{198 1.0,242 -1}
+{3 0.65827566204,11 0.752776960837,242 -1}
+{162 1.0,242 1}
+{24 0.737390349454,28 0.675466855243,242 -1}
+{42 1.0,242 -1}
+{215 1.0,242 1}
+{12 0.549838543824,75 0.628772734341,162 0.549838543824,242 1}
+{40 1.0,242 -1}
+{69 0.675466855243,151 0.737390349454,242 -1}
+{153 1.0,242 1}
+{42 1.0,242 -1}
+{81 0.599572251298,91 0.412798333948,128 0.6856461558,242 -1}
+{66 0.707106781187,112 0.707106781187,242 1}
+{0 0.675466855243,8 0.737390349454,242 -1}
+{123 1.0,242 1}
+{155 0.707106781187,210 0.707106781187,242 -1}
+{60 0.707106781187,85 0.707106781187,242 1}
+{213 1.0,242 1}
+{68 0.675466855243,168 0.737390349454,242 -1}
+{22 1.0,242 -1}
+{81 1.0,242 -1}
+{136 0.61526556753,190 0.492845374154,205 0.61526556753,242 -1}
+{165 0.707106781187,196 0.707106781187,242 -1}
+{59 1.0,242 -1}
+{18 1.0,242 -1}
+{55 1.0,242 -1}
+{159 0.780477011014,164 0.625184480997,242 -1}
+{189 1.0,242 0}
+{48 0.707106781187,226 0.707106781187,242 1}
+{83 0.539742269132,103 0.673811404048,127 0.50463499154,242 1}
+{10 1.0,242 -1}
+{194 1.0,242 1}
+{52 0.752776960837,239 0.65827566204,242 -1}
+{67 0.629527540709,182 0.776978169249,242 -1}
+{61 1.0,242 1}
+{70 0.650484082926,208 0.759519886415,242 1}
+{218 1.0,242 -1}
+{20 0.470608605518,108 0.324008404123,131 0.470608605518,212 0.538168636993,216 0.403048574044,242 -1}
+{179 1.0,242 1}
+{22 1.0,242 -1}
+{35 0.613547115672,186 0.613547115672,221 0.497111530446,242 1}
+{27 0.707106781187,225 0.707106781187,242 1}
+{26 0.752776960837,144 0.65827566204,242 1}
+{156 1.0,242 -1}
+{176 1.0,242 -1}
+{101 0.563720265257,114 0.516380984769,219 0.644647299776,242 -1}
+{47 0.803635038327,189 0.59512244553,242 -1}
+{61 0.440510824407,127 0.440510824407,165 0.416739798887,180 0.514350373976,196 0.416739798887,242 1}
+{188 1.0,242 1}
+{64 0.823661810314,108 0.567081318887,242 -1}
+{61 1.0,242 -1}
+{86 0.707106781187,129 0.707106781187,242 1}
+{87 0.800412375633,156 0.599449771819,242 -1}
+{108 0.463388596564,176 0.576429841623,201 0.673052484032,242 -1}
+{47 0.591713523724,133 0.676659238311,189 0.438186468356,242 -1}
+{27 0.707106781187,225 0.707106781187,242 1}
+{74 0.647185371436,114 0.592836979663,189 0.479265490666,242 -1}
+{216 1.0,242 -1}
+{1 0.510370244104,28 0.467511114093,135 0.510370244104,226 0.510370244104,242 -1}
+{77 1.0,242 -1}
+{91 1.0,242 1}
+{174 1.0,242 -1}
+{69 0.675466855243,151 0.737390349454,242 -1}
+{174 1.0,242 -1}
+{108 1.0,242 -1}
+{90 1.0,242 -1}
+{105 0.707106781187,139 0.707106781187,242 1}
+{51 0.439335989731,93 0.479612162286,99 0.479612162286,213 0.341907018777,230 0.479612162286,242 1}
+{80 1.0,242 -1}
+{165 0.707106781187,196 0.707106781187,242 -1}
+{16 0.707106781187,25 0.707106781187,242 -1}
+{34 0.549838543824,153 0.549838543824,178 0.628772734341,242 1}
+{49 1.0,242 1}
+{146 1.0,242 -1}
+{28 0.685217507998,91 0.515013090481,108 0.515013090481,242 -1}
+{179 0.707106781187,240 0.707106781187,242 1}
+{203 1.0,242 1}
+{23 0.50463499154,59 0.539742269132,161 0.673811404048,242 -1}
+{68 0.675466855243,183 0.737390349454,242 -1}
+{67 0.707106781187,191 0.707106781187,242 1}
+{60 0.707106781187,85 0.707106781187,242 1}
+{78 1.0,242 -1}
+{46 0.65827566204,141 0.752776960837,242 -1}
+{183 1.0,242 1}
+{137 0.707106781187,209 0.707106781187,242 -1}
+{139 1.0,242 1}
+{51 0.439335989731,93 0.479612162286,99 0.479612162286,213 0.341907018777,230 0.479612162286,242 1}
+{55 1.0,242 -1}
+{36 0.800412375633,90 0.599449771819,242 -1}
+{23 1.0,242 -1}
+{31 0.737390349454,190 0.675466855243,242 -1}
+{67 0.629527540709,182 0.776978169249,242 -1}
+{48 1.0,242 1}
+{105 0.707106781187,139 0.707106781187,242 1}
+{21 0.737390349454,198 0.675466855243,242 1}
+{154 1.0,242 -1}
+{33 1.0,242 -1}
+{12 0.823661810314,91 0.567081318887,242 1}
+{127 1.0,242 1}
+{125 0.815955594787,191 0.578114579764,242 1}
+{2 0.752776960837,31 0.65827566204,242 -1}
+{176 0.650484082926,201 0.759519886415,242 -1}
+{191 1.0,242 1}
+{91 1.0,242 1}
+{56 0.776978169249,191 0.629527540709,242 -1}
+{167 0.749038326376,191 0.662526667856,242 1}
+{108 1.0,242 -1}
+{0 1.0,242 -1}
+{91 0.567081318887,240 0.823661810314,242 1}
+{192 1.0,242 0}
+{15 0.623468730879,70 0.533964275185,105 0.57111198065,242 -1}
+{192 1.0,242 1}
+{100 0.629527540709,195 0.776978169249,242 -1}
+{203 1.0,242 1}
+{33 1.0,242 -1}
+{88 0.635768146939,91 0.437718775786,187 0.635768146939,242 -1}
+{83 0.597891365973,213 0.465300497274,218 0.652703119137,242 -1}
+{194 1.0,242 1}
+{181 1.0,242 1}
+{66 0.707106781187,112 0.707106781187,242 1}
+{115 1.0,242 -1}
+{49 1.0,242 1}
+{129 1.0,242 1}
+{130 0.707106781187,237 0.707106781187,242 -1}
+{72 1.0,242 -1}
+{8 0.549838543824,115 0.549838543824,122 0.628772734341,242 -1}
+{59 1.0,242 0}
+{18 1.0,242 -1}
+{174 1.0,242 -1}
+{108 0.626543946822,176 0.779386093474,242 -1}
+{90 1.0,242 -1}
+{70 1.0,242 -1}
+{17 0.780477011014,51 0.625184480997,242 -1}
+{188 1.0,242 1}
+{34 0.737390349454,83 0.675466855243,242 -1}
+{118 0.780477011014,167 0.625184480997,242 -1}
+{92 0.848612072554,213 0.529015642789,242 1}
+{40 0.776978169249,221 0.629527540709,242 -1}
+{25 0.646852069209,90 0.553990728292,221 0.524096053722,242 -1}
+{3 1.0,242 1}
+{190 0.789176995554,213 0.614165832401,242 1}
+{130 0.707106781187,237 0.707106781187,242 -1}
+{1 0.613547115672,100 0.497111530446,135 0.613547115672,242 -1}
+{67 0.423716312665,101 0.522960956599,215 0.522960956599,239 0.522960956599,242 1}
+{156 1.0,242 -1}
+{56 0.54940653231,110 0.54940653231,165 0.445143192979,196 0.445143192979,242 -1}
+{18 0.789176995554,213 0.614165832401,242 -1}
+{65 1.0,242 1}
+{175 1.0,242 -1}
+{15 0.703177742238,91 0.484129477034,189 0.520729980209,242 1}
+{70 1.0,242 -1}
+{0 0.675466855243,46 0.737390349454,242 -1}
+{49 1.0,242 1}
