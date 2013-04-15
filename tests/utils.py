@@ -225,6 +225,42 @@ class FairytaleCorpus():
                     data_string += '%s %s}\n'%(len(words) + 5, self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
                     
+                    
+    def to_binary_sparse_arff(self, output_file):
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        with open(output_file, 'w') as fp:
+            fp.write('@relation binary_features\n\n')
+            for word in words:
+                fp.write("@attribute %s {0, 1}\n"%(word[0]))
+            fp.write("@attribute turney_rel_1 {0, 1}\n")
+            fp.write("@attribute turney_rel_2 {0, 1}\n")
+            fp.write("@attribute turney_rel_3 {0, 1}\n")
+            fp.write("@attribute turney_rel_4 {0, 1}\n")
+            fp.write("@attribute turney_rel_5 {0, 1}\n")
+            fp.write("@attribute primary_emotion {A,D,F,H,N,Sa,Su+,Su-}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                binary_vec = self.vector_for_id(sent_id)
+                if binary_vec:
+                    data_string = '{'
+                    for entry in binary_vec:
+                        data_string += '%s 1,'%(entry[0],)
+                    # Add turney specific attributes
+                    if self.sentence_data[sent_id].get_turney_feat1():
+                        data_string += '%s %s,'%(len(words), 1)
+                    if self.sentence_data[sent_id].get_turney_feat2():
+                        data_string += '%s %s, '%(len(words) + 1, 1)
+                    if self.sentence_data[sent_id].get_turney_feat3():
+                        data_string += '%s %s, '%(len(words) + 2, 1)
+                    if self.sentence_data[sent_id].get_turney_feat4():
+                        data_string += '%s %s, '%(len(words) + 3, 1)
+                    if self.sentence_data[sent_id].get_turney_feat5():
+                        data_string += '%s %s, '%(len(words) + 4, 1)
+                    data_string += '%s %s}\n'%(len(words) + 5, self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
+                    
             
     def mm_corpus(self):
         if not os.path.exists(self.storage_file):
@@ -233,7 +269,8 @@ class FairytaleCorpus():
 
 grimm_data_folders = [os.sep.join(['..', 'fairytales', 'Grimms', 'emmood']), os.sep.join(['..', 'fairytales', 'HCAndersen', 'emmood']), os.sep.join(['..', 'fairytales', 'Potter', 'emmood']), ]
 fairy_corpus = FairytaleCorpus(grimm_data_folders)
-fairy_corpus.to_sparse_arff('fairytale_tfidf.arff', 'tfidf')
+#fairy_corpus.to_sparse_arff('fairytale_tfidf.arff', 'tfidf')
+fairy_corpus.to_binary_sparse_arff('binary_fairytale.arff')
 #fairy_corpus.to_sparse_arff('fairytale_lsi.arff', 'lsi')
 #fairy_corpus.to_sparse_arff('fairytale_lda.arff', 'lda')
 
