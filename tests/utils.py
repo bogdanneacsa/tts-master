@@ -1,11 +1,10 @@
 import os
 from gensim import corpora, models, similarities
+import nltk
 import nltk.corpus as sw_corpus
 import nltk.stem.porter as porter
 
 STEMMER = porter.PorterStemmer()
-
-from xml.dom.minidom import parseString
 
 class Sentence():
     
@@ -14,8 +13,68 @@ class Sentence():
         self.valence = valence
         self.primary_emotion = primary_emotion
         self.mood = mood
+        tokens = nltk.word_tokenize(sentence)
+        self.tagged_sent = nltk.pos_tag(tokens)
         
-
+        
+    def get_turney_feat1(self):
+        """
+        Look for the following two-word phrases:
+        JJ followed by NN or NNS followed by anything
+        """
+        for idx, val in enumerate(self.tagged_sent[:-1]):
+            if val[1] == 'JJ' and self.tagged_sent[idx+1][1] in ('NN', 'NNS'):
+                return 1
+        return 0
+    
+    
+    def get_turney_feat2(self):
+        """
+        Look for the following two-word phrases:
+        RB, RBR or RBS followed by JJ followed by not NN nor NNS
+        """
+        for idx, val in enumerate(self.tagged_sent[:-1]):
+            if val[1] in ('RB', 'RBR', 'RBS') and self.tagged_sent[idx+1][1] == 'JJ':
+                if idx + 2 >= len(self.tagged_sent) or self.tagged_sent[idx+2][0] not in ('NN', 'NNS'):
+                    return 1
+        return 0
+    
+    
+    def get_turney_feat3(self):
+        """
+        Look for the following two-word phrases:
+        JJ followed by JJ followed by not NN nor NNS
+        """
+        for idx, val in enumerate(self.tagged_sent[:-1]):
+            if val[1] == 'JJ' and self.tagged_sent[idx+1][1] == 'JJ':
+                if idx + 2 >= len(self.tagged_sent) or self.tagged_sent[idx+2][0] not in ('NN', 'NNS'):
+                    return 1
+        return 0
+    
+    
+    def get_turney_feat4(self):
+        """
+        Look for the following two-word phrases:
+        NN or NNS followed by JJ followed by not NN nor NNS
+        """
+        for idx, val in enumerate(self.tagged_sent[:-1]):
+            if val[1] in ('NN', 'NNS') and self.tagged_sent[idx+1][1] == 'JJ':
+                if idx + 2 >= len(self.tagged_sent) or self.tagged_sent[idx+2][0] not in ('NN', 'NNS'):
+                    return 1
+        return 0
+    
+    
+    def get_turney_feat5(self):
+        """
+        Look for the following two-word phrases:
+        RB, RBR, RBS followed by VBN or VBG followed by not anything
+        """
+        for idx, val in enumerate(self.tagged_sent[:-1]):
+            if val[1] in ('RB', 'RBR', 'RBS') and self.tagged_sent[idx+1][1] in ('VBN', 'VBG'):
+                return 1
+        return 0
+        
+        
 class FairytaleCorpus():
     
     def __init__(self, data_folders):
@@ -139,6 +198,11 @@ class FairytaleCorpus():
             fp.write('@relation tfidf_features\n\n')
             for word in words:
                 fp.write("@attribute %s numeric\n"%(word[0]))
+            fp.write("@attribute turney_rel_1 {0, 1}\n")
+            fp.write("@attribute turney_rel_2 {0, 1}\n")
+            fp.write("@attribute turney_rel_3 {0, 1}\n")
+            fp.write("@attribute turney_rel_4 {0, 1}\n")
+            fp.write("@attribute turney_rel_5 {0, 1}\n")
             fp.write("@attribute primary_emotion {A,D,F,H,N,Sa,Su+,Su-}\n\n")
             fp.write("@data\n")
             for sent_id in self.sentence_data:
@@ -147,7 +211,18 @@ class FairytaleCorpus():
                     data_string = '{'
                     for entry in sparse_vector_rep:
                         data_string += '%s %s,'%(entry[0], entry[1])
-                    data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
+                    # Add turney specific attributes
+                    if self.sentence_data[sent_id].get_turney_feat1():
+                        data_string += '%s %s,'%(len(words), 1)
+                    if self.sentence_data[sent_id].get_turney_feat2():
+                        data_string += '%s %s, '%(len(words) + 1, 1)
+                    if self.sentence_data[sent_id].get_turney_feat3():
+                        data_string += '%s %s, '%(len(words) + 2, 1)
+                    if self.sentence_data[sent_id].get_turney_feat4():
+                        data_string += '%s %s, '%(len(words) + 3, 1)
+                    if self.sentence_data[sent_id].get_turney_feat5():
+                        data_string += '%s %s, '%(len(words) + 4, 1)
+                    data_string += '%s %s}\n'%(len(words) + 5, self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
                     
             
@@ -158,7 +233,7 @@ class FairytaleCorpus():
 
 grimm_data_folders = [os.sep.join(['..', 'fairytales', 'Grimms', 'emmood']), os.sep.join(['..', 'fairytales', 'HCAndersen', 'emmood']), os.sep.join(['..', 'fairytales', 'Potter', 'emmood']), ]
 fairy_corpus = FairytaleCorpus(grimm_data_folders)
-#fairy_corpus.to_sparse_arff('fairytale_tfidf.arff', 'tfidf')
+fairy_corpus.to_sparse_arff('fairytale_tfidf.arff', 'tfidf')
 #fairy_corpus.to_sparse_arff('fairytale_lsi.arff', 'lsi')
 #fairy_corpus.to_sparse_arff('fairytale_lda.arff', 'lda')
 
