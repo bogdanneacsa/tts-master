@@ -6,6 +6,9 @@ import nltk.stem.porter as porter
 
 STEMMER = porter.PorterStemmer()
 
+POS = ("H", "Su+")
+NEG = ("A", "D", "F", "Sa", "Su-")
+
 class Sentence():
     
     def __init__(self, sentence, valence=None, primary_emotion=None, mood=None):
@@ -80,6 +83,7 @@ class FairytaleCorpus():
     def __init__(self, data_folders):
         dict_data = {}
         start_idx = 0
+        self.nr_pos = self.nr_neg = self.nr_neu = 0
         for data_folder in data_folders:
             for data_file in os.listdir(data_folder):
                 results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
@@ -124,6 +128,14 @@ class FairytaleCorpus():
         third_index = second_index + line[second_index+1:].index(':') + 1
         mood = line[second_index:third_index].split('\\t')[-1]
         sentence = line[third_index+1:].split('\t')[1]
+        if primary_emo in NEG:
+            primary_emo = 'Neg'
+            self.nr_neg += 1
+        elif primary_emo in POS:
+            primary_emo = 'Pos'
+            self.nr_pos += 1
+        else:
+            self.nr_neu += 1
         return sent_id, Sentence(sentence, primary_emotion=primary_emo, mood=mood)
             
     def __del__(self):
@@ -180,6 +192,8 @@ class FairytaleCorpus():
         Write out the corpus in sparse arff format, with the corpus type being either:
          - tfidf, lsi, lda
         """
+        max_neutr = self.nr_pos + self.nr_neg
+        neutr_cnt = 0
         if corpus_type == 'tfidf':
             model = self.tfidf_model()
         elif corpus_type == 'lsi':
@@ -203,11 +217,12 @@ class FairytaleCorpus():
             fp.write("@attribute turney_rel_3 {0, 1}\n")
             fp.write("@attribute turney_rel_4 {0, 1}\n")
             fp.write("@attribute turney_rel_5 {0, 1}\n")
-            fp.write("@attribute primary_emotion {A,D,F,H,N,Sa,Su+,Su-}\n\n")
+            fp.write("@attribute primary_emotion {Neg, N, Pos}\n\n")
             fp.write("@data\n")
             for sent_id in self.sentence_data:
                 sparse_vector_rep = model[self.vector_for_id(sent_id)]
-                if sparse_vector_rep:
+                emotion = self.sentence_data[sent_id].primary_emotion
+                if sparse_vector_rep and (emotion != 'N' or neutr_cnt < max_neutr):
                     data_string = '{'
                     for entry in sparse_vector_rep:
                         data_string += '%s %s,'%(entry[0], entry[1])
@@ -224,9 +239,13 @@ class FairytaleCorpus():
                         data_string += '%s %s, '%(len(words) + 4, 1)
                     data_string += '%s %s}\n'%(len(words) + 5, self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
+                    if emotion == 'N':
+                        neutr_cnt += 1
                     
                     
     def to_binary_sparse_arff(self, output_file):
+        max_neutr = self.nr_pos + self.nr_neg
+        neutr_cnt = 0
         words = []
         for word in self.dictionary.token2id:
             words.append((word, self.dictionary.token2id[word]))
@@ -239,11 +258,12 @@ class FairytaleCorpus():
             fp.write("@attribute turney_rel_3 {0, 1}\n")
             fp.write("@attribute turney_rel_4 {0, 1}\n")
             fp.write("@attribute turney_rel_5 {0, 1}\n")
-            fp.write("@attribute primary_emotion {A,D,F,H,N,Sa,Su+,Su-}\n\n")
+            fp.write("@attribute primary_emotion {Neg,N,Pos}\n\n")
             fp.write("@data\n")
             for sent_id in self.sentence_data:
                 binary_vec = self.vector_for_id(sent_id)
-                if binary_vec:
+                emotion = self.sentence_data[sent_id].primary_emotion
+                if binary_vec and (emotion != 'N' or neutr_cnt < max_neutr):
                     data_string = '{'
                     for entry in binary_vec:
                         data_string += '%s 1,'%(entry[0],)
@@ -260,6 +280,8 @@ class FairytaleCorpus():
                         data_string += '%s %s, '%(len(words) + 4, 1)
                     data_string += '%s %s}\n'%(len(words) + 5, self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
+                    if emotion == 'N':
+                        neutr_cnt += 1
                     
             
     def mm_corpus(self):
@@ -269,8 +291,8 @@ class FairytaleCorpus():
 
 grimm_data_folders = [os.sep.join(['..', 'fairytales', 'Grimms', 'emmood']), os.sep.join(['..', 'fairytales', 'HCAndersen', 'emmood']), os.sep.join(['..', 'fairytales', 'Potter', 'emmood']), ]
 fairy_corpus = FairytaleCorpus(grimm_data_folders)
-#fairy_corpus.to_sparse_arff('fairytale_tfidf.arff', 'tfidf')
-fairy_corpus.to_binary_sparse_arff('binary_fairytale.arff')
+#fairy_corpus.to_sparse_arff('fairytale_balance_tfidf.arff', 'tfidf')
+fairy_corpus.to_binary_sparse_arff('binary_balance_fairytale.arff')
 #fairy_corpus.to_sparse_arff('fairytale_lsi.arff', 'lsi')
 #fairy_corpus.to_sparse_arff('fairytale_lda.arff', 'lda')
 
