@@ -1,0 +1,35 @@
+
+Results
+======
+
+Correctly Classified Instances        5509               55.3446 %
+Incorrectly Classified Instances      4445               44.6554 %
+Kappa statistic                          0.1204
+K&B Relative Info Score             165927.8299 %
+K&B Information Score                 2421.0575 bits      0.2432 bits/instance
+Class complexity | order 0           14522.7937 bits      1.459  bits/instance
+Class complexity | scheme          1761524.473  bits    176.9665 bits/instance
+Complexity improvement     (Sf)    -1747001.6792 bits   -175.5075 bits/instance
+Mean absolute error                      0.358 
+Root mean squared error                  0.458 
+Relative absolute error                 88.3008 %
+Root relative squared error            101.73   %
+Coverage of cases (0.95 level)          83.5945 %
+Mean rel. region size (0.95 level)      66.6935 %
+Total Number of Instances             9954     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.177    0.047    0.619      0.177    0.276      0.214    0.584     0.365     Neg
+                 0.941    0.839    0.547      0.941    0.692      0.163    0.551     0.546     N
+                 0.068    0.012    0.552      0.068    0.121      0.145    0.542     0.219     Pos
+Weighted Avg.    0.553    0.451    0.570      0.553    0.464      0.175    0.559     0.432     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+  530 2439   17 |    a = Neg
+  224 4856   83 |    b = N
+  102 1580  123 |    c = Pos
+
