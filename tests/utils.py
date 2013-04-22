@@ -106,7 +106,8 @@ class BaseCorpus():
         if sent is None:
             # TODO: Add entry here with unknown valence ??
             raise Exception("No sentence stored so far!")
-        return self.dictionary.doc2bow(sent.sentence.lower().split())
+        processed_sent = [self.preprocess_word(word) for word in sent.sentence.lower().split()]
+        return self.dictionary.doc2bow(processed_sent)
     
     def clear(self):
         if os.path.exists(self.storage_file):
@@ -119,7 +120,8 @@ class BaseCorpus():
         
     def __iter__(self):
         for line in self.sentence_data.values():
-            yield self.dictionary.doc2bow(line.sentence.lower().split())
+            processed_sent = [self.preprocess_word(word) for word in line.sentence.lower().split()]
+            yield self.dictionary.doc2bow(processed_sent)
             
     def tfidf_model(self):
         return models.TfidfModel(self.mm_corpus())
@@ -395,6 +397,61 @@ class ISEARCorpus(BaseCorpus):
                     # Add turney specific attributes
                     data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
+
+
+class TwoWordISEARCorpus(ISEARCorpus):
+    #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
+    def __init__(self, data_folders):
+        dict_data = {}
+        start_idx = 0
+        for data_folder in data_folders:
+            for data_file in os.listdir(data_folder):
+                if data_file.startswith('ise_'):
+                    results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
+                    dict_data.update(results_dict)
+                    start_idx += end_idx
+        self.sentence_data = dict_data
+        self.storage_file = 'corpus_%s.mm'%(id(self),)
+        data = []
+        for entry in self.sentence_data.values():
+            sent_data = []
+            sentence = entry.sentence.lower()
+            tokens = nltk.word_tokenize(sentence)
+            self.tagged_sent = nltk.pos_tag(tokens)
+            for word in sentence.split():
+                sent_data.append(self.preprocess_word(word))
+            data.append(sent_data)
+        dictionary = corpora.Dictionary(data)
+        stopwords = sw_corpus.stopwords.words('english')
+        #Just remove empty string here
+        stopwords.append('')
+        stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
+                                                            if stopword in dictionary.token2id]
+        once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
+        dictionary.filter_tokens(stop_ids + once_ids) # remove stop words and words that appear only once
+        dictionary.compactify()
+        self.dictionary = dictionary
+    
+    
+    def parse_fairytale_data(self, file_name, start_idx=0):
+        """
+        For this file name, parse all sentences and return a dictionary
+        of the form {sentence_id : Sentence()}
+        """
+        results_dict = {}
+        for line in open(file_name):
+            sent_id, sentence = self.process_line(line)
+            results_dict[str(int(sent_id)+start_idx)] = sentence
+        return results_dict, int(sent_id) + start_idx
+    
+    
+    def process_line(self, line):
+        """
+        Process a given line from the fairytale corpus, return a tuple in the form
+        (sent_id : Sentence() entity)
+        """
+        sent_id, primary_emo, sentence = line.split('---')
+        return sent_id, Sentence(sentence, primary_emotion=primary_emo)
     
     
 isear_data_folder = [os.sep.join(['..', 'ISEAR'])]    
