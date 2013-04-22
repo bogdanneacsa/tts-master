@@ -400,6 +400,90 @@ class ISEARCorpus(BaseCorpus):
 
 
 class TwoWordISEARCorpus(ISEARCorpus):
+    
+    def is_turney_feat1(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        JJ followed by NN or NNS followed by anything
+        """
+        if ps1 == 'JJ' and ps2 in ('NN', 'NNS'):
+            return 1
+        return 0
+    
+    
+    def is_turney_feat2(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        RB, RBR or RBS followed by JJ followed by not NN nor NNS
+        """
+        if ps1 in ('RB', 'RBR', 'RBS') and ps2 == 'JJ':
+            if ps3 not in ('NN', 'NNS'):
+                return 1
+        return 0
+    
+    
+    def is_turney_feat3(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        JJ followed by JJ followed by not NN nor NNS
+        """
+        if ps1 == 'JJ' and ps2 == 'JJ':
+            if ps3 not in ('NN', 'NNS'):
+                return 1
+        return 0
+    
+    
+    def is_turney_feat4(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        NN or NNS followed by JJ followed by not NN nor NNS
+        """
+        if ps1 in ('NN', 'NNS') and ps2 == 'JJ':
+            if ps3 not in ('NN', 'NNS'):
+                return 1
+        return 0
+    
+    
+    def is_turney_feat5(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        RB, RBR, RBS followed by VBN or VBG followed by not anything
+        """
+        if ps1 in ('RB', 'RBR', 'RBS') and ps2 in ('VBN', 'VBG'):
+            return 1
+        return 0
+    
+    
+    def is_turney(self, ps1, ps2, ps3=None):
+        return (self.is_turney_feat1(ps1, ps2, ps3) or self.is_turney_feat2(ps1, ps2, ps3)
+                or self.is_turney_feat3(ps1, ps2, ps3) or self.is_turney_feat4(ps1, ps2, ps3)
+                or self.is_turney_feat5(ps1, ps2, ps3))
+        
+        
+    def vector_for_id(self, sent_id):
+        """
+        For the given sentence return the vector representation using our dictionary.
+        """
+        sent = self.sentence_data.get(sent_id, None)
+        if sent is None:
+            # TODO: Add entry here with unknown valence ??
+            raise Exception("No sentence stored so far!")
+        processed_sent = []
+        split_sent = sent.sentence.lower().split()
+        for idx in range(len(split_sent) - 1):
+            processed_sent.append(split_sent[idx] + ' ' + split_sent[idx+1])
+        return self.dictionary.doc2bow(processed_sent)
+    
+    
+    def __iter__(self):
+        for line in self.sentence_data.values():
+            processed_sent = []
+            split_sent = line.sentence.lower().split()
+            for idx in range(len(split_sent) - 1):
+                processed_sent.append(split_sent[idx] + ' ' + split_sent[idx+1])
+            yield self.dictionary.doc2bow(processed_sent)
+    
+    
     #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
     def __init__(self, data_folders):
         dict_data = {}
@@ -417,18 +501,14 @@ class TwoWordISEARCorpus(ISEARCorpus):
             sent_data = []
             sentence = entry.sentence.lower()
             tokens = nltk.word_tokenize(sentence)
-            self.tagged_sent = nltk.pos_tag(tokens)
-            for word in sentence.split():
-                sent_data.append(self.preprocess_word(word))
+            tagged_sent = nltk.pos_tag(tokens)
+            for idx in range(len(tagged_sent) - 1):
+                if ((idx < len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1], tagged_sent[idx+2][1])))
+                        or 
+                    (idx >= len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1])))):
+                    sent_data.append(tagged_sent[idx][0] + ' ' + tagged_sent[idx+1][0])
             data.append(sent_data)
         dictionary = corpora.Dictionary(data)
-        stopwords = sw_corpus.stopwords.words('english')
-        #Just remove empty string here
-        stopwords.append('')
-        stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
-                                                            if stopword in dictionary.token2id]
-        once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
-        dictionary.filter_tokens(stop_ids + once_ids) # remove stop words and words that appear only once
         dictionary.compactify()
         self.dictionary = dictionary
     
@@ -451,13 +531,77 @@ class TwoWordISEARCorpus(ISEARCorpus):
         (sent_id : Sentence() entity)
         """
         sent_id, primary_emo, sentence = line.split('---')
+        stopwords = sw_corpus.stopwords.words('english')
+        #Just remove empty string here
+        stopwords.append('')
+        sentence = ' '.join([self.preprocess_word(word) for word in sentence.lower().split() if word not in stopwords])
         return sent_id, Sentence(sentence, primary_emotion=primary_emo)
     
     
+    def to_sparse_arff(self, output_file, corpus_type='tfidf'):
+        """
+        Write out the corpus in sparse arff format, with the corpus type being either:
+         - tfidf, lsi, lda
+        """
+        if corpus_type == 'tfidf':
+            model = self.tfidf_model()
+        elif corpus_type == 'lsi':
+            model = self.lsi_model()
+        elif corpus_type == 'lda':
+            model = self.lda_model()
+        else:
+            raise Exception("Unknown type %s"%(corpus_type,))
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        # Sort the words after the index so we can write our arff file.
+        words = sorted(words, key=lambda x: x[1])
+        print "Corpus has %i words"%(len(words))
+        with open(output_file, 'w') as fp:
+            fp.write('@relation tfidf_features\n\n')
+            for word in words:
+                fp.write("@attribute %s numeric\n"%(word[0].replace(' ', '_')))
+            fp.write("@attribute primary_emotion {joy,shame,sadness,guilt,disgust,anger,fear}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                sparse_vector_rep = model[self.vector_for_id(sent_id)]
+                if sparse_vector_rep:
+                    data_string = '{'
+                    for entry in sparse_vector_rep:
+                        data_string += '%s %s,'%(entry[0], entry[1])
+                    data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
+                    
+                    
+    def to_binary_sparse_arff(self, output_file):
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        with open(output_file, 'w') as fp:
+            fp.write('@relation binary_features\n\n')
+            for word in words:
+                fp.write("@attribute %s {0, 1}\n"%(word[0].replace(' ', '_')))
+            fp.write("@attribute primary_emotion {joy,shame,sadness,guilt,disgust,anger,fear}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                binary_vec = self.vector_for_id(sent_id)
+                if binary_vec:
+                    data_string = '{'
+                    for entry in binary_vec:
+                        data_string += '%s 1,'%(entry[0],)
+                    # Add turney specific attributes
+                    data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
+    
+    
 isear_data_folder = [os.sep.join(['..', 'ISEAR'])]    
-isear_corpus = ISEARCorpus(isear_data_folder)
-isear_corpus.to_sparse_arff('isear_tfidf.arff', 'tfidf')
-isear_corpus.to_binary_sparse_arff('isear_binary.arff')
+#isear_corpus = ISEARCorpus(isear_data_folder)
+#isear_corpus.to_sparse_arff('isear_tfidf.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_binary.arff')
+
+isear_corpus = TwoWordISEARCorpus(isear_data_folder)
+isear_corpus.to_sparse_arff('isear_2w_tfidf.arff', 'tfidf')
+isear_corpus.to_binary_sparse_arff('isear_2w_binary.arff')
 
 #grimm_data_folders = [os.sep.join(['..', 'fairytales', 'Grimms', 'emmood']), os.sep.join(['..', 'fairytales', 'HCAndersen', 'emmood']), os.sep.join(['..', 'fairytales', 'Potter', 'emmood']), ]
 #fairy_corpus = FairytaleCorpus(grimm_data_folders)
