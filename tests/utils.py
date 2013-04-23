@@ -4,6 +4,8 @@ import nltk
 import nltk.corpus as sw_corpus
 import nltk.stem.porter as porter
 
+DO_STEMMING = False
+DO_STOPWORDS = False
 STEMMER = porter.PorterStemmer()
 
 POS = ("H", "Su+")
@@ -90,7 +92,10 @@ class BaseCorpus():
         Do preprocessing on a word, remove all non letter characters and stem the word.
         """
         new_word = ''.join([ch for ch in word if ch.isalnum() and not ch.isdigit()])
-        return STEMMER.stem(new_word)
+        if DO_STEMMING:
+            return STEMMER.stem(new_word)
+        else:
+            return new_word
     
     def sentence_for_id(self, sent_id):
         """
@@ -253,8 +258,11 @@ class FairytaleCorpus(BaseCorpus):
         stopwords = sw_corpus.stopwords.words('english')
         #Just remove empty string here
         stopwords.append('')
-        stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
+        if DO_STOPWORDS:
+            stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
                                                             if stopword in dictionary.token2id]
+        else:
+            stop_ids = [dictionary.token2id['stopword']]
         once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
         dictionary.filter_tokens(stop_ids + once_ids) # remove stop words and words that appear only once
         dictionary.compactify()
@@ -314,8 +322,11 @@ class ISEARCorpus(BaseCorpus):
         stopwords = sw_corpus.stopwords.words('english')
         #Just remove empty string here
         stopwords.append('')
-        stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
+        if DO_STOPWORDS:
+            stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
                                                             if stopword in dictionary.token2id]
+        else:
+            stop_ids = [dictionary.token2id['']]
         once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
         dictionary.filter_tokens(stop_ids + once_ids) # remove stop words and words that appear only once
         dictionary.compactify()
@@ -399,7 +410,7 @@ class ISEARCorpus(BaseCorpus):
                     fp.write(data_string)
 
 
-class TwoWordISEARCorpus(ISEARCorpus):
+class TwoWordTurneyISEARCorpus(ISEARCorpus):
     
     def is_turney_feat1(self, ps1, ps2, ps3=None):
         """
@@ -531,7 +542,10 @@ class TwoWordISEARCorpus(ISEARCorpus):
         (sent_id : Sentence() entity)
         """
         sent_id, primary_emo, sentence = line.split('---')
-        stopwords = sw_corpus.stopwords.words('english')
+        if DO_STOPWORDS:
+            stopwords = sw_corpus.stopwords.words('english')
+        else:
+            stopwords = []
         #Just remove empty string here
         stopwords.append('')
         sentence = ' '.join([self.preprocess_word(word) for word in sentence.lower().split() if word not in stopwords])
@@ -594,10 +608,19 @@ class TwoWordISEARCorpus(ISEARCorpus):
                     fp.write(data_string)
     
     
+class TwoWordISEARCorpus(TwoWordTurneyISEARCorpus):
+    
+    def is_turney(self, ps1, ps2, ps3=None):
+        return True
+    
 isear_data_folder = [os.sep.join(['..', 'ISEAR'])]    
 #isear_corpus = ISEARCorpus(isear_data_folder)
 #isear_corpus.to_sparse_arff('isear_tfidf.arff', 'tfidf')
 #isear_corpus.to_binary_sparse_arff('isear_binary.arff')
+
+isear_corpus = TwoWordTurneyISEARCorpus(isear_data_folder)
+isear_corpus.to_sparse_arff('isear_2w_turney_tfidf.arff', 'tfidf')
+isear_corpus.to_binary_sparse_arff('isear_2w_turney_binary.arff')
 
 isear_corpus = TwoWordISEARCorpus(isear_data_folder)
 isear_corpus.to_sparse_arff('isear_2w_tfidf.arff', 'tfidf')
