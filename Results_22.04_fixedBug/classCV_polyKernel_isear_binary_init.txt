@@ -1,0 +1,43 @@
+
+Results
+======
+
+Correctly Classified Instances        4075               53.3237 %
+Incorrectly Classified Instances      3567               46.6763 %
+Kappa statistic                          0.4554
+K&B Relative Info Score             182651.6665 %
+K&B Information Score                 5127.6787 bits      0.671  bits/instance
+Class complexity | order 0           21453.8135 bits      2.8074 bits/instance
+Class complexity | scheme           191485.3448 bits     25.057  bits/instance
+Complexity improvement     (Sf)    -170031.5313 bits    -22.2496 bits/instance
+Mean absolute error                      0.2204
+Root mean squared error                  0.3257
+Relative absolute error                 90.0113 %
+Root relative squared error             93.0839 %
+Coverage of cases (0.95 level)          95.263  %
+Mean rel. region size (0.95 level)      76.9451 %
+Total Number of Instances             7642     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.709    0.082    0.590      0.709    0.644      0.581    0.893     0.574     joy
+                 0.480    0.118    0.405      0.480    0.440      0.339    0.744     0.322     shame
+                 0.592    0.069    0.587      0.592    0.589      0.520    0.829     0.476     sadness
+                 0.425    0.090    0.439      0.425    0.432      0.340    0.742     0.323     guilt
+                 0.516    0.063    0.577      0.516    0.545      0.475    0.814     0.448     disgust
+                 0.383    0.076    0.457      0.383    0.417      0.331    0.752     0.333     anger
+                 0.628    0.046    0.694      0.628    0.659      0.607    0.867     0.566     fear
+Weighted Avg.    0.533    0.078    0.536      0.533    0.532      0.456    0.806     0.435     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+ 773  85  77  43  32  39  42 |   a = joy
+ 104 525  66 157  93 100  48 |   b = shame
+ 128  90 646  69  41  56  62 |   c = sadness
+  72 198 100 463  57 147  52 |   d = guilt
+  84 162  58  75 564 106  44 |   e = disgust
+  79 148  81 181 131 419  54 |   f = anger
+  71  87  73  66  59  50 685 |   g = fear
+
