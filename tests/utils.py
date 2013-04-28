@@ -3,6 +3,8 @@ from gensim import corpora, models, similarities
 import nltk
 import nltk.corpus as sw_corpus
 import nltk.stem.porter as porter
+from nltk.stem.wordnet import WordNetLemmatizer
+LMTZR = WordNetLemmatizer()
 
 DO_STEMMING = False
 DO_STOPWORDS = False
@@ -82,7 +84,6 @@ class Sentence():
         
 class BaseCorpus():
     
-            
     def __del__(self):
         if os.path.exists(self.storage_file):
             self.clear()
@@ -95,7 +96,7 @@ class BaseCorpus():
         if DO_STEMMING:
             return STEMMER.stem(new_word)
         else:
-            return new_word
+            return LMTZR.lemmatize(new_word)
     
     def sentence_for_id(self, sent_id):
         """
@@ -613,18 +614,93 @@ class TwoWordISEARCorpus(TwoWordTurneyISEARCorpus):
     def is_turney(self, ps1, ps2, ps3=None):
         return True
     
-isear_data_folder = [os.sep.join(['..', 'ISEAR'])]    
+
+class OnePlusTurneyISEARCorpus(TwoWordTurneyISEARCorpus, ISEARCorpus):
+    
+    def vector_for_id(self, sent_id):
+        """
+        For the given sentence return the vector representation using our dictionary.
+        """
+        sent = self.sentence_data.get(sent_id, None)
+        if sent is None:
+            # TODO: Add entry here with unknown valence ??
+            raise Exception("No sentence stored so far!")
+        stopwords = sw_corpus.stopwords.words('english')
+        #Just remove empty string here
+        stopwords.append('')
+        processed_sent = [word for word in sent.sentence.lower().split() if word not in stopwords]
+        split_sent = sent.sentence.lower().split()
+        for idx in range(len(split_sent) - 1):
+            processed_sent.append(split_sent[idx] + ' ' + split_sent[idx+1])
+        return self.dictionary.doc2bow(processed_sent)
+    
+    
+    def __iter__(self):
+        for line in self.sentence_data.values():
+            stopwords = sw_corpus.stopwords.words('english')
+            #Just remove empty string here
+            stopwords.append('')
+            processed_sent = [word for word in line.sentence.lower().split() if word not in stopwords]
+            split_sent = line.sentence.lower().split()
+            for idx in range(len(split_sent) - 1):
+                processed_sent.append(split_sent[idx] + ' ' + split_sent[idx+1])
+            yield self.dictionary.doc2bow(processed_sent)
+            
+            
+    #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
+    def __init__(self, data_folders):
+        dict_data = {}
+        start_idx = 0
+        for data_folder in data_folders:
+            for data_file in os.listdir(data_folder):
+                if data_file.startswith('ise_'):
+                    results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
+                    dict_data.update(results_dict)
+                    start_idx += end_idx
+        self.sentence_data = dict_data
+        self.storage_file = 'corpus_%s.mm'%(id(self),)
+        data = []
+        stopwords = sw_corpus.stopwords.words('english')
+        #Just remove empty string here
+        stopwords.append('')
+        for entry in self.sentence_data.values():
+            sent_data = [word for word in nltk.word_tokenize(entry.sentence) if word not in stopwords]
+            sentence = entry.sentence.lower()
+            tokens = nltk.word_tokenize(sentence)
+            tagged_sent = nltk.pos_tag(tokens)
+            for idx in range(len(tagged_sent) - 1):
+                if ((idx < len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1], tagged_sent[idx+2][1])))
+                        or 
+                    (idx >= len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1])))):
+                    sent_data.append(tagged_sent[idx][0] + ' ' + tagged_sent[idx+1][0])
+            data.append(sent_data)
+        dictionary = corpora.Dictionary(data)
+        dictionary.compactify()
+        self.dictionary = dictionary
+        
+
+class OnePlusTwoISEARCorpus(OnePlusTurneyISEARCorpus):
+    
+    def is_turney(self, ps1, ps2, ps3=None):
+        return True
+    
+isear_data_folder = [os.sep.join(['..', 'ISEAR'])]
+isear_corpus = OnePlusTwoISEARCorpus(isear_data_folder)
+isear_corpus.to_sparse_arff('isear_combined_tfidf.arff', 'tfidf')
+isear_corpus.to_binary_sparse_arff('isear_combined_binary.arff')
+
+
 #isear_corpus = ISEARCorpus(isear_data_folder)
 #isear_corpus.to_sparse_arff('isear_tfidf.arff', 'tfidf')
 #isear_corpus.to_binary_sparse_arff('isear_binary.arff')
 
-isear_corpus = TwoWordTurneyISEARCorpus(isear_data_folder)
-isear_corpus.to_sparse_arff('isear_2w_turney_tfidf.arff', 'tfidf')
-isear_corpus.to_binary_sparse_arff('isear_2w_turney_binary.arff')
-
-isear_corpus = TwoWordISEARCorpus(isear_data_folder)
-isear_corpus.to_sparse_arff('isear_2w_tfidf.arff', 'tfidf')
-isear_corpus.to_binary_sparse_arff('isear_2w_binary.arff')
+#isear_corpus = TwoWordTurneyISEARCorpus(isear_data_folder)
+#isear_corpus.to_sparse_arff('isear_2w_turney_tfidf.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_2w_turney_binary.arff')
+#
+#isear_corpus = TwoWordISEARCorpus(isear_data_folder)
+#isear_corpus.to_sparse_arff('isear_2w_tfidf.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_2w_binary.arff')
 
 #grimm_data_folders = [os.sep.join(['..', 'fairytales', 'Grimms', 'emmood']), os.sep.join(['..', 'fairytales', 'HCAndersen', 'emmood']), os.sep.join(['..', 'fairytales', 'Potter', 'emmood']), ]
 #fairy_corpus = FairytaleCorpus(grimm_data_folders)
