@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/weka-src.jar"/>
+	<classpathentry kind="lib" path="jars/weka.jar"/>
+	<classpathentry kind="lib" path="D:/Facultate/Disertatie/stanford-postagger-full-2013-04-04/stanford-postagger-3.1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
