@@ -684,10 +684,126 @@ class OnePlusTwoISEARCorpus(OnePlusTurneyISEARCorpus):
     def is_turney(self, ps1, ps2, ps3=None):
         return True
     
-isear_data_folder = [os.sep.join(['..', 'ISEAR'])]
-isear_corpus = OnePlusTwoISEARCorpus(isear_data_folder)
-isear_corpus.to_sparse_arff('isear_combined_tfidf.arff', 'tfidf')
-isear_corpus.to_binary_sparse_arff('isear_combined_binary.arff')
+    
+class MoviesReviewCorpus(BaseCorpus):
+    
+    def __init__(self, data_folder):
+        dict_data = {}
+        start_idx = 0
+        self.nr_pos = self.nr_neg = self.nr_neu = 0
+        data_folders = [os.path.join(data_folder, 'neg'), os.path.join(data_folder, 'pos')]
+        for df in data_folders:
+            results_dict, end_idx = self.parse_fairytale_data(df, start_idx, 'pos' if df.endswith('pos') else 'neg')
+            dict_data.update(results_dict)
+            start_idx += end_idx
+        self.sentence_data = dict_data
+        self.storage_file = 'corpus_%s.mm'%(id(self),)
+        data = [[self.preprocess_word(word) for word in entry.sentence.lower().split()] for entry in self.sentence_data.values()]
+        dictionary = corpora.Dictionary(data)
+        stopwords = sw_corpus.stopwords.words('english')
+        #Just remove empty string here
+        stopwords.append('')
+        if DO_STOPWORDS:
+            stop_ids = [dictionary.token2id[stopword] for stopword in stopwords
+                                                            if stopword in dictionary.token2id]
+        else:
+            stop_ids = [dictionary.token2id['']]
+        once_ids = [tokenid for tokenid, docfreq in dictionary.dfs.iteritems() if docfreq == 1]
+        dictionary.filter_tokens(stop_ids + once_ids) # remove stop words and words that appear only once
+        dictionary.compactify()
+        self.dictionary = dictionary
+    
+    
+    def parse_fairytale_data(self, folder_name, start_idx=0, sentiment='neg'):
+        """
+        For this file name, parse all sentences and return a dictionary
+        of the form {sentence_id : Sentence()}
+        """
+        results_dict = {}
+        sent_id = 0
+        for file_n in os.listdir(folder_name):
+            full_path = os.path.join(folder_name, file_n)
+            sentence = self.process_line(full_path, sentiment)
+            results_dict[str(int(sent_id)+start_idx)] = sentence
+            sent_id += 1
+        return results_dict, int(sent_id) + start_idx
+    
+    
+    def process_line(self, file_n, sentiment):
+        """
+        Process a given line from the fairytale corpus, return a tuple in the form
+        (sent_id : Sentence() entity)
+        """
+        sentence = open(file_n).read().replace('\n', ' ').replace('\t', ' ')
+        return Sentence(sentence, primary_emotion=sentiment, mood=sentiment)
+    
+    
+    def to_sparse_arff(self, output_file, corpus_type='tfidf'):
+        """
+        Write out the corpus in sparse arff format, with the corpus type being either:
+         - tfidf, lsi, lda
+        """
+        if corpus_type == 'tfidf':
+            model = self.tfidf_model()
+        elif corpus_type == 'lsi':
+            model = self.lsi_model()
+        elif corpus_type == 'lda':
+            model = self.lda_model()
+        else:
+            raise Exception("Unknown type %s"%(corpus_type,))
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        # Sort the words after the index so we can write our arff file.
+        words = sorted(words, key=lambda x: x[1])
+        print "Corpus has %i words"%(len(words))
+        with open(output_file, 'w') as fp:
+            fp.write('@relation tfidf_features\n\n')
+            for word in words:
+                fp.write("@attribute %s numeric\n"%(word[0]))
+            fp.write("@attribute primary_emotion {neg, pos}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                sparse_vector_rep = model[self.vector_for_id(sent_id)]
+                if sparse_vector_rep:
+                    data_string = '{'
+                    for entry in sparse_vector_rep:
+                        data_string += '%s %s,'%(entry[0], entry[1])
+                    # Add turney specific attributes
+                    data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
+                    
+                    
+    def to_binary_sparse_arff(self, output_file):
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        with open(output_file, 'w') as fp:
+            fp.write('@relation binary_features\n\n')
+            for word in words:
+                fp.write("@attribute %s {0, 1}\n"%(word[0]))
+            fp.write("@attribute primary_emotion {neg,pos}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                binary_vec = self.vector_for_id(sent_id)
+                if binary_vec:
+                    data_string = '{'
+                    for entry in binary_vec:
+                        data_string += '%s 1,'%(entry[0],)
+                    # Add turney specific attributes
+                    data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
+    
+movies_data_folder = os.sep.join(['..', 'movieReviews', 'txt_sentoken'])
+movies_corpus = MoviesReviewCorpus(movies_data_folder)
+movies_corpus.to_sparse_arff('movies_tfidf.arff', 'tfidf')
+movies_corpus.to_binary_sparse_arff('movies_binary.arff')
+    
+    
+#isear_data_folder = [os.sep.join(['..', 'ISEAR'])]
+#isear_corpus = OnePlusTwoISEARCorpus(isear_data_folder)
+#isear_corpus.to_sparse_arff('isear_combined_tfidf.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_combined_binary.arff')
 
 
 #isear_corpus = ISEARCorpus(isear_data_folder)
