@@ -13,7 +13,7 @@ public class Main {
 			e1.printStackTrace();
 		}
 		
-		Classifier classifier = new Classifier(new weka.classifiers.bayes.NaiveBayesMultinomialText());
+		Classifier classifier = new Classifier(new weka.classifiers.bayes.NaiveBayesMultinomial());
 		
 		try {
 			classifier.loadFile("resources//"+arff+".arff");
@@ -152,13 +152,18 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-//		BayesMultinomial("isear_combined_tfidf", true);
-//		SMOPolyKernel("isear_combined_tfidf", false);
-//		SMORBFKernel("isear_combined_tfidf", false);
-//		
-//		BayesMultinomial("isear_combined_binary", true);
-//		SMOPolyKernel("isear_combined_binary", false);
-//		SMORBFKernel("isear_combined_binary", false);
+//		CombineInstances c = new CombineInstances("resources\\ise_processed");
+//		c.combineInstance(3, "ise_processed");
+//		c.combineInstance(5, "ise_processed");
+//		c.combineInstance(7, "ise_processed");
+		
+//		BayesMultinomial("isear_turney_tfidf_test", true);
+//		SMOPolyKernel("movies_1w_tfidf_fsManual", false);
+//		SMORBFKernel("movies_1w_tfidf_fsManual", false);
+		
+//		BayesMultinomial("fairytale_balance_tfidf_ok_noNeutrals", true);
+//		SMOPolyKernel("movies_1w_binary_fsManual", false);
+//		SMORBFKernel("movies_1w_binary_fsManual", false);
 //		
 //		BayesMultinomial("isear_turney_tfidf", true);
 //		SMOPolyKernel("isear_turney_tfidf", false);
@@ -171,30 +176,35 @@ public class Main {
 		//MyPOSTagger tagger = new MyPOSTagger("models//english-bidirectional-distsim.tagger");
 		//tagger.taggFile("resources//sample-input.txt");
 		
-		MyAttributeSelection atSel1 = new MyAttributeSelection();
-		MyAttributeSelection atSel2 = new MyAttributeSelection();
-		MyAttributeSelection atSel3 = new MyAttributeSelection();
-		MyAttributeSelection atSel4 = new MyAttributeSelection();
-		try {
-			atSel1.loadFile("resources//isear_combined_tfidf.arff");
-			atSel2.loadFile("resources//isear_combined_binary.arff");
-			atSel3.loadFile("resources//isear_turney_tfidf.arff");
-			atSel4.loadFile("resources//isear_turney_binary.arff");
+//		MyAttributeSelection atSel1 = new MyAttributeSelection();
+//		MyAttributeSelection atSel2 = new MyAttributeSelection();
+//		MyAttributeSelection atSel3 = new MyAttributeSelection();
+//		MyAttributeSelection atSel4 = new MyAttributeSelection();
+//		try {
+//			atSel1.loadFile("resources//fairytale_balance_tfidf.arff");
+//			atSel2.loadFile("resources//isear_turney_tfidf.arff");
+//			atSel3.loadFile("resources//isear_turney_tfidf.arff");
+//			atSel4.loadFile("resources//isear_turney_binary.arff");
 //			//atSel1.featureSelectedData(atSel1.readCSVFile("CFS_fairytale_tfidf"), "fairytale_balance_tfidf_cfs2");
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			System.out.println("Exception - in main selection load file");
-			e1.printStackTrace();
-		}
+//			atSel1.manualAttributeSelection("movies_1w_tfidf_fsManual");
+//			atSel1.removeLastNAttributes(5, "fairytale_balance_tfidf_ok");
+//			atSel1.loadFile("resources//fairytale_balance_tfidf_ok.arff");
+//			atSel1.removeNeutralInstances("fairytale_balance_tfidf_ok_noNeutrals");
+//			atSel2.manualAttributeSelection("isear_turney_tfidf_fsManual");
+//		} catch (IOException e1) {
+//			 //TODO Auto-generated catch block
+//			System.out.println("Exception - in main selection load file");
+//			e1.printStackTrace();
+//		}
 //		
 //		atSel.RankerCrossValidation(10, 1, "fairytale_balance_tfidf");
 //		atSel.RankerCrossValidation(10, 2);
 //		atSel.RankerCrossValidation(10, 5);
 //		
-		atSel1.CfsCrossValidation(10, 1, "isear_combined_tfidf", "");
-		atSel2.CfsCrossValidation(10, 1, "isear_combined_binary", "");
-		atSel3.CfsCrossValidation(10, 1, "isear_turney_tfidf", "");
-		atSel4.CfsCrossValidation(10, 1, "isear_turney_binary", "");
+//		atSel1.CfsCrossValidation(10, 1, "movies_1w_tfidf", "");
+//		atSel2.CfsCrossValidation(10, 1, "movies_1w_binary", "");
+//		atSel3.CfsCrossValidation(10, 1, "isear_turney_tfidf", "");
+//		atSel4.CfsCrossValidation(10, 1, "isear_turney_binary", "");
 //		atSel.CfsCrossValidation(10, 2);
 //		atSel.CfsCrossValidation(10, 5);
 		

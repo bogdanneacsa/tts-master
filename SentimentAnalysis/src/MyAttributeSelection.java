@@ -10,6 +10,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.StringTokenizer;
@@ -34,13 +35,13 @@ public class MyAttributeSelection {
 		reader.close();
 		// setting class attribute
 		data.setClassIndex(data.numAttributes() - 1);	
-		
-//		System.out.println(data.numClasses());
-//		System.out.println(data.numAttributes());
-//		
-//		System.out.println(data.instance(3).numValues());
-//		System.out.println(data.instance(3).isMissing(16));
-//		System.out.println(data.instance(3).value(data.numAttributes()-1) == 0.0);
+
+		//		System.out.println(data.numClasses());
+		//		System.out.println(data.numAttributes());
+		//		
+		//		System.out.println(data.instance(3).numValues());
+		//		System.out.println(data.instance(3).isMissing(16));
+		//		System.out.println(data.instance(3).value(data.numAttributes()-1) == 0.0);
 	}
 
 	/**
@@ -74,14 +75,14 @@ public class MyAttributeSelection {
 		try {
 			newData = Filter.useFilter(data, filter);
 			System.out.println(newData);
-			
+
 			//save in new arff file
-			 ArffSaver saver = new ArffSaver();
-			 saver.setInstances(newData);
-			 saver.setFile(new File("resources//"+outputFile+".arff"));
-			 //saver.setDestination(new File("resources//"+outputFile+".arff"));   // **not** necessary in 3.5.4 and later
-			 saver.writeBatch();
-			
+			ArffSaver saver = new ArffSaver();
+			saver.setInstances(newData);
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			//saver.setDestination(new File("resources//"+outputFile+".arff"));   // **not** necessary in 3.5.4 and later
+			saver.writeBatch();
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println("Exception in useFilter greedy - useFilter");
@@ -193,13 +194,13 @@ public class MyAttributeSelection {
 		try {
 			newData = Filter.useFilter(data, filter);
 			System.out.println(newData);
-			
+
 			//save in new arff file
-			 ArffSaver saver = new ArffSaver();
-			 saver.setInstances(newData);
-			 saver.setFile(new File("resources//"+outputFile+".arff"));
-			 //saver.setDestination(new File("resources//"+outputFile+".arff"));   // **not** necessary in 3.5.4 and later
-			 saver.writeBatch();
+			ArffSaver saver = new ArffSaver();
+			saver.setInstances(newData);
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			//saver.setDestination(new File("resources//"+outputFile+".arff"));   // **not** necessary in 3.5.4 and later
+			saver.writeBatch();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println("Exception in useFilter bestFirst - useFilter");
@@ -222,27 +223,27 @@ public class MyAttributeSelection {
 			try {
 				attsel.setFolds(folds);
 				attsel.setSeed(seed);
-				
+
 				Instances randData = this.randomizeData(folds, seed);
-												
+
 				for (int n = 0; n < folds; n++)
 				{
 					System.out.println("Fold " + n);
-					
+
 					AttributeSelection foldAttsel = new AttributeSelection();
 					InfoGainAttributeEval foldEval = new InfoGainAttributeEval();
 					Ranker foldSearch = new Ranker();
 
 					foldAttsel.setEvaluator(foldEval);
 					foldAttsel.setSearch(foldSearch);
-					
+
 					Instances train = randData.trainCV(folds, n);
 					Instances test = randData.testCV(folds, n);
-					
+
 					//foldAttsel.SelectAttributes(train);
 					out.println("Result for fold "+n);
 					//out.println(foldAttsel.toResultsString());
-					
+
 					attsel.selectAttributesCVSplit(train);
 					out.println(attsel.CVResultsString());
 					//				System.out.println("Number of attributes selected in fold " + n);
@@ -257,7 +258,7 @@ public class MyAttributeSelection {
 				System.out.println("Exception at ranker cross validation");
 				e.printStackTrace();
 			}
-			
+
 			out.close();
 
 		} catch (IOException e1) {
@@ -266,7 +267,7 @@ public class MyAttributeSelection {
 			e1.printStackTrace();
 		}
 	}
-	
+
 	public void CfsCrossValidation(int folds, int seed, String name, String outputFile)
 	{
 		try {
@@ -283,25 +284,25 @@ public class MyAttributeSelection {
 				attsel.setFolds(folds);
 				attsel.setSeed(seed);
 				Instances randData = this.randomizeData(folds, seed);
-												
+
 				for (int n = 0; n < folds; n++)
 				{
 					System.out.println("Fold " + n);
-					
+
 					//AttributeSelection foldAttsel = new AttributeSelection();
 					//CfsSubsetEval foldEval = new CfsSubsetEval();
 					//BestFirst foldSearch = new BestFirst();
 
 					//foldAttsel.setEvaluator(foldEval);
 					//foldAttsel.setSearch(foldSearch);
-					
+
 					Instances train = randData.trainCV(folds, n);
 					Instances test = randData.testCV(folds, n);
-					
+
 					//foldAttsel.SelectAttributes(train);
 					out.println("Result for fold "+n);
 					//out.println(foldAttsel.toResultsString());
-					
+
 					attsel.selectAttributesCVSplit(train);
 					out.println(attsel.CVResultsString());
 					//				System.out.println("Number of attributes selected in fold " + n);
@@ -311,25 +312,25 @@ public class MyAttributeSelection {
 				System.out.println(attsel.CVResultsString());
 				out.println("Overall results");
 				out.println(attsel.CVResultsString());
-			
+
 				//reduce arff based on cross validation
 				//System.out.println("Reduce dimensionality");
 				//attsel.CrossValidateAttributes();
-				
+
 				/*newData = attsel.reduceDimensionality(data);
-				
+
 				//save in new arff file
 				 ArffSaver saver = new ArffSaver();
 				 saver.setInstances(newData);
 				 saver.setFile(new File("resources//"+outputFile+".arff"));				
 				 saver.writeBatch();*/
-				
+
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				System.out.println("Exception at cfs cross validation");
 				e.printStackTrace();
 			}
-			
+
 			out.close();
 
 		} catch (IOException e1) {
@@ -399,19 +400,19 @@ public class MyAttributeSelection {
 		Random rand = new Random(seed);   // create seeded number generator
 		Instances randData = new Instances(data);   // create copy of original data
 		randData.randomize(rand);
-	    if (randData.classAttribute().isNominal())
-	        randData.stratify(folds);
+		if (randData.classAttribute().isNominal())
+			randData.stratify(folds);
 
 		return randData;
 
 	}
-	
+
 	public HashMap<Integer,Boolean> readCSVFile(String csvName)
 	{
 		String csvFile = "resources//"+csvName+".csv";
 
 		HashMap<Integer,Boolean> index = new HashMap<Integer,Boolean>();
-		
+
 		try{
 			//create BufferedReader to read csv file
 			BufferedReader br = new BufferedReader(new FileReader(csvFile));
@@ -426,7 +427,7 @@ public class MyAttributeSelection {
 			//read semicolon separated file line by line
 			while ((line = br.readLine()) != null) {
 				lineNumber++;
-								
+
 				//use comma as token separator
 				st = new StringTokenizer(line, ";");
 
@@ -434,14 +435,14 @@ public class MyAttributeSelection {
 					tokenNumber++;
 
 					String token = st.nextToken();
-					
+
 					if(tokenNumber == 1)
 					{
 						auxNumber1 = Integer.parseInt(token);
 						if(auxNumber1 > 0)
 							keepFeature = true;
 					}
-					
+
 					if(tokenNumber == 3)
 					{
 						if(keepFeature)
@@ -457,7 +458,7 @@ public class MyAttributeSelection {
 				tokenNumber = 0;
 				keepFeature = false;
 			}
-			
+
 			return index;
 
 		} catch (Exception e) {
@@ -465,45 +466,45 @@ public class MyAttributeSelection {
 			return null;
 		}
 	}
-	
+
 	public void featureSelectedData(HashMap<Integer,Boolean> index, String outputFile)
 	{
-		 Remove remove = new Remove();
-		 
-		 Integer[] indicesAux = index.keySet().toArray(new Integer[index.keySet().size()]);
-		 
-		 int [] indices = new int[indicesAux.length+1];
-		 for(int i = 0; i<indicesAux.length; i++)
-			 indices[i] = indicesAux[i];
-		 indices[indicesAux.length] = data.numAttributes() - 1;
-		 
-		 remove.setAttributeIndicesArray(indices);
-		 remove.setInvertSelection(true);
-		 try {
+		Remove remove = new Remove();
+
+		Integer[] indicesAux = index.keySet().toArray(new Integer[index.keySet().size()]);
+
+		int [] indices = new int[indicesAux.length+1];
+		for(int i = 0; i<indicesAux.length; i++)
+			indices[i] = indicesAux[i];
+		indices[indicesAux.length] = data.numAttributes() - 1;
+
+		remove.setAttributeIndicesArray(indices);
+		remove.setInvertSelection(true);
+		try {
 			remove.setInputFormat(data);
 			newData =  Filter.useFilter(data, remove);
-			
-//			int j = 0;
-//			while(j<newData.numInstances())
-//			{
-//				if((newData.instance(j).numValues() == 0) || ((newData.instance(j).numValues() == 1) && (newData.instance(j).value(newData.numAttributes()-1) != 0.0) ) )
-//					newData.delete(j);
-//				else
-//					j++;
-//			}
-			
+
+			//			int j = 0;
+			//			while(j<newData.numInstances())
+			//			{
+			//				if((newData.instance(j).numValues() == 0) || ((newData.instance(j).numValues() == 1) && (newData.instance(j).value(newData.numAttributes()-1) != 0.0) ) )
+			//					newData.delete(j);
+			//				else
+			//					j++;
+			//			}
+
 			System.out.println("Nr. de features pt newData = " + newData.numAttributes());
-			
+
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			System.out.println("Exception in featureSelectedData - filter");
 			e1.printStackTrace();
 		}
-		 		 		 
+
 		//save in new arff file
-		 ArffSaver saver = new ArffSaver();
-		 saver.setInstances(newData);
-		 try {
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(newData);
+		try {
 			saver.setFile(new File("resources//"+outputFile+".arff"));
 			saver.writeBatch();
 		} catch (IOException e) {
@@ -511,9 +512,135 @@ public class MyAttributeSelection {
 			System.out.println("Exception in featureSelectedData - write new arff");
 			e.printStackTrace();
 		}				
-		 
+
+	}
+
+	public void manualAttributeSelection(String outputFile)
+	{
+		Remove remove = new Remove();
+		remove.setInvertSelection(true);
+
+		ArrayList<Integer> selectedAttributes = new ArrayList<Integer>();
+
+		int numberOfAttributes = data.numAttributes() - 1;
+		for(int i = 0; i < numberOfAttributes; i++)
+		{
+			int numberOfInstances = data.numInstances();
+			int countPosEx = 0;
+			int countNegEx = 0;
+			for(int j = 0; j < numberOfInstances; j++)
+			{
+				if(data.instance(j).value(i) != 0.0)
+					if(data.instance(j).value(numberOfAttributes) == 0.0)
+						countNegEx++;
+					else
+						countPosEx++;				
+			}
+
+			System.out.println(data.attribute(i)+" "+countNegEx+" "+countPosEx);
+			if((countNegEx+countPosEx) > (numberOfInstances / 200)) //hardcoded value
+			{
+				if(countNegEx == 0 || countPosEx == 0)
+					selectedAttributes.add(i);
+				else
+					if((countPosEx/countNegEx > 1.5) ||  (countNegEx/countPosEx > 1.5))
+						selectedAttributes.add(i);
+			}
+		}
+
+		System.out.println("Intial!!!  "+data.numAttributes()+" "+data.numInstances());
+		System.out.println("Number of selected attributes = " + selectedAttributes.size());
+
+		Integer[] indicesAux = selectedAttributes.toArray(new Integer[selectedAttributes.size()]);
+		int [] indices = new int[indicesAux.length+1];
+		for(int i = 0; i<indicesAux.length; i++)
+			indices[i] = indicesAux[i];
+		indices[indicesAux.length] = data.numAttributes() - 1;
+
+		remove.setAttributeIndicesArray(indices);
+
+		try {
+			remove.setInputFormat(data);
+			newData =  Filter.useFilter(data, remove);
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in manual feature selection - filter");
+			e1.printStackTrace();
+		}
+
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(newData);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}	
 	}
 	
+	public void removeNeutralInstances(String outputFile)
+	{	
+		int numberOfAttributes = data.numAttributes();
+
+		int j = 0;
+		while(j < data.numInstances())
+		{
+			//System.out.println(data.instance(j).value(numberOfAttributes - 1));
+			if(data.instance(j).value(numberOfAttributes - 1) == 1.0)
+				data.delete(j);
+			else
+				j++;
+		}
+		
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(data);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}
+		
 	}
+	
+	public void removeLastNAttributes(int n, String outputFile)
+	{
+		Remove remove = new Remove();
+		
+		int [] indices = new int[n];
+		for(int i=1; i<=n; i++)
+			indices[i-1] = (data.numAttributes() - 1) - i;
+		
+		remove.setAttributeIndicesArray(indices);
+		
+		try {
+			remove.setInputFormat(data);
+			newData =  Filter.useFilter(data, remove);
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in manual feature selection - filter");
+			e1.printStackTrace();
+		}
+
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(newData);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}	
+	}
+
+}
 
 
