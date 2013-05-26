@@ -157,7 +157,7 @@ public class Main {
 //		c.combineInstance(5, "ise_processed");
 //		c.combineInstance(7, "ise_processed");
 		
-//		BayesMultinomial("isear_one_plus_turney_tfidf3", true);
+		BayesMultinomial("isear_one_plus_turney_tfidf7_unigramFS", true);
 //		BayesMultinomial("isear_one_plus_turney_tfidf5", true);
 //		BayesMultinomial("isear_one_plus_turney_tfidf7", true);
 		
@@ -184,12 +184,14 @@ public class Main {
 //		MyAttributeSelection atSel3 = new MyAttributeSelection();
 //		MyAttributeSelection atSel4 = new MyAttributeSelection();
 //		try {
-//			atSel1.loadFile("resources//isear_one_plus_turney_tfidf7.arff");
+//			atSel1.loadFile("resources//isear_tfidf7.arff");
 //			atSel2.loadFile("resources//isear_turney_tfidf_test.arff");
 //			atSel3.loadFile("resources//isear_turney_tfidf.arff");
 //			atSel4.loadFile("resources//isear_turney_binary.arff");
 //			//atSel1.featureSelectedData(atSel1.readCSVFile("CFS_fairytale_tfidf"), "fairytale_balance_tfidf_cfs2");
-//			atSel1.manualAttributeSelectionMulticlass("isear_one_plus_turney_tfidf7_fsManualMulti", 7);
+//    		atSel1.manualAttributeSelectionMulticlass("isear_tfidf7_fsManualMulti", 7);
+//			atSel1.loadFile("resources//isear_one_plus_turney_tfidf7.arff");
+//			atSel1.removeSelectedUnigramAttributes("isear_one_plus_turney_tfidf7_unigramFS");
 //			atSel1.removeLastNAttributes(5, "fairytale_balance_tfidf_ok");
 //			atSel1.loadFile("resources//fairytale_balance_tfidf_ok.arff");
 //			atSel1.removeNeutralInstances("fairytale_balance_tfidf_ok_noNeutrals");

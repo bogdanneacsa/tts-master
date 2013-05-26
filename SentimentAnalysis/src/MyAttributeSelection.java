@@ -20,6 +20,8 @@ public class MyAttributeSelection {
 	Instances data;
 	Instances newData;
 
+	HashMap<String,Integer> selectedAttributesName = new HashMap<String, Integer>();
+	
 	MyAttributeSelection()
 	{
 
@@ -694,15 +696,19 @@ public class MyAttributeSelection {
 			for(int k=0; k < noOfClasses; k++)
 				sum += countClassEx[k];
 				                    
-			System.out.println(data.attribute(i)+" "+sum);
+			System.out.println(data.attribute(i).name()+" "+sum);
 						
-			if(sum >= (numberOfInstances / 500)) //hardcoded value
+			if(sum > (numberOfInstances / 500)) //hardcoded value
 			{
 				quickSort(countClassEx, 0, countClassEx.length-1);
 				
-				if((countClassEx[countClassEx.length-1] > countClassEx[countClassEx.length-2] * 1.05))
+				if((countClassEx[countClassEx.length-1] > countClassEx[countClassEx.length-2] * 1.1))
 					selectedAttributes.add(i);
+				else
+					selectedAttributesName.put(data.attribute(i).name(), 1);
 			}
+			else
+				selectedAttributesName.put(data.attribute(i).name(), 1);
 		}
 
 		System.out.println("Intial!!!  "+data.numAttributes()+" "+data.numInstances());
@@ -769,6 +775,56 @@ public class MyAttributeSelection {
 			this.quickSort(counts, left, index - 1);
 		if (index < right)
 			this.quickSort(counts, index, right);
+	}
+	
+	public void removeSelectedUnigramAttributes(String outputFile)
+	{
+		Remove remove = new Remove();
+
+		ArrayList<Integer> selectedAttributes = new ArrayList<Integer>();
+
+		int numberOfAttributes = data.numAttributes() - 1;
+		for(int i = 0; i < numberOfAttributes - 1; i++)
+		{
+			if(selectedAttributesName.get(data.attribute(i).name()) != null)
+			{
+				//System.out.println(data.attribute(i).name());
+				selectedAttributes.add(i);
+			}
+		}
+
+		System.out.println("Number of selected attributes to remove = " + selectedAttributes.size());
+
+		Integer[] indicesAux = selectedAttributes.toArray(new Integer[selectedAttributes.size()]);
+		int [] indices = new int[indicesAux.length];
+		for(int i = 0; i<indicesAux.length; i++)
+			indices[i] = indicesAux[i];
+
+		remove.setAttributeIndicesArray(indices);
+
+		try {
+			remove.setInputFormat(data);
+			newData =  Filter.useFilter(data, remove);
+			
+			System.out.println("Remaining attributes = " + newData.numAttributes());
+			
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in manual feature selection - filter");
+			e1.printStackTrace();
+		}
+
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(newData);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}	
 	}
 
 }
