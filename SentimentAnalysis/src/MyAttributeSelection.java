@@ -640,6 +640,136 @@ public class MyAttributeSelection {
 			e.printStackTrace();
 		}	
 	}
+	
+	public void oneVsAll(String outputFile)
+	{
+		int numberOfAttributes = data.numAttributes();
+
+		int j = 0;
+		while(j < data.numInstances())
+		{
+			//System.out.println(data.instance(j).value(numberOfAttributes - 1));
+			if(data.instance(j).value(numberOfAttributes - 1) != 0.0)
+				data.instance(j).setValue(numberOfAttributes - 1, 7.0);
+				
+		    j++;
+		}
+		
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(data);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}
+	}
+	
+	public void manualAttributeSelectionMulticlass(String outputFile, int noOfClasses)
+	{
+		Remove remove = new Remove();
+		remove.setInvertSelection(true);
+
+		ArrayList<Integer> selectedAttributes = new ArrayList<Integer>();
+
+		int numberOfAttributes = data.numAttributes() - 1;
+		for(int i = 0; i < numberOfAttributes; i++)
+		{
+			int numberOfInstances = data.numInstances();
+			
+			int[] countClassEx = new int[noOfClasses];
+			for(int k = 0; k<noOfClasses; k++)
+				countClassEx[k] = 0;
+			
+			for(int j = 0; j < numberOfInstances; j++)
+			{
+				if(data.instance(j).value(i) != 0.0)
+					countClassEx[(int)data.instance(j).value(numberOfAttributes)]++;
+			}
+
+			int sum = 0;
+			for(int k=0; k < noOfClasses; k++)
+				sum += countClassEx[k];
+				                    
+			System.out.println(data.attribute(i)+" "+sum);
+						
+			if(sum >= (numberOfInstances / 500)) //hardcoded value
+			{
+				quickSort(countClassEx, 0, countClassEx.length-1);
+				
+				if((countClassEx[countClassEx.length-1] > countClassEx[countClassEx.length-2] * 1.05))
+					selectedAttributes.add(i);
+			}
+		}
+
+		System.out.println("Intial!!!  "+data.numAttributes()+" "+data.numInstances());
+		System.out.println("Number of selected attributes = " + selectedAttributes.size());
+
+		Integer[] indicesAux = selectedAttributes.toArray(new Integer[selectedAttributes.size()]);
+		int [] indices = new int[indicesAux.length+1];
+		for(int i = 0; i<indicesAux.length; i++)
+			indices[i] = indicesAux[i];
+		indices[indicesAux.length] = data.numAttributes() - 1;
+
+		remove.setAttributeIndicesArray(indices);
+
+		try {
+			remove.setInputFormat(data);
+			newData =  Filter.useFilter(data, remove);
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in manual feature selection - filter");
+			e1.printStackTrace();
+		}
+
+		//save in new arff file
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(newData);
+		try {
+			saver.setFile(new File("resources//"+outputFile+".arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception in featureSelectedData - write new arff");
+			e.printStackTrace();
+		}	
+	}
+	
+
+	private int partition(int[] counts, int left, int right)
+	{
+		int i = left, j = right;
+		int tmp;
+		int pivot = counts[((left + right) / 2)];
+
+		while (i <= j) {
+			while (counts[i] < pivot)
+				i++;
+			while (counts[j] > pivot)
+				j--;
+			if (i <= j) {
+				tmp = counts[i];
+				counts[i] = counts[j];
+				counts[j] = tmp;
+				i++;
+				j--;
+			}
+		};
+
+		return i;
+	}
+
+	private void quickSort(int[] counts, int left, int right)
+	{
+		int index = this.partition(counts, left, right);
+		if (left < index - 1)
+			this.quickSort(counts, left, index - 1);
+		if (index < right)
+			this.quickSort(counts, index, right);
+	}
 
 }
 
