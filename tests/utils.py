@@ -4,6 +4,10 @@ import nltk
 import nltk.corpus as sw_corpus
 import nltk.stem.porter as porter
 from nltk.stem.wordnet import WordNetLemmatizer
+from senti_classifier import senti_classifier
+
+senti_anal = senti_classifier.polarity_scores
+
 LMTZR = WordNetLemmatizer()
 
 DO_STEMMING = False
@@ -307,12 +311,12 @@ class FairytaleCorpus(BaseCorpus):
     
 class ISEARCorpus(BaseCorpus):
     #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
-    def __init__(self, data_folders):
+    def __init__(self, data_folders, prefix='ise_'):
         dict_data = {}
         start_idx = 0
         for data_folder in data_folders:
             for data_file in os.listdir(data_folder):
-                if data_file.startswith('ise_'):
+                if data_file.startswith(prefix):
                     results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
                     dict_data.update(results_dict)
                     start_idx += end_idx
@@ -497,12 +501,12 @@ class TwoWordTurneyISEARCorpus(ISEARCorpus):
     
     
     #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
-    def __init__(self, data_folders):
+    def __init__(self, data_folders, prefix='ise_'):
         dict_data = {}
         start_idx = 0
         for data_folder in data_folders:
             for data_file in os.listdir(data_folder):
-                if data_file.startswith('ise_'):
+                if data_file.startswith(prefix):
                     results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
                     dict_data.update(results_dict)
                     start_idx += end_idx
@@ -617,6 +621,68 @@ class TwoWordISEARCorpus(TwoWordTurneyISEARCorpus):
 
 class OnePlusTurneyISEARCorpus(TwoWordTurneyISEARCorpus, ISEARCorpus):
     
+    def get_sent(self, ps1, ps2, ps3=None):
+        sent = ps1[0] + ' ' + ps2[0]
+        if ps3:
+            sent += ' ' + ps3[0]
+        sentiments = senti_anal([sent])
+        if sentiments[0] > sentiments[1]:
+            return sentiments[0]
+        return -sentiments[1]
+    
+    def get_turney_feat1(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        JJ followed by NN or NNS followed by anything
+        """
+        if ps1[1] == 'JJ' and ps2[1] in ('NN', 'NNS'):
+            return self.get_sent(ps1, ps2, ps3)
+        return None
+    
+    
+    def get_turney_feat2(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        RB, RBR or RBS followed by JJ followed by not NN nor NNS
+        """
+        if ps1[1] in ('RB', 'RBR', 'RBS') and ps2[1] == 'JJ':
+            if ps3 and ps3[1] not in ('NN', 'NNS'):
+                return self.get_sent(ps1, ps2, ps3)
+        return None
+    
+    
+    def get_turney_feat3(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        JJ followed by JJ followed by not NN nor NNS
+        """
+        if ps1[1] == 'JJ' and ps2[1] == 'JJ':
+            if ps3 and ps3[1] not in ('NN', 'NNS'):
+                return self.get_sent(ps1, ps2, ps3)
+        return None
+    
+    
+    def get_turney_feat4(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        NN or NNS followed by JJ followed by not NN nor NNS
+        """
+        if ps1[1] in ('NN', 'NNS') and ps2[1] == 'JJ':
+            if ps3 and ps3[1] not in ('NN', 'NNS'):
+                return self.get_sent(ps1, ps2, ps3)
+        return None
+    
+    
+    def get_turney_feat5(self, ps1, ps2, ps3=None):
+        """
+        Look for the following two-word phrases:
+        RB, RBR, RBS followed by VBN or VBG followed by not anything
+        """
+        if ps1[1] in ('RB', 'RBR', 'RBS') and ps2[1] in ('VBN', 'VBG'):
+            return self.get_sent(ps1, ps2, ps3)
+        return None
+    
+    
     def vector_for_id(self, sent_id):
         """
         For the given sentence return the vector representation using our dictionary.
@@ -648,12 +714,12 @@ class OnePlusTurneyISEARCorpus(TwoWordTurneyISEARCorpus, ISEARCorpus):
             
             
     #[u'joy', u'shame', u'sadness', u'guilt', u'disgust', u'anger', u'fear']
-    def __init__(self, data_folders):
+    def __init__(self, data_folders, prefix='ise_'):
         dict_data = {}
         start_idx = 0
         for data_folder in data_folders:
             for data_file in os.listdir(data_folder):
-                if data_file.startswith('ise_'):
+                if data_file.startswith(prefix):
                     results_dict, end_idx = self.parse_fairytale_data(os.path.join(data_folder, data_file), start_idx)
                     dict_data.update(results_dict)
                     start_idx += end_idx
@@ -665,18 +731,97 @@ class OnePlusTurneyISEARCorpus(TwoWordTurneyISEARCorpus, ISEARCorpus):
         stopwords.append('')
         for entry in self.sentence_data.values():
             sent_data = [word for word in nltk.word_tokenize(entry.sentence) if word not in stopwords]
-            sentence = entry.sentence.lower()
-            tokens = nltk.word_tokenize(sentence)
-            tagged_sent = nltk.pos_tag(tokens)
-            for idx in range(len(tagged_sent) - 1):
-                if ((idx < len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1], tagged_sent[idx+2][1])))
-                        or 
-                    (idx >= len(tagged_sent) - 2 and (self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1])))):
-                    sent_data.append(tagged_sent[idx][0] + ' ' + tagged_sent[idx+1][0])
             data.append(sent_data)
         dictionary = corpora.Dictionary(data)
         dictionary.compactify()
         self.dictionary = dictionary
+        
+        
+    def to_sparse_arff(self, output_file, corpus_type='tfidf'):
+        """
+        Write out the corpus in sparse arff format, with the corpus type being either:
+         - tfidf, lsi, lda
+        """
+        if corpus_type == 'tfidf':
+            model = self.tfidf_model()
+        elif corpus_type == 'lsi':
+            model = self.lsi_model()
+        elif corpus_type == 'lda':
+            model = self.lda_model()
+        else:
+            raise Exception("Unknown type %s"%(corpus_type,))
+        words = []
+        for word in self.dictionary.token2id:
+            words.append((word, self.dictionary.token2id[word]))
+        # Sort the words after the index so we can write our arff file.
+        words = sorted(words, key=lambda x: x[1])
+        print "Corpus has %i words"%(len(words))
+        turney_attrs = ['turney1pos', 'turney1neg', 'turney2pos', 'turney2neg', 'turney3pos','turney3neg', 'turney4pos', 'turney4neg', 'turney5pos', 'turney5neg',]
+        with open(output_file, 'w') as fp:
+            fp.write('@relation tfidf_features\n\n')
+            for word in words:
+                fp.write("@attribute %s numeric\n"%(word[0].replace(' ', '_')))
+            for attr in turney_attrs:
+                fp.write("@attribute %s numeric\n" % attr)
+            fp.write("@attribute primary_emotion {joy,shame,sadness,guilt,disgust,anger,fear}\n\n")
+            fp.write("@data\n")
+            for sent_id in self.sentence_data:
+                sparse_vector_rep = model[self.vector_for_id(sent_id)]
+                if sparse_vector_rep:
+                    data_string = '{'
+                    for entry in sparse_vector_rep:
+                        data_string += '%s %s,'%(entry[0], entry[1])
+                        
+                        
+                    sentence = self.sentence_data.get(sent_id, None)
+                    tagged_sent = sentence.tagged_sent
+                    turney_info = {}
+                    for attr in turney_attrs:
+                        turney_info[attr] = None
+                    for idx in range(len(tagged_sent) - 1):
+                        if self.is_turney(tagged_sent[idx][1], tagged_sent[idx+1][1], tagged_sent[idx+2][1] if idx < len(tagged_sent) - 2 else None):
+                            print (tagged_sent[idx][0], tagged_sent[idx+1][0], tagged_sent[idx+2][0] if idx < len(tagged_sent) - 2 else None)
+                        
+                        turney1 = self.get_turney_feat1(tagged_sent[idx], tagged_sent[idx+1], tagged_sent[idx+2] if idx < len(tagged_sent) - 2 else None)
+                        if turney1 is not None and turney1 > 0:
+                            turney_info[turney_attrs[0]] = True
+#                            data_string += '%s %s,'%(len(words), 1)
+                        if turney1 is not None and turney1 < 0:
+                            turney_info[turney_attrs[1]] = True
+#                            data_string += '%s %s,'%(len(words) + 1, 1)
+                        turney2 = self.get_turney_feat2(tagged_sent[idx], tagged_sent[idx+1], tagged_sent[idx+2] if idx < len(tagged_sent) - 2 else None)
+                        if turney2 is not None and turney2 > 0:
+                            turney_info[turney_attrs[2]] = True
+#                            data_string += '%s %s,'%(len(words) + 2, 1)
+                        if turney2 is not None and turney2 < 0:
+                            turney_info[turney_attrs[3]] = True
+#                            data_string += '%s %s,'%(len(words) + 3, 1)
+                        turney3 = self.get_turney_feat3(tagged_sent[idx], tagged_sent[idx+1], tagged_sent[idx+2] if idx < len(tagged_sent) - 2 else None)
+                        if turney3 is not None and turney3 > 0:
+                            turney_info[turney_attrs[4]] = True
+#                            data_string += '%s %s,'%(len(words) + 4, 1)
+                        if turney3 is not None and turney3 < 0:
+                            turney_info[turney_attrs[5]] = True
+#                            data_string += '%s %s,'%(len(words) + 5, 1)
+                        turney4 = self.get_turney_feat4(tagged_sent[idx], tagged_sent[idx+1], tagged_sent[idx+2] if idx < len(tagged_sent) - 2 else None)
+                        if turney4 is not None and turney4 > 0:
+                            turney_info[turney_attrs[6]] = True
+#                            data_string += '%s %s,'%(len(words) + 6, 1)
+                        if turney4 is not None and turney4 < 0:
+                            turney_info[turney_attrs[7]] = True
+#                            data_string += '%s %s,'%(len(words) + 7, 1)
+                        turney5 = self.get_turney_feat5(tagged_sent[idx], tagged_sent[idx+1], tagged_sent[idx+2] if idx < len(tagged_sent) - 2 else None)
+                        if turney5 is not None and turney5 > 0:
+                            turney_info[turney_attrs[8]] = True
+#                            data_string += '%s %s,'%(len(words) + 8, 1)
+                        if turney5 is not None and turney5 < 0:
+                            turney_info[turney_attrs[9]] = True
+#                            data_string += '%s %s,'%(len(words) + 9, 1)
+                    for idx, attr in enumerate(turney_attrs):
+                        if turney_info[attr]:
+                            data_string += '%s %s,'%(len(words) + idx, 1)
+                    data_string += '%s %s}\n'%(len(words) + 10, self.sentence_data[sent_id].primary_emotion)
+                    fp.write(data_string)
         
 
 class OnePlusTwoISEARCorpus(OnePlusTurneyISEARCorpus):
@@ -794,21 +939,30 @@ class MoviesReviewCorpus(BaseCorpus):
                     data_string += '%s %s}\n'%(len(words), self.sentence_data[sent_id].primary_emotion)
                     fp.write(data_string)
     
-movies_data_folder = os.sep.join(['..', 'movieReviews', 'txt_sentoken'])
-movies_corpus = MoviesReviewCorpus(movies_data_folder)
-movies_corpus.to_sparse_arff('movies_tfidf.arff', 'tfidf')
-movies_corpus.to_binary_sparse_arff('movies_binary.arff')
-    
+#movies_data_folder = os.sep.join(['..', 'movieReviews', 'txt_sentoken'])
+#movies_corpus = MoviesReviewCorpus(movies_data_folder)
+#movies_corpus.to_sparse_arff('movies_tfidf.arff', 'tfidf')
+#movies_corpus.to_binary_sparse_arff('movies_binary.arff')
+#    
     
 #isear_data_folder = [os.sep.join(['..', 'ISEAR'])]
 #isear_corpus = OnePlusTwoISEARCorpus(isear_data_folder)
 #isear_corpus.to_sparse_arff('isear_combined_tfidf.arff', 'tfidf')
 #isear_corpus.to_binary_sparse_arff('isear_combined_binary.arff')
 
+isear_data_folder = [os.sep.join(['..', 'ISEAR'])]
 
-#isear_corpus = ISEARCorpus(isear_data_folder)
-#isear_corpus.to_sparse_arff('isear_tfidf.arff', 'tfidf')
-#isear_corpus.to_binary_sparse_arff('isear_binary.arff')
+#isear_corpus = OnePlusTurneyISEARCorpus(isear_data_folder, prefix='ise_processed3')
+#isear_corpus.to_sparse_arff('isear_one_plus_turney_tfidf3.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_one_plus_turney_binary3.arff')
+
+isear_corpus = OnePlusTurneyISEARCorpus(isear_data_folder, prefix='ise_processed5')
+isear_corpus.to_sparse_arff('isear_one_plus_turney_tfidf_new5.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_turney_binary_new5.arff')
+
+isear_corpus = OnePlusTurneyISEARCorpus(isear_data_folder, prefix='ise_processed7')
+isear_corpus.to_sparse_arff('isear_one_plus_turney_tfidf_new7.arff', 'tfidf')
+#isear_corpus.to_binary_sparse_arff('isear_one_plus_turney_binary_new7.arff')
 
 #isear_corpus = TwoWordTurneyISEARCorpus(isear_data_folder)
 #isear_corpus.to_sparse_arff('isear_2w_turney_tfidf.arff', 'tfidf')
